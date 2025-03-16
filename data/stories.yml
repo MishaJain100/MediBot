@@ -1,0 +1,3870 @@
+version: "3.1"
+
+stories:
+
+- story: find disease 1
+  steps:
+  - action: utter_disease_info
+  - intent: panic_disorder
+  - action: action_provide_disease_info
+  
+- story: find disease 2
+  steps:
+  - action: utter_disease_info
+  - intent: vocal_cord_nodule
+  - action: action_provide_disease_info
+- story: find disease 3
+  steps:
+  - action: utter_disease_info
+  - intent: turner_syndrome
+  - action: action_provide_disease_info
+- story: find disease 4
+  steps:
+  - action: utter_disease_info
+  - intent: cryptorchidism
+  - action: action_provide_disease_info
+- story: find disease 5
+  steps:
+  - action: utter_disease_info
+  - intent: ethylene_glycol_poisoning
+  - action: action_provide_disease_info
+- story: find disease 6
+  steps:
+  - action: utter_disease_info
+  - intent: atrophic_vaginitis
+  - action: action_provide_disease_info
+- story: find disease 7
+  steps:
+  - action: utter_disease_info
+  - intent: hand_injury
+  - action: action_provide_disease_info
+- story: find disease 8
+  steps:
+  - action: utter_disease_info
+  - intent: cellulitis
+  - action: action_provide_disease_info
+- story: find disease 9
+  steps:
+  - action: utter_disease_info
+  - intent: strabismus
+  - action: action_provide_disease_info
+- story: find disease 10
+  steps:
+  - action: utter_disease_info
+  - intent: post-dural-puncture_headache
+  - action: action_provide_disease_info
+- story: find disease 11
+  steps:
+  - action: utter_disease_info
+  - intent: pyloric_stenosis
+  - action: action_provide_disease_info
+- story: find disease 12
+  steps:
+  - action: utter_disease_info
+  - intent: salivary_gland_disease
+  - action: action_provide_disease_info
+- story: find disease 13
+  steps:
+  - action: utter_disease_info
+  - intent: osteochondrosis
+  - action: action_provide_disease_info
+- story: find disease 14
+  steps:
+  - action: utter_disease_info
+  - intent: knee_pain
+  - action: action_provide_disease_info
+- story: find disease 15
+  steps:
+  - action: utter_disease_info
+  - intent: metabolic_disorder
+  - action: action_provide_disease_info
+- story: find disease 16
+  steps:
+  - action: utter_disease_info
+  - intent: vaginitis
+  - action: action_provide_disease_info
+- story: find disease 17
+  steps:
+  - action: utter_disease_info
+  - intent: sinus_node_dysfunction
+  - action: action_provide_disease_info
+- story: find disease 18
+  steps:
+  - action: utter_disease_info
+  - intent: tinnitus
+  - action: action_provide_disease_info
+- story: find disease 19
+  steps:
+  - action: utter_disease_info
+  - intent: glaucoma
+  - action: action_provide_disease_info
+- story: find disease 20
+  steps:
+  - action: utter_disease_info
+  - intent: eating_disorder
+  - action: action_provide_disease_info
+- story: find disease 21
+  steps:
+  - action: utter_disease_info
+  - intent: transient_ischemic_attack
+  - action: action_provide_disease_info
+- story: find disease 22
+  steps:
+  - action: utter_disease_info
+  - intent: pyelonephritis
+  - action: action_provide_disease_info
+- story: find disease 23
+  steps:
+  - action: utter_disease_info
+  - intent: rotator_cuff_tear
+  - action: action_provide_disease_info
+- story: find disease 24
+  steps:
+  - action: utter_disease_info
+  - intent: chronic_pain
+  - action: action_provide_disease_info
+- story: find disease 25
+  steps:
+  - action: utter_disease_info
+  - intent: complications_of_pregnancy
+  - action: action_provide_disease_info
+- story: find disease 26
+  steps:
+  - action: utter_disease_info
+  - intent: liver_cancer
+  - action: action_provide_disease_info
+- story: find disease 27
+  steps:
+  - action: utter_disease_info
+  - intent: atelectasis
+  - action: action_provide_disease_info
+- story: find disease 28
+  steps:
+  - action: utter_disease_info
+  - intent: hand_injury
+  - action: action_provide_disease_info
+- story: find disease 29
+  steps:
+  - action: utter_disease_info
+  - intent: common_bile_duct_stone
+  - action: action_provide_disease_info
+- story: find disease 30
+  steps:
+  - action: utter_disease_info
+  - intent: hip_pain
+  - action: action_provide_disease_info
+- story: find disease 31
+  steps:
+  - action: utter_disease_info
+  - intent: cirrhosis
+  - action: action_provide_disease_info
+- story: find disease 32
+  steps:
+  - action: utter_disease_info
+  - intent: thoracic_aortic_aneurysm
+  - action: action_provide_disease_info
+- story: find disease 33
+  steps:
+  - action: utter_disease_info
+  - intent: subdural_hematoma
+  - action: action_provide_disease_info
+- story: find disease 34
+  steps:
+  - action: utter_disease_info
+  - intent: diabetic_retinopathy
+  - action: action_provide_disease_info
+- story: find disease 35
+  steps:
+  - action: utter_disease_info
+  - intent: fibromyalgia
+  - action: action_provide_disease_info
+- story: find disease 36
+  steps:
+  - action: utter_disease_info
+  - intent: intestinal_ischemia
+  - action: action_provide_disease_info
+- story: find disease 37
+  steps:
+  - action: utter_disease_info
+  - intent: fetal_alcohol_spectrum_disorder
+  - action: action_provide_disease_info
+- story: find disease 38
+  steps:
+  - action: utter_disease_info
+  - intent: peritonitis
+  - action: action_provide_disease_info
+- story: find disease 39
+  steps:
+  - action: utter_disease_info
+  - intent: abdominal_trauma
+  - action: action_provide_disease_info
+- story: find disease 40
+  steps:
+  - action: utter_disease_info
+  - intent: acute_pancreatitis
+  - action: action_provide_disease_info
+- story: find disease 41
+  steps:
+  - action: utter_disease_info
+  - intent: thrombophlebitis
+  - action: action_provide_disease_info
+- story: find disease 42
+  steps:
+  - action: utter_disease_info
+  - intent: asthma
+  - action: action_provide_disease_info
+- story: find disease 43
+  steps:
+  - action: utter_disease_info
+  - intent: vaginal_foreign_body
+  - action: action_provide_disease_info
+- story: find disease 44
+  steps:
+  - action: utter_disease_info
+  - intent: restless_legs_syndrome
+  - action: action_provide_disease_info
+- story: find disease 45
+  steps:
+  - action: utter_disease_info
+  - intent: emphysema
+  - action: action_provide_disease_info
+- story: find disease 46
+  steps:
+  - action: utter_disease_info
+  - intent: cysticercosis
+  - action: action_provide_disease_info
+- story: find disease 47
+  steps:
+  - action: utter_disease_info
+  - intent: abortion
+  - action: action_provide_disease_info
+- story: find disease 48
+  steps:
+  - action: utter_disease_info
+  - intent: teething
+  - action: action_provide_disease_info
+- story: find disease 49
+  steps:
+  - action: utter_disease_info
+  - intent: gastroenteritis
+  - action: action_provide_disease_info
+- story: find disease 50
+  steps:
+  - action: utter_disease_info
+  - intent: sinusitis
+  - action: action_provide_disease_info
+- story: find disease 51
+  steps:
+  - action: utter_disease_info
+  - intent: substance-related_disorder
+  - action: action_provide_disease_info
+- story: find disease 52
+  steps:
+  - action: utter_disease_info
+  - intent: postpartum_depression
+  - action: action_provide_disease_info
+- story: find disease 53
+  steps:
+  - action: utter_disease_info
+  - intent: atherosclerosis
+  - action: action_provide_disease_info
+- story: find disease 54
+  steps:
+  - action: utter_disease_info
+  - intent: spondylitis
+  - action: action_provide_disease_info
+- story: find disease 55
+  steps:
+  - action: utter_disease_info
+  - intent: pituitary_adenoma
+  - action: action_provide_disease_info
+- story: find disease 56
+  steps:
+  - action: utter_disease_info
+  - intent: uterine_fibroid
+  - action: action_provide_disease_info
+- story: find disease 57
+  steps:
+  - action: utter_disease_info
+  - intent: heavy_menstrual_bleeding
+  - action: action_provide_disease_info
+- story: find disease 58
+  steps:
+  - action: utter_disease_info
+  - intent: chalazion
+  - action: action_provide_disease_info
+- story: find disease 59
+  steps:
+  - action: utter_disease_info
+  - intent: ovarian_torsion
+  - action: action_provide_disease_info
+- story: find disease 60
+  steps:
+  - action: utter_disease_info
+  - intent: hypertensive_retinopathy
+  - action: action_provide_disease_info
+- story: find disease 61
+  steps:
+  - action: utter_disease_info
+  - intent: vaginal_yeast_infection
+  - action: action_provide_disease_info
+- story: find disease 62
+  steps:
+  - action: utter_disease_info
+  - intent: mastoiditis
+  - action: action_provide_disease_info
+- story: find disease 63
+  steps:
+  - action: utter_disease_info
+  - intent: pulmonary_contusion
+  - action: action_provide_disease_info
+- story: find disease 64
+  steps:
+  - action: utter_disease_info
+  - intent: hypertrophic_cardiomyopathy
+  - action: action_provide_disease_info
+- story: find disease 65
+  steps:
+  - action: utter_disease_info
+  - intent: ingrown_nail
+  - action: action_provide_disease_info
+- story: find disease 66
+  steps:
+  - action: utter_disease_info
+  - intent: tropical_pulmonary_eosinophilia
+  - action: action_provide_disease_info
+- story: find disease 67
+  steps:
+  - action: utter_disease_info
+  - intent: corneal_dystrophy
+  - action: action_provide_disease_info
+- story: find disease 68
+  steps:
+  - action: utter_disease_info
+  - intent: foreign_body
+  - action: action_provide_disease_info
+- story: find disease 69
+  steps:
+  - action: utter_disease_info
+  - intent: endophthalmitis
+  - action: action_provide_disease_info
+- story: find disease 70
+  steps:
+  - action: utter_disease_info
+  - intent: malabsorption
+  - action: action_provide_disease_info
+- story: find disease 71
+  steps:
+  - action: utter_disease_info
+  - intent: wart
+  - action: action_provide_disease_info
+- story: find disease 72
+  steps:
+  - action: utter_disease_info
+  - intent: hyperhidrosis
+  - action: action_provide_disease_info
+- story: find disease 73
+  steps:
+  - action: utter_disease_info
+  - intent: stroke
+  - action: action_provide_disease_info
+- story: find disease 74
+  steps:
+  - action: utter_disease_info
+  - intent: pilonidal_disease
+  - action: action_provide_disease_info
+- story: find disease 75
+  steps:
+  - action: utter_disease_info
+  - intent: crush_injury
+  - action: action_provide_disease_info
+- story: find disease 76
+  steps:
+  - action: utter_disease_info
+  - intent: normal_pressure_hydrocephalus
+  - action: action_provide_disease_info
+- story: find disease 77
+  steps:
+  - action: utter_disease_info
+  - intent: hair_loss
+  - action: action_provide_disease_info
+- story: find disease 78
+  steps:
+  - action: utter_disease_info
+  - intent: hashimoto's_thyroiditis
+  - action: action_provide_disease_info
+- story: find disease 79
+  steps:
+  - action: utter_disease_info
+  - intent: flat_feet
+  - action: action_provide_disease_info
+- story: find disease 80
+  steps:
+  - action: utter_disease_info
+  - intent: metabolic_dysfunction–associated_steatotic_liver_disease
+  - action: action_provide_disease_info
+- story: find disease 81
+  steps:
+  - action: utter_disease_info
+  - intent: hemarthrosis
+  - action: action_provide_disease_info
+- story: find disease 82
+  steps:
+  - action: utter_disease_info
+  - intent: pelvic_organ_prolapse
+  - action: action_provide_disease_info
+- story: find disease 83
+  steps:
+  - action: utter_disease_info
+  - intent: humerus_fracture
+  - action: action_provide_disease_info
+- story: find disease 84
+  steps:
+  - action: utter_disease_info
+  - intent: coagulopathy
+  - action: action_provide_disease_info
+- story: find disease 85
+  steps:
+  - action: utter_disease_info
+  - intent: intracranial_hemorrhage
+  - action: action_provide_disease_info
+- story: find disease 86
+  steps:
+  - action: utter_disease_info
+  - intent: hyperkalemia
+  - action: action_provide_disease_info
+- story: find disease 87
+  steps:
+  - action: utter_disease_info
+  - intent: corneal_ulcer
+  - action: action_provide_disease_info
+- story: find disease 88
+  steps:
+  - action: utter_disease_info
+  - intent: lung_abscess
+  - action: action_provide_disease_info
+- story: find disease 89
+  steps:
+  - action: utter_disease_info
+  - intent: dengue_fever
+  - action: action_provide_disease_info
+- story: find disease 90
+  steps:
+  - action: utter_disease_info
+  - intent: sinusitis
+  - action: action_provide_disease_info
+- story: find disease 91
+  steps:
+  - action: utter_disease_info
+  - intent: cholesteatoma
+  - action: action_provide_disease_info
+- story: find disease 92
+  steps:
+  - action: utter_disease_info
+  - intent: volvulus
+  - action: action_provide_disease_info
+- story: find disease 93
+  steps:
+  - action: utter_disease_info
+  - intent: broken_finger
+  - action: action_provide_disease_info
+- story: find disease 94
+  steps:
+  - action: utter_disease_info
+  - intent: paracetamol_poisoning
+  - action: action_provide_disease_info
+- story: find disease 95
+  steps:
+  - action: utter_disease_info
+  - intent: atrial_fibrillation
+  - action: action_provide_disease_info
+- story: find disease 96
+  steps:
+  - action: utter_disease_info
+  - intent: pinworm_infection
+  - action: action_provide_disease_info
+- story: find disease 97
+  steps:
+  - action: utter_disease_info
+  - intent: posterior_urethral_valve
+  - action: action_provide_disease_info
+- story: find disease 98
+  steps:
+  - action: utter_disease_info
+  - intent: penetrating_trauma
+  - action: action_provide_disease_info
+- story: find disease 99
+  steps:
+  - action: utter_disease_info
+  - intent: esophageal_achalasia
+  - action: action_provide_disease_info
+- story: find disease 100
+  steps:
+  - action: utter_disease_info
+  - intent: conductive_hearing_loss
+  - action: action_provide_disease_info
+- story: find disease 101
+  steps:
+  - action: utter_disease_info
+  - intent: hernia
+  - action: action_provide_disease_info
+- story: find disease 102
+  steps:
+  - action: utter_disease_info
+  - intent: cerebral_palsy
+  - action: action_provide_disease_info
+- story: find disease 103
+  steps:
+  - action: utter_disease_info
+  - intent: cannabis_use_disorder
+  - action: action_provide_disease_info
+- story: find disease 104
+  steps:
+  - action: utter_disease_info
+  - intent: cryptococcosis
+  - action: action_provide_disease_info
+- story: find disease 105
+  steps:
+  - action: utter_disease_info
+  - intent: obesity
+  - action: action_provide_disease_info
+- story: find disease 106
+  steps:
+  - action: utter_disease_info
+  - intent: indigestion
+  - action: action_provide_disease_info
+- story: find disease 107
+  steps:
+  - action: utter_disease_info
+  - intent: bursitis
+  - action: action_provide_disease_info
+- story: find disease 108
+  steps:
+  - action: utter_disease_info
+  - intent: esophageal_cancer
+  - action: action_provide_disease_info
+- story: find disease 109
+  steps:
+  - action: utter_disease_info
+  - intent: pulmonary_edema
+  - action: action_provide_disease_info
+- story: find disease 110
+  steps:
+  - action: utter_disease_info
+  - intent: juvenile_idiopathic_arthritis
+  - action: action_provide_disease_info
+- story: find disease 111
+  steps:
+  - action: utter_disease_info
+  - intent: actinic_keratosis
+  - action: action_provide_disease_info
+- story: find disease 112
+  steps:
+  - action: utter_disease_info
+  - intent: otitis_media
+  - action: action_provide_disease_info
+- story: find disease 113
+  steps:
+  - action: utter_disease_info
+  - intent: astigmatism
+  - action: action_provide_disease_info
+- story: find disease 114
+  steps:
+  - action: utter_disease_info
+  - intent: tuberous_sclerosis
+  - action: action_provide_disease_info
+- story: find disease 115
+  steps:
+  - action: utter_disease_info
+  - intent: empyema
+  - action: action_provide_disease_info
+- story: find disease 116
+  steps:
+  - action: utter_disease_info
+  - intent: presbycusis
+  - action: action_provide_disease_info
+- story: find disease 117
+  steps:
+  - action: utter_disease_info
+  - intent: neonatal_jaundice
+  - action: action_provide_disease_info
+- story: find disease 118
+  steps:
+  - action: utter_disease_info
+  - intent: chronic_obstructive_pulmonary_disease
+  - action: action_provide_disease_info
+- story: find disease 119
+  steps:
+  - action: utter_disease_info
+  - intent: joint_dislocation
+  - action: action_provide_disease_info
+- story: find disease 120
+  steps:
+  - action: utter_disease_info
+  - intent: spondylosis
+  - action: action_provide_disease_info
+- story: find disease 121
+  steps:
+  - action: utter_disease_info
+  - intent: herpangina
+  - action: action_provide_disease_info
+- story: find disease 122
+  steps:
+  - action: utter_disease_info
+  - intent: shoulder_problem
+  - action: action_provide_disease_info
+- story: find disease 123
+  steps:
+  - action: utter_disease_info
+  - intent: tricyclic_antidepressant_overdose
+  - action: action_provide_disease_info
+- story: find disease 124
+  steps:
+  - action: utter_disease_info
+  - intent: chronic_wound
+  - action: action_provide_disease_info
+- story: find disease 125
+  steps:
+  - action: utter_disease_info
+  - intent: deep_vein_thrombosis
+  - action: action_provide_disease_info
+- story: find disease 126
+  steps:
+  - action: utter_disease_info
+  - intent: protein–energy_malnutrition
+  - action: action_provide_disease_info
+- story: find disease 127
+  steps:
+  - action: utter_disease_info
+  - intent: myoclonus
+  - action: action_provide_disease_info
+- story: find disease 128
+  steps:
+  - action: utter_disease_info
+  - intent: calcaneal_spur
+  - action: action_provide_disease_info
+- story: find disease 129
+  steps:
+  - action: utter_disease_info
+  - intent: von_Willebrand_disease
+  - action: action_provide_disease_info
+- story: find disease 130
+  steps:
+  - action: utter_disease_info
+  - intent: penetrating_trauma
+  - action: action_provide_disease_info
+- story: find disease 131
+  steps:
+  - action: utter_disease_info
+  - intent: heart_block
+  - action: action_provide_disease_info
+- story: find disease 132
+  steps:
+  - action: utter_disease_info
+  - intent: colorectal_polyp
+  - action: action_provide_disease_info
+- story: find disease 133
+  steps:
+  - action: utter_disease_info
+  - intent: magnesium_deficiency
+  - action: action_provide_disease_info
+- story: find disease 134
+  steps:
+  - action: utter_disease_info
+  - intent: unexplained_infertility
+  - action: action_provide_disease_info
+- story: find disease 135
+  steps:
+  - action: utter_disease_info
+  - intent: pericarditis
+  - action: action_provide_disease_info
+- story: find disease 136
+  steps:
+  - action: utter_disease_info
+  - intent: attention_deficit_hyperactivity_disorder
+  - action: action_provide_disease_info
+- story: find disease 137
+  steps:
+  - action: utter_disease_info
+  - intent: pulmonary_valve_stenosis
+  - action: action_provide_disease_info
+- story: find disease 138
+  steps:
+  - action: utter_disease_info
+  - intent: tietze_syndrome
+  - action: action_provide_disease_info
+- story: find disease 139
+  steps:
+  - action: utter_disease_info
+  - intent: cranial_nerve_disease
+  - action: action_provide_disease_info
+- story: find disease 140
+  steps:
+  - action: utter_disease_info
+  - intent: humerus_fracture
+  - action: action_provide_disease_info
+- story: find disease 141
+  steps:
+  - action: utter_disease_info
+  - intent: conversion_disorder
+  - action: action_provide_disease_info
+- story: find disease 142
+  steps:
+  - action: utter_disease_info
+  - intent: complex_regional_pain_syndrome
+  - action: action_provide_disease_info
+- story: find disease 143
+  steps:
+  - action: utter_disease_info
+  - intent: otosclerosis
+  - action: action_provide_disease_info
+- story: find disease 144
+  steps:
+  - action: utter_disease_info
+  - intent: chest_injury
+  - action: action_provide_disease_info
+- story: find disease 145
+  steps:
+  - action: utter_disease_info
+  - intent: hypothyroidism
+  - action: action_provide_disease_info
+- story: find disease 146
+  steps:
+  - action: utter_disease_info
+  - intent: insomnia
+  - action: action_provide_disease_info
+- story: find disease 147
+  steps:
+  - action: utter_disease_info
+  - intent: louse
+  - action: action_provide_disease_info
+- story: find disease 148
+  steps:
+  - action: utter_disease_info
+  - intent: vitamin_B12_deficiency
+  - action: action_provide_disease_info
+- story: find disease 149
+  steps:
+  - action: utter_disease_info
+  - intent: diabetes
+  - action: action_provide_disease_info
+- story: find disease 150
+  steps:
+  - action: utter_disease_info
+  - intent: vulvodynia
+  - action: action_provide_disease_info
+- story: find disease 151
+  steps:
+  - action: utter_disease_info
+  - intent: endometriosis
+  - action: action_provide_disease_info
+- story: find disease 152
+  steps:
+  - action: utter_disease_info
+  - intent: vasculitis
+  - action: action_provide_disease_info
+- story: find disease 153
+  steps:
+  - action: utter_disease_info
+  - intent: concussion
+  - action: action_provide_disease_info
+- story: find disease 154
+  steps:
+  - action: utter_disease_info
+  - intent: leukoplakia
+  - action: action_provide_disease_info
+- story: find disease 155
+  steps:
+  - action: utter_disease_info
+  - intent: chronic_kidney_disease
+  - action: action_provide_disease_info
+- story: find disease 156
+  steps:
+  - action: utter_disease_info
+  - intent: urinary_bladder_disease
+  - action: action_provide_disease_info
+- story: find disease 157
+  steps:
+  - action: utter_disease_info
+  - intent: chorioretinitis
+  - action: action_provide_disease_info
+- story: find disease 158
+  steps:
+  - action: utter_disease_info
+  - intent: priapism
+  - action: action_provide_disease_info
+- story: find disease 159
+  steps:
+  - action: utter_disease_info
+  - intent: myositis
+  - action: action_provide_disease_info
+- story: find disease 160
+  steps:
+  - action: utter_disease_info
+  - intent: infectious_mononucleosis
+  - action: action_provide_disease_info
+- story: find disease 161
+  steps:
+  - action: utter_disease_info
+  - intent: neuralgia
+  - action: action_provide_disease_info
+- story: find disease 162
+  steps:
+  - action: utter_disease_info
+  - intent: polycystic_kidney_disease
+  - action: action_provide_disease_info
+- story: find disease 163
+  steps:
+  - action: utter_disease_info
+  - intent: bipolar_disorder
+  - action: action_provide_disease_info
+- story: find disease 164
+  steps:
+  - action: utter_disease_info
+  - intent: amyloidosis
+  - action: action_provide_disease_info
+- story: find disease 165
+  steps:
+  - action: utter_disease_info
+  - intent: chronic_inflammatory_demyelinating_polyneuropathy
+  - action: action_provide_disease_info
+- story: find disease 166
+  steps:
+  - action: utter_disease_info
+  - intent: gastroesophageal_reflux_disease
+  - action: action_provide_disease_info
+- story: find disease 167
+  steps:
+  - action: utter_disease_info
+  - intent: vitreous_hemorrhage
+  - action: action_provide_disease_info
+- story: find disease 168
+  steps:
+  - action: utter_disease_info
+  - intent: antimicrobial
+  - action: action_provide_disease_info
+- story: find disease 169
+  steps:
+  - action: utter_disease_info
+  - intent: mouth_infection
+  - action: action_provide_disease_info
+- story: find disease 170
+  steps:
+  - action: utter_disease_info
+  - intent: scleroderma
+  - action: action_provide_disease_info
+- story: find disease 171
+  steps:
+  - action: utter_disease_info
+  - intent: myasthenia_gravis
+  - action: action_provide_disease_info
+- story: find disease 172
+  steps:
+  - action: utter_disease_info
+  - intent: hypoglycemia
+  - action: action_provide_disease_info
+- story: find disease 173
+  steps:
+  - action: utter_disease_info
+  - intent: functional_hypothalamic_amenorrhea
+  - action: action_provide_disease_info
+- story: find disease 174
+  steps:
+  - action: utter_disease_info
+  - intent: joint_dislocation
+  - action: action_provide_disease_info
+- story: find disease 175
+  steps:
+  - action: utter_disease_info
+  - intent: carbon_monoxide_poisoning
+  - action: action_provide_disease_info
+- story: find disease 176
+  steps:
+  - action: utter_disease_info
+  - intent: panic_attack
+  - action: action_provide_disease_info
+- story: find disease 177
+  steps:
+  - action: utter_disease_info
+  - intent: plantar_fasciitis
+  - action: action_provide_disease_info
+- story: find disease 178
+  steps:
+  - action: utter_disease_info
+  - intent: farsightedness
+  - action: action_provide_disease_info
+- story: find disease 179
+  steps:
+  - action: utter_disease_info
+  - intent: sedative
+  - action: action_provide_disease_info
+- story: find disease 180
+  steps:
+  - action: utter_disease_info
+  - intent: pemphigus
+  - action: action_provide_disease_info
+- story: find disease 181
+  steps:
+  - action: utter_disease_info
+  - intent: peyronie's_disease
+  - action: action_provide_disease_info
+- story: find disease 182
+  steps:
+  - action: utter_disease_info
+  - intent: hiatal_hernia
+  - action: action_provide_disease_info
+- story: find disease 183
+  steps:
+  - action: utter_disease_info
+  - intent: extrapyramidal_symptoms
+  - action: action_provide_disease_info
+- story: find disease 184
+  steps:
+  - action: utter_disease_info
+  - intent: ménière's_disease
+  - action: action_provide_disease_info
+- story: find disease 185
+  steps:
+  - action: utter_disease_info
+  - intent: anal_fissure
+  - action: action_provide_disease_info
+- story: find disease 186
+  steps:
+  - action: utter_disease_info
+  - intent: allergy
+  - action: action_provide_disease_info
+- story: find disease 187
+  steps:
+  - action: utter_disease_info
+  - intent: otitis_media
+  - action: action_provide_disease_info
+- story: find disease 188
+  steps:
+  - action: utter_disease_info
+  - intent: broken_finger
+  - action: action_provide_disease_info
+- story: find disease 189
+  steps:
+  - action: utter_disease_info
+  - intent: hirschsprung's_disease
+  - action: action_provide_disease_info
+- story: find disease 190
+  steps:
+  - action: utter_disease_info
+  - intent: polymyalgia_rheumatica
+  - action: action_provide_disease_info
+- story: find disease 191
+  steps:
+  - action: utter_disease_info
+  - intent: lymphedema
+  - action: action_provide_disease_info
+- story: find disease 192
+  steps:
+  - action: utter_disease_info
+  - intent: bladder_cancer
+  - action: action_provide_disease_info
+- story: find disease 193
+  steps:
+  - action: utter_disease_info
+  - intent: bronchospasm
+  - action: action_provide_disease_info
+- story: find disease 194
+  steps:
+  - action: utter_disease_info
+  - intent: glaucoma
+  - action: action_provide_disease_info
+- story: find disease 195
+  steps:
+  - action: utter_disease_info
+  - intent: chest_injury
+  - action: action_provide_disease_info
+- story: find disease 196
+  steps:
+  - action: utter_disease_info
+  - intent: patellar_dislocation
+  - action: action_provide_disease_info
+- story: find disease 197
+  steps:
+  - action: utter_disease_info
+  - intent: sciatica
+  - action: action_provide_disease_info
+- story: find disease 198
+  steps:
+  - action: utter_disease_info
+  - intent: hypercalcaemia
+  - action: action_provide_disease_info
+- story: find disease 199
+  steps:
+  - action: utter_disease_info
+  - intent: stress_incontinence
+  - action: action_provide_disease_info
+- story: find disease 200
+  steps:
+  - action: utter_disease_info
+  - intent: varicose_veins
+  - action: action_provide_disease_info
+- story: find disease 201
+  steps:
+  - action: utter_disease_info
+  - intent: renal_cyst
+  - action: action_provide_disease_info
+- story: find disease 202
+  steps:
+  - action: utter_disease_info
+  - intent: hydrocele_testis
+  - action: action_provide_disease_info
+- story: find disease 203
+  steps:
+  - action: utter_disease_info
+  - intent: degenerative_disc_disease
+  - action: action_provide_disease_info
+- story: find disease 204
+  steps:
+  - action: utter_disease_info
+  - intent: hirsutism
+  - action: action_provide_disease_info
+- story: find disease 205
+  steps:
+  - action: utter_disease_info
+  - intent: chopart's_fracture–dislocation
+  - action: action_provide_disease_info
+- story: find disease 206
+  steps:
+  - action: utter_disease_info
+  - intent: hydronephrosis
+  - action: action_provide_disease_info
+- story: find disease 207
+  steps:
+  - action: utter_disease_info
+  - intent: diverticulosis
+  - action: action_provide_disease_info
+- story: find disease 208
+  steps:
+  - action: utter_disease_info
+  - intent: surgery
+  - action: action_provide_disease_info
+- story: find disease 209
+  steps:
+  - action: utter_disease_info
+  - intent: huntington's_disease
+  - action: action_provide_disease_info
+- story: find disease 210
+  steps:
+  - action: utter_disease_info
+  - intent: lymphoma
+  - action: action_provide_disease_info
+- story: find disease 211
+  steps:
+  - action: utter_disease_info
+  - intent: photodermatitis
+  - action: action_provide_disease_info
+- story: find disease 212
+  steps:
+  - action: utter_disease_info
+  - intent: anemia_of_chronic_disease
+  - action: action_provide_disease_info
+- story: find disease 213
+  steps:
+  - action: utter_disease_info
+  - intent: internal_bleeding
+  - action: action_provide_disease_info
+- story: find disease 214
+  steps:
+  - action: utter_disease_info
+  - intent: scleritis
+  - action: action_provide_disease_info
+- story: find disease 215
+  steps:
+  - action: utter_disease_info
+  - intent: pterygium
+  - action: action_provide_disease_info
+- story: find disease 216
+  steps:
+  - action: utter_disease_info
+  - intent: fungal_infection
+  - action: action_provide_disease_info
+- story: find disease 217
+  steps:
+  - action: utter_disease_info
+  - intent: hyperinsulinemic_hypoglycemia
+  - action: action_provide_disease_info
+- story: find disease 218
+  steps:
+  - action: utter_disease_info
+  - intent: syndrome_of_inappropriate_antidiuretic_hormone_secretion
+  - action: action_provide_disease_info
+- story: find disease 219
+  steps:
+  - action: utter_disease_info
+  - intent: foreign_body
+  - action: action_provide_disease_info
+- story: find disease 220
+  steps:
+  - action: utter_disease_info
+  - intent: premenstrual_syndrome
+  - action: action_provide_disease_info
+- story: find disease 221
+  steps:
+  - action: utter_disease_info
+  - intent: orbital_cellulitis
+  - action: action_provide_disease_info
+- story: find disease 222
+  steps:
+  - action: utter_disease_info
+  - intent: soft_tissue_injury
+  - action: action_provide_disease_info
+- story: find disease 223
+  steps:
+  - action: utter_disease_info
+  - intent: hepatic_encephalopathy
+  - action: action_provide_disease_info
+- story: find disease 224
+  steps:
+  - action: utter_disease_info
+  - intent: bone_tumor
+  - action: action_provide_disease_info
+- story: find disease 225
+  steps:
+  - action: utter_disease_info
+  - intent: syringomyelia
+  - action: action_provide_disease_info
+- story: find disease 226
+  steps:
+  - action: utter_disease_info
+  - intent: pulmonary_fibrosis
+  - action: action_provide_disease_info
+- story: find disease 227
+  steps:
+  - action: utter_disease_info
+  - intent: valvular_heart_disease
+  - action: action_provide_disease_info
+- story: find disease 228
+  steps:
+  - action: utter_disease_info
+  - intent: parkinson's_disease
+  - action: action_provide_disease_info
+- story: find disease 229
+  steps:
+  - action: utter_disease_info
+  - intent: gout
+  - action: action_provide_disease_info
+- story: find disease 230
+  steps:
+  - action: utter_disease_info
+  - intent: otitis_media
+  - action: action_provide_disease_info
+- story: find disease 231
+  steps:
+  - action: utter_disease_info
+  - intent: substance_abuse
+  - action: action_provide_disease_info
+- story: find disease 232
+  steps:
+  - action: utter_disease_info
+  - intent: myelodysplastic_syndrome
+  - action: action_provide_disease_info
+- story: find disease 233
+  steps:
+  - action: utter_disease_info
+  - intent: scapular_fracture
+  - action: action_provide_disease_info
+- story: find disease 234
+  steps:
+  - action: utter_disease_info
+  - intent: acute_kidney_injury
+  - action: action_provide_disease_info
+- story: find disease 235
+  steps:
+  - action: utter_disease_info
+  - intent: early_pregnancy_bleeding
+  - action: action_provide_disease_info
+- story: find disease 236
+  steps:
+  - action: utter_disease_info
+  - intent: brain_abscess
+  - action: action_provide_disease_info
+- story: find disease 237
+  steps:
+  - action: utter_disease_info
+  - intent: periodontal_disease
+  - action: action_provide_disease_info
+- story: find disease 238
+  steps:
+  - action: utter_disease_info
+  - intent: wound_dehiscence
+  - action: action_provide_disease_info
+- story: find disease 239
+  steps:
+  - action: utter_disease_info
+  - intent: gastrointestinal_bleeding
+  - action: action_provide_disease_info
+- story: find disease 240
+  steps:
+  - action: utter_disease_info
+  - intent: seborrhoeic_dermatitis
+  - action: action_provide_disease_info
+- story: find disease 241
+  steps:
+  - action: utter_disease_info
+  - intent: methamphetamine
+  - action: action_provide_disease_info
+- story: find disease 242
+  steps:
+  - action: utter_disease_info
+  - intent: torticollis
+  - action: action_provide_disease_info
+- story: find disease 243
+  steps:
+  - action: utter_disease_info
+  - intent: calcium_channel_blocker
+  - action: action_provide_disease_info
+- story: find disease 244
+  steps:
+  - action: utter_disease_info
+  - intent: tension_headache
+  - action: action_provide_disease_info
+- story: find disease 245
+  steps:
+  - action: utter_disease_info
+  - intent: alcohol_intoxication
+  - action: action_provide_disease_info
+- story: find disease 246
+  steps:
+  - action: utter_disease_info
+  - intent: scurvy
+  - action: action_provide_disease_info
+- story: find disease 247
+  steps:
+  - action: utter_disease_info
+  - intent: narcolepsy
+  - action: action_provide_disease_info
+- story: find disease 248
+  steps:
+  - action: utter_disease_info
+  - intent: food_allergy
+  - action: action_provide_disease_info
+- story: find disease 249
+  steps:
+  - action: utter_disease_info
+  - intent: labyrinthitis
+  - action: action_provide_disease_info
+- story: find disease 250
+  steps:
+  - action: utter_disease_info
+  - intent: anxiety
+  - action: action_provide_disease_info
+- story: find disease 251
+  steps:
+  - action: utter_disease_info
+  - intent: impulse-control_disorder
+  - action: action_provide_disease_info
+- story: find disease 252
+  steps:
+  - action: utter_disease_info
+  - intent: nasolacrimal_duct_obstruction
+  - action: action_provide_disease_info
+- story: find disease 253
+  steps:
+  - action: utter_disease_info
+  - intent: nasal_septal_abscess
+  - action: action_provide_disease_info
+- story: find disease 254
+  steps:
+  - action: utter_disease_info
+  - intent: omphalitis_of_newborn
+  - action: action_provide_disease_info
+- story: find disease 255
+  steps:
+  - action: utter_disease_info
+  - intent: leukemia
+  - action: action_provide_disease_info
+- story: find disease 256
+  steps:
+  - action: utter_disease_info
+  - intent: bell's_palsy
+  - action: action_provide_disease_info
+- story: find disease 257
+  steps:
+  - action: utter_disease_info
+  - intent: allergic_conjunctivitis
+  - action: action_provide_disease_info
+- story: find disease 258
+  steps:
+  - action: utter_disease_info
+  - intent: adverse_drug_reaction
+  - action: action_provide_disease_info
+- story: find disease 259
+  steps:
+  - action: utter_disease_info
+  - intent: adrenal_tumor
+  - action: action_provide_disease_info
+- story: find disease 260
+  steps:
+  - action: utter_disease_info
+  - intent: myopia
+  - action: action_provide_disease_info
+- story: find disease 261
+  steps:
+  - action: utter_disease_info
+  - intent: osteoarthritis
+  - action: action_provide_disease_info
+- story: find disease 262
+  steps:
+  - action: utter_disease_info
+  - intent: thyroid_disease
+  - action: action_provide_disease_info
+- story: find disease 263
+  steps:
+  - action: utter_disease_info
+  - intent: pharyngitis
+  - action: action_provide_disease_info
+- story: find disease 264
+  steps:
+  - action: utter_disease_info
+  - intent: rheumatic_fever
+  - action: action_provide_disease_info
+- story: find disease 265
+  steps:
+  - action: utter_disease_info
+  - intent: hypocalcemia
+  - action: action_provide_disease_info
+- story: find disease 266
+  steps:
+  - action: utter_disease_info
+  - intent: macular_degeneration
+  - action: action_provide_disease_info
+- story: find disease 267
+  steps:
+  - action: utter_disease_info
+  - intent: pneumonia
+  - action: action_provide_disease_info
+- story: find disease 268
+  steps:
+  - action: utter_disease_info
+  - intent: cold_sore
+  - action: action_provide_disease_info
+- story: find disease 269
+  steps:
+  - action: utter_disease_info
+  - intent: premature_ventricular_contraction
+  - action: action_provide_disease_info
+- story: find disease 270
+  steps:
+  - action: utter_disease_info
+  - intent: testicular_cancer
+  - action: action_provide_disease_info
+- story: find disease 271
+  steps:
+  - action: utter_disease_info
+  - intent: hydrocephalus
+  - action: action_provide_disease_info
+- story: find disease 272
+  steps:
+  - action: utter_disease_info
+  - intent: breast_cancer
+  - action: action_provide_disease_info
+- story: find disease 273
+  steps:
+  - action: utter_disease_info
+  - intent: anemia_of_chronic_disease
+  - action: action_provide_disease_info
+- story: find disease 274
+  steps:
+  - action: utter_disease_info
+  - intent: esophageal_varices
+  - action: action_provide_disease_info
+- story: find disease 275
+  steps:
+  - action: utter_disease_info
+  - intent: endometrial_cancer
+  - action: action_provide_disease_info
+- story: find disease 276
+  steps:
+  - action: utter_disease_info
+  - intent: cystic_fibrosis
+  - action: action_provide_disease_info
+- story: find disease 277
+  steps:
+  - action: utter_disease_info
+  - intent: intertrigo
+  - action: action_provide_disease_info
+- story: find disease 278
+  steps:
+  - action: utter_disease_info
+  - intent: parathyroid_adenoma
+  - action: action_provide_disease_info
+- story: find disease 279
+  steps:
+  - action: utter_disease_info
+  - intent: glucocorticoid_deficiency
+  - action: action_provide_disease_info
+- story: find disease 280
+  steps:
+  - action: utter_disease_info
+  - intent: temporomandibular_joint_dysfunction
+  - action: action_provide_disease_info
+- story: find disease 281
+  steps:
+  - action: utter_disease_info
+  - intent: wilson's_disease
+  - action: action_provide_disease_info
+- story: find disease 282
+  steps:
+  - action: utter_disease_info
+  - intent: vesicoureteral_reflux
+  - action: action_provide_disease_info
+- story: find disease 283
+  steps:
+  - action: utter_disease_info
+  - intent: vitamin_A_deficiency
+  - action: action_provide_disease_info
+- story: find disease 284
+  steps:
+  - action: utter_disease_info
+  - intent: gonorrhea
+  - action: action_provide_disease_info
+- story: find disease 285
+  steps:
+  - action: utter_disease_info
+  - intent: rib_fracture
+  - action: action_provide_disease_info
+- story: find disease 286
+  steps:
+  - action: utter_disease_info
+  - intent: ependymoma
+  - action: action_provide_disease_info
+- story: find disease 287
+  steps:
+  - action: utter_disease_info
+  - intent: hepatitis
+  - action: action_provide_disease_info
+- story: find disease 288
+  steps:
+  - action: utter_disease_info
+  - intent: vaginal_cysts
+  - action: action_provide_disease_info
+- story: find disease 289
+  steps:
+  - action: utter_disease_info
+  - intent: SLAP_tear
+  - action: action_provide_disease_info
+- story: find disease 290
+  steps:
+  - action: utter_disease_info
+  - intent: ectopic_pregnancy
+  - action: action_provide_disease_info
+- story: find disease 291
+  steps:
+  - action: utter_disease_info
+  - intent: knee_pain
+  - action: action_provide_disease_info
+- story: find disease 292
+  steps:
+  - action: utter_disease_info
+  - intent: pinguecula
+  - action: action_provide_disease_info
+- story: find disease 293
+  steps:
+  - action: utter_disease_info
+  - intent: hypergammaglobulinemia
+  - action: action_provide_disease_info
+- story: find disease 294
+  steps:
+  - action: utter_disease_info
+  - intent: alcohol_abuse
+  - action: action_provide_disease_info
+- story: find disease 295
+  steps:
+  - action: utter_disease_info
+  - intent: carpal_tunnel_syndrome
+  - action: action_provide_disease_info
+- story: find disease 296
+  steps:
+  - action: utter_disease_info
+  - intent: pituitary_disease
+  - action: action_provide_disease_info
+- story: find disease 297
+  steps:
+  - action: utter_disease_info
+  - intent: kidney_stone_disease
+  - action: action_provide_disease_info
+- story: find disease 298
+  steps:
+  - action: utter_disease_info
+  - intent: autism
+  - action: action_provide_disease_info
+- story: find disease 299
+  steps:
+  - action: utter_disease_info
+  - intent: cat-scratch_disease
+  - action: action_provide_disease_info
+- story: find disease 300
+  steps:
+  - action: utter_disease_info
+  - intent: glaucoma
+  - action: action_provide_disease_info
+- story: find disease 301
+  steps:
+  - action: utter_disease_info
+  - intent: retinal_detachment
+  - action: action_provide_disease_info
+- story: find disease 302
+  steps:
+  - action: utter_disease_info
+  - intent: aplastic_anemia
+  - action: action_provide_disease_info
+- story: find disease 303
+  steps:
+  - action: utter_disease_info
+  - intent: overflow_incontinence
+  - action: action_provide_disease_info
+- story: find disease 304
+  steps:
+  - action: utter_disease_info
+  - intent: hemolytic_anemia
+  - action: action_provide_disease_info
+- story: find disease 305
+  steps:
+  - action: utter_disease_info
+  - intent: tennis_elbow
+  - action: action_provide_disease_info
+- story: find disease 306
+  steps:
+  - action: utter_disease_info
+  - intent: globe_rupture
+  - action: action_provide_disease_info
+- story: find disease 307
+  steps:
+  - action: utter_disease_info
+  - intent: syphilis
+  - action: action_provide_disease_info
+- story: find disease 308
+  steps:
+  - action: utter_disease_info
+  - intent: diabetic_nephropathy
+  - action: action_provide_disease_info
+- story: find disease 309
+  steps:
+  - action: utter_disease_info
+  - intent: human_nose
+  - action: action_provide_disease_info
+- story: find disease 310
+  steps:
+  - action: utter_disease_info
+  - intent: drug_withdrawal
+  - action: action_provide_disease_info
+- story: find disease 311
+  steps:
+  - action: utter_disease_info
+  - intent: tooth_decay
+  - action: action_provide_disease_info
+- story: find disease 312
+  steps:
+  - action: utter_disease_info
+  - intent: hypercholesterolemia
+  - action: action_provide_disease_info
+- story: find disease 313
+  steps:
+  - action: utter_disease_info
+  - intent: patella_fracture
+  - action: action_provide_disease_info
+- story: find disease 314
+  steps:
+  - action: utter_disease_info
+  - intent: kidney_failure
+  - action: action_provide_disease_info
+- story: find disease 315
+  steps:
+  - action: utter_disease_info
+  - intent: cervical_fracture
+  - action: action_provide_disease_info
+- story: find disease 316
+  steps:
+  - action: utter_disease_info
+  - intent: spasm
+  - action: action_provide_disease_info
+- story: find disease 317
+  steps:
+  - action: utter_disease_info
+  - intent: haemophilia
+  - action: action_provide_disease_info
+- story: find disease 318
+  steps:
+  - action: utter_disease_info
+  - intent: hyperosmolar_hyperglycemic_state
+  - action: action_provide_disease_info
+- story: find disease 319
+  steps:
+  - action: utter_disease_info
+  - intent: peritonsillar_abscess
+  - action: action_provide_disease_info
+- story: find disease 320
+  steps:
+  - action: utter_disease_info
+  - intent: gastroparesis
+  - action: action_provide_disease_info
+- story: find disease 321
+  steps:
+  - action: utter_disease_info
+  - intent: itch
+  - action: action_provide_disease_info
+- story: find disease 322
+  steps:
+  - action: utter_disease_info
+  - intent: polycythemia_vera
+  - action: action_provide_disease_info
+- story: find disease 323
+  steps:
+  - action: utter_disease_info
+  - intent: thrombocytopenia
+  - action: action_provide_disease_info
+- story: find disease 324
+  steps:
+  - action: utter_disease_info
+  - intent: head_and_neck_cancer
+  - action: action_provide_disease_info
+- story: find disease 325
+  steps:
+  - action: utter_disease_info
+  - intent: pseudohypoparathyroidism
+  - action: action_provide_disease_info
+- story: find disease 326
+  steps:
+  - action: utter_disease_info
+  - intent: goitre
+  - action: action_provide_disease_info
+- story: find disease 327
+  steps:
+  - action: utter_disease_info
+  - intent: urinary_incontinence
+  - action: action_provide_disease_info
+- story: find disease 328
+  steps:
+  - action: utter_disease_info
+  - intent: trisomy_18
+  - action: action_provide_disease_info
+- story: find disease 329
+  steps:
+  - action: utter_disease_info
+  - intent: wound
+  - action: action_provide_disease_info
+- story: find disease 330
+  steps:
+  - action: utter_disease_info
+  - intent: muscular_dystrophy
+  - action: action_provide_disease_info
+- story: find disease 331
+  steps:
+  - action: utter_disease_info
+  - intent: mittelschmerz
+  - action: action_provide_disease_info
+- story: find disease 332
+  steps:
+  - action: utter_disease_info
+  - intent: corneal_abrasion
+  - action: action_provide_disease_info
+- story: find disease 333
+  steps:
+  - action: utter_disease_info
+  - intent: anemia_of_chronic_disease
+  - action: action_provide_disease_info
+- story: find disease 334
+  steps:
+  - action: utter_disease_info
+  - intent: dysthymia
+  - action: action_provide_disease_info
+- story: find disease 335
+  steps:
+  - action: utter_disease_info
+  - intent: scarlet_fever
+  - action: action_provide_disease_info
+- story: find disease 336
+  steps:
+  - action: utter_disease_info
+  - intent: hypertensive_heart_disease
+  - action: action_provide_disease_info
+- story: find disease 337
+  steps:
+  - action: utter_disease_info
+  - intent: barbiturate
+  - action: action_provide_disease_info
+- story: find disease 338
+  steps:
+  - action: utter_disease_info
+  - intent: polycystic_ovary_syndrome
+  - action: action_provide_disease_info
+- story: find disease 339
+  steps:
+  - action: utter_disease_info
+  - intent: encephalitis
+  - action: action_provide_disease_info
+- story: find disease 340
+  steps:
+  - action: utter_disease_info
+  - intent: hidrocystoma
+  - action: action_provide_disease_info
+- story: find disease 341
+  steps:
+  - action: utter_disease_info
+  - intent: balanitis
+  - action: action_provide_disease_info
+- story: find disease 342
+  steps:
+  - action: utter_disease_info
+  - intent: foreign_body_aspiration
+  - action: action_provide_disease_info
+- story: find disease 343
+  steps:
+  - action: utter_disease_info
+  - intent: cocaine_dependence
+  - action: action_provide_disease_info
+- story: find disease 344
+  steps:
+  - action: utter_disease_info
+  - intent: optic_neuritis
+  - action: action_provide_disease_info
+- story: find disease 345
+  steps:
+  - action: utter_disease_info
+  - intent: alcohol_withdrawal_syndrome
+  - action: action_provide_disease_info
+- story: find disease 346
+  steps:
+  - action: utter_disease_info
+  - intent: premature_atrial_contraction
+  - action: action_provide_disease_info
+- story: find disease 347
+  steps:
+  - action: utter_disease_info
+  - intent: hemiparesis
+  - action: action_provide_disease_info
+- story: find disease 348
+  steps:
+  - action: utter_disease_info
+  - intent: hammer_toe
+  - action: action_provide_disease_info
+- story: find disease 349
+  steps:
+  - action: utter_disease_info
+  - intent: facial_trauma
+  - action: action_provide_disease_info
+- story: find disease 350
+  steps:
+  - action: utter_disease_info
+  - intent: joint_effusion
+  - action: action_provide_disease_info
+- story: find disease 351
+  steps:
+  - action: utter_disease_info
+  - intent: kneecapping
+  - action: action_provide_disease_info
+- story: find disease 352
+  steps:
+  - action: utter_disease_info
+  - intent: meningioma
+  - action: action_provide_disease_info
+- story: find disease 353
+  steps:
+  - action: utter_disease_info
+  - intent: brain_cancer
+  - action: action_provide_disease_info
+- story: find disease 354
+  steps:
+  - action: utter_disease_info
+  - intent: placental_abruption
+  - action: action_provide_disease_info
+- story: find disease 355
+  steps:
+  - action: utter_disease_info
+  - intent: allergic_rhinitis
+  - action: action_provide_disease_info
+- story: find disease 356
+  steps:
+  - action: utter_disease_info
+  - intent: lung_cancer
+  - action: action_provide_disease_info
+- story: find disease 357
+  steps:
+  - action: utter_disease_info
+  - intent: kidney_disease
+  - action: action_provide_disease_info
+- story: find disease 358
+  steps:
+  - action: utter_disease_info
+  - intent: uterine_cancer
+  - action: action_provide_disease_info
+- story: find disease 359
+  steps:
+  - action: utter_disease_info
+  - intent: sjögren's_disease
+  - action: action_provide_disease_info
+- story: find disease 360
+  steps:
+  - action: utter_disease_info
+  - intent: fibrocystic_breast_changes
+  - action: action_provide_disease_info
+- story: find disease 361
+  steps:
+  - action: utter_disease_info
+  - intent: tinea_barbae
+  - action: action_provide_disease_info
+- story: find disease 362
+  steps:
+  - action: utter_disease_info
+  - intent: dental_abscess
+  - action: action_provide_disease_info
+- story: find disease 363
+  steps:
+  - action: utter_disease_info
+  - intent: envenomation
+  - action: action_provide_disease_info
+- story: find disease 364
+  steps:
+  - action: utter_disease_info
+  - intent: VACTERL_association
+  - action: action_provide_disease_info
+- story: find disease 365
+  steps:
+  - action: utter_disease_info
+  - intent: vertebrobasilar_insufficiency
+  - action: action_provide_disease_info
+- story: find disease 366
+  steps:
+  - action: utter_disease_info
+  - intent: anorectal_disorder
+  - action: action_provide_disease_info
+- story: find disease 367
+  steps:
+  - action: utter_disease_info
+  - intent: neurogenic_bladder_dysfunction
+  - action: action_provide_disease_info
+- story: find disease 368
+  steps:
+  - action: utter_disease_info
+  - intent: benign_paroxysmal_positional_vertigo
+  - action: action_provide_disease_info
+- story: find disease 369
+  steps:
+  - action: utter_disease_info
+  - intent: blepharospasm
+  - action: action_provide_disease_info
+- story: find disease 370
+  steps:
+  - action: utter_disease_info
+  - intent: sarcoidosis
+  - action: action_provide_disease_info
+- story: find disease 371
+  steps:
+  - action: utter_disease_info
+  - intent: metastasis
+  - action: action_provide_disease_info
+- story: find disease 372
+  steps:
+  - action: utter_disease_info
+  - intent: trigger_finger
+  - action: action_provide_disease_info
+- story: find disease 373
+  steps:
+  - action: utter_disease_info
+  - intent: stye
+  - action: action_provide_disease_info
+- story: find disease 374
+  steps:
+  - action: utter_disease_info
+  - intent: iron_overload
+  - action: action_provide_disease_info
+- story: find disease 375
+  steps:
+  - action: utter_disease_info
+  - intent: osteochondroma
+  - action: action_provide_disease_info
+- story: find disease 376
+  steps:
+  - action: utter_disease_info
+  - intent: cushing's_syndrome
+  - action: action_provide_disease_info
+- story: find disease 377
+  steps:
+  - action: utter_disease_info
+  - intent: typhoid_fever
+  - action: action_provide_disease_info
+- story: find disease 378
+  steps:
+  - action: utter_disease_info
+  - intent: posterior_vitreous_detachment
+  - action: action_provide_disease_info
+- story: find disease 379
+  steps:
+  - action: utter_disease_info
+  - intent: poikiloderma_vasculare_atrophicans
+  - action: action_provide_disease_info
+- story: find disease 380
+  steps:
+  - action: utter_disease_info
+  - intent: aspergillosis
+  - action: action_provide_disease_info
+- story: find disease 381
+  steps:
+  - action: utter_disease_info
+  - intent: uterine_atony
+  - action: action_provide_disease_info
+- story: find disease 382
+  steps:
+  - action: utter_disease_info
+  - intent: trichinosis
+  - action: action_provide_disease_info
+- story: find disease 383
+  steps:
+  - action: utter_disease_info
+  - intent: whooping_cough
+  - action: action_provide_disease_info
+- story: find disease 384
+  steps:
+  - action: utter_disease_info
+  - intent: cheilitis
+  - action: action_provide_disease_info
+- story: find disease 385
+  steps:
+  - action: utter_disease_info
+  - intent: subacute_thyroiditis
+  - action: action_provide_disease_info
+- story: find disease 386
+  steps:
+  - action: utter_disease_info
+  - intent: oral_mucosa
+  - action: action_provide_disease_info
+- story: find disease 387
+  steps:
+  - action: utter_disease_info
+  - intent: penetrating_trauma
+  - action: action_provide_disease_info
+- story: find disease 388
+  steps:
+  - action: utter_disease_info
+  - intent: intracerebral_hemorrhage
+  - action: action_provide_disease_info
+- story: find disease 389
+  steps:
+  - action: utter_disease_info
+  - intent: alzheimer's_disease
+  - action: action_provide_disease_info
+- story: find disease 390
+  steps:
+  - action: utter_disease_info
+  - intent: vaginismus
+  - action: action_provide_disease_info
+- story: find disease 391
+  steps:
+  - action: utter_disease_info
+  - intent: lupus
+  - action: action_provide_disease_info
+- story: find disease 392
+  steps:
+  - action: utter_disease_info
+  - intent: primary_ovarian_insufficiency
+  - action: action_provide_disease_info
+- story: find disease 393
+  steps:
+  - action: utter_disease_info
+  - intent: thoracic_outlet_syndrome
+  - action: action_provide_disease_info
+- story: find disease 394
+  steps:
+  - action: utter_disease_info
+  - intent: ganglion_cyst
+  - action: action_provide_disease_info
+- story: find disease 395
+  steps:
+  - action: utter_disease_info
+  - intent: knee_dislocation
+  - action: action_provide_disease_info
+- story: find disease 396
+  steps:
+  - action: utter_disease_info
+  - intent: crohn's_disease
+  - action: action_provide_disease_info
+- story: find disease 397
+  steps:
+  - action: utter_disease_info
+  - intent: postoperative_wounds
+  - action: action_provide_disease_info
+- story: find disease 398
+  steps:
+  - action: utter_disease_info
+  - intent: folate_deficiency
+  - action: action_provide_disease_info
+- story: find disease 399
+  steps:
+  - action: utter_disease_info
+  - intent: hypervolemia
+  - action: action_provide_disease_info
+- story: find disease 400
+  steps:
+  - action: utter_disease_info
+  - intent: atrial_flutter
+  - action: action_provide_disease_info
+- story: find disease 401
+  steps:
+  - action: utter_disease_info
+  - intent: list_of_skin_conditions
+  - action: action_provide_disease_info
+- story: find disease 402
+  steps:
+  - action: utter_disease_info
+  - intent: floater
+  - action: action_provide_disease_info
+- story: find disease 403
+  steps:
+  - action: utter_disease_info
+  - intent: tooth_pathology
+  - action: action_provide_disease_info
+- story: find disease 404
+  steps:
+  - action: utter_disease_info
+  - intent: myocardial_infarction
+  - action: action_provide_disease_info
+- story: find disease 405
+  steps:
+  - action: utter_disease_info
+  - intent: abdominal_trauma
+  - action: action_provide_disease_info
+- story: find disease 406
+  steps:
+  - action: utter_disease_info
+  - intent: femoral_fracture
+  - action: action_provide_disease_info
+- story: find disease 407
+  steps:
+  - action: utter_disease_info
+  - intent: oral_candidiasis
+  - action: action_provide_disease_info
+- story: find disease 408
+  steps:
+  - action: utter_disease_info
+  - intent: pityriasis_rosea
+  - action: action_provide_disease_info
+- story: find disease 409
+  steps:
+  - action: utter_disease_info
+  - intent: animal_allergy
+  - action: action_provide_disease_info
+- story: find disease 410
+  steps:
+  - action: utter_disease_info
+  - intent: orthostatic_hypotension
+  - action: action_provide_disease_info
+- story: find disease 411
+  steps:
+  - action: utter_disease_info
+  - intent: obstructive_sleep_apnea
+  - action: action_provide_disease_info
+- story: find disease 412
+  steps:
+  - action: utter_disease_info
+  - intent: hypokalemia
+  - action: action_provide_disease_info
+- story: find disease 413
+  steps:
+  - action: utter_disease_info
+  - intent: psoriasis
+  - action: action_provide_disease_info
+- story: find disease 414
+  steps:
+  - action: utter_disease_info
+  - intent: dislocated_shoulder
+  - action: action_provide_disease_info
+- story: find disease 415
+  steps:
+  - action: utter_disease_info
+  - intent: intussusception
+  - action: action_provide_disease_info
+- story: find disease 416
+  steps:
+  - action: utter_disease_info
+  - intent: cervicitis
+  - action: action_provide_disease_info
+- story: find disease 417
+  steps:
+  - action: utter_disease_info
+  - intent: parapharyngeal_abscess
+  - action: action_provide_disease_info
+- story: find disease 418
+  steps:
+  - action: utter_disease_info
+  - intent: thrombocythemia
+  - action: action_provide_disease_info
+- story: find disease 419
+  steps:
+  - action: utter_disease_info
+  - intent: hip_pain
+  - action: action_provide_disease_info
+- story: find disease 420
+  steps:
+  - action: utter_disease_info
+  - intent: pressure_ulcer
+  - action: action_provide_disease_info
+- story: find disease 421
+  steps:
+  - action: utter_disease_info
+  - intent: hypernatremia
+  - action: action_provide_disease_info
+- story: find disease 422
+  steps:
+  - action: utter_disease_info
+  - intent: sensorineural_hearing_loss
+  - action: action_provide_disease_info
+- story: find disease 423
+  steps:
+  - action: utter_disease_info
+  - intent: ulcer
+  - action: action_provide_disease_info
+- story: find disease 424
+  steps:
+  - action: utter_disease_info
+  - intent: osteoporosis
+  - action: action_provide_disease_info
+- story: find disease 425
+  steps:
+  - action: utter_disease_info
+  - intent: ileus
+  - action: action_provide_disease_info
+- story: find disease 426
+  steps:
+  - action: utter_disease_info
+  - intent: sickle_cell_disease
+  - action: action_provide_disease_info
+- story: find disease 427
+  steps:
+  - action: utter_disease_info
+  - intent: urethritis
+  - action: action_provide_disease_info
+- story: find disease 428
+  steps:
+  - action: utter_disease_info
+  - intent: prostatitis
+  - action: action_provide_disease_info
+- story: find disease 429
+  steps:
+  - action: utter_disease_info
+  - intent: otitis_externa
+  - action: action_provide_disease_info
+- story: find disease 430
+  steps:
+  - action: utter_disease_info
+  - intent: anticonvulsant
+  - action: action_provide_disease_info
+- story: find disease 431
+  steps:
+  - action: utter_disease_info
+  - intent: testicular_torsion
+  - action: action_provide_disease_info
+- story: find disease 432
+  steps:
+  - action: utter_disease_info
+  - intent: tricuspid_valve_disease
+  - action: action_provide_disease_info
+- story: find disease 433
+  steps:
+  - action: utter_disease_info
+  - intent: urethral_stricture
+  - action: action_provide_disease_info
+- story: find disease 434
+  steps:
+  - action: utter_disease_info
+  - intent: vitamin_d_deficiency
+  - action: action_provide_disease_info
+- story: find disease 435
+  steps:
+  - action: utter_disease_info
+  - intent: hydatidiform_mole
+  - action: action_provide_disease_info
+- story: find disease 436
+  steps:
+  - action: utter_disease_info
+  - intent: pain_disorder_affecting_the_neck
+  - action: action_provide_disease_info
+- story: find disease 437
+  steps:
+  - action: utter_disease_info
+  - intent: tuberculosis
+  - action: action_provide_disease_info
+- story: find disease 438
+  steps:
+  - action: utter_disease_info
+  - intent: pelvic_fistula
+  - action: action_provide_disease_info
+- story: find disease 439
+  steps:
+  - action: utter_disease_info
+  - intent: acute_bronchiolitis
+  - action: action_provide_disease_info
+- story: find disease 440
+  steps:
+  - action: utter_disease_info
+  - intent: presbyopia
+  - action: action_provide_disease_info
+- story: find disease 441
+  steps:
+  - action: utter_disease_info
+  - intent: dementia
+  - action: action_provide_disease_info
+- story: find disease 442
+  steps:
+  - action: utter_disease_info
+  - intent: insect_bite
+  - action: action_provide_disease_info
+- story: find disease 443
+  steps:
+  - action: utter_disease_info
+  - intent: paroxysmal_ventricular_tachycardia
+  - action: action_provide_disease_info
+- story: find disease 444
+  steps:
+  - action: utter_disease_info
+  - intent: congenital_heart_defect
+  - action: action_provide_disease_info
+- story: find disease 445
+  steps:
+  - action: utter_disease_info
+  - intent: connective_tissue_disorder
+  - action: action_provide_disease_info
+- story: find disease 446
+  steps:
+  - action: utter_disease_info
+  - intent: foreign_body_in_the_eye
+  - action: action_provide_disease_info
+- story: find disease 447
+  steps:
+  - action: utter_disease_info
+  - intent: poisoning_due_to_gas
+  - action: action_provide_disease_info
+- story: find disease 448
+  steps:
+  - action: utter_disease_info
+  - intent: pyogenic_skin_infection
+  - action: action_provide_disease_info
+- story: find disease 449
+  steps:
+  - action: utter_disease_info
+  - intent: endometrial_hyperplasia
+  - action: action_provide_disease_info
+- story: find disease 450
+  steps:
+  - action: utter_disease_info
+  - intent: acanthosis_nigricans
+  - action: action_provide_disease_info
+- story: find disease 451
+  steps:
+  - action: utter_disease_info
+  - intent: central_atherosclerosis
+  - action: action_provide_disease_info
+- story: find disease 452
+  steps:
+  - action: utter_disease_info
+  - intent: viral_exanthem
+  - action: action_provide_disease_info
+- story: find disease 453
+  steps:
+  - action: utter_disease_info
+  - intent: nongastroenteritis
+  - action: action_provide_disease_info
+- story: find disease 454
+  steps:
+  - action: utter_disease_info
+  - intent: benign_prostatic_hyperplasia_bph_
+  - action: action_provide_disease_info
+- story: find disease 455
+  steps:
+  - action: utter_disease_info
+  - intent: menopause
+  - action: action_provide_disease_info
+- story: find disease 456
+  steps:
+  - action: utter_disease_info
+  - intent: primary_immunodeficiency
+  - action: action_provide_disease_info
+- story: find disease 457
+  steps:
+  - action: utter_disease_info
+  - intent: ovarian_cancer
+  - action: action_provide_disease_info
+- story: find disease 458
+  steps:
+  - action: utter_disease_info
+  - intent: cataract
+  - action: action_provide_disease_info
+- story: find disease 459
+  steps:
+  - action: utter_disease_info
+  - intent: dislocation_of_the_hip
+  - action: action_provide_disease_info
+- story: find disease 460
+  steps:
+  - action: utter_disease_info
+  - intent: spinal_stenosis
+  - action: action_provide_disease_info
+- story: find disease 461
+  steps:
+  - action: utter_disease_info
+  - intent: intestinal_obstruction
+  - action: action_provide_disease_info
+- story: find disease 462
+  steps:
+  - action: utter_disease_info
+  - intent: heart_contusion
+  - action: action_provide_disease_info
+- story: find disease 463
+  steps:
+  - action: utter_disease_info
+  - intent: congenital_malformation_syndrome
+  - action: action_provide_disease_info
+- story: find disease 464
+  steps:
+  - action: utter_disease_info
+  - intent: sporotrichosis
+  - action: action_provide_disease_info
+- story: find disease 465
+  steps:
+  - action: utter_disease_info
+  - intent: lymphangitis
+  - action: action_provide_disease_info
+- story: find disease 466
+  steps:
+  - action: utter_disease_info
+  - intent: wernicke_korsakoff_syndrome
+  - action: action_provide_disease_info
+- story: find disease 467
+  steps:
+  - action: utter_disease_info
+  - intent: intestinal_disease
+  - action: action_provide_disease_info
+- story: find disease 468
+  steps:
+  - action: utter_disease_info
+  - intent: acute_bronchitis
+  - action: action_provide_disease_info
+- story: find disease 469
+  steps:
+  - action: utter_disease_info
+  - intent: persistent_vomiting_of_unknown_cause
+  - action: action_provide_disease_info
+- story: find disease 470
+  steps:
+  - action: utter_disease_info
+  - intent: open_wound_of_the_foot
+  - action: action_provide_disease_info
+- story: find disease 471
+  steps:
+  - action: utter_disease_info
+  - intent: myocarditis
+  - action: action_provide_disease_info
+- story: find disease 472
+  steps:
+  - action: utter_disease_info
+  - intent: preeclampsia
+  - action: action_provide_disease_info
+- story: find disease 473
+  steps:
+  - action: utter_disease_info
+  - intent: ischemic_heart_disease
+  - action: action_provide_disease_info
+- story: find disease 474
+  steps:
+  - action: utter_disease_info
+  - intent: neurofibromatosis
+  - action: action_provide_disease_info
+- story: find disease 475
+  steps:
+  - action: utter_disease_info
+  - intent: chickenpox
+  - action: action_provide_disease_info
+- story: find disease 476
+  steps:
+  - action: utter_disease_info
+  - intent: pancreatic_cancer
+  - action: action_provide_disease_info
+- story: find disease 477
+  steps:
+  - action: utter_disease_info
+  - intent: neuropathy_due_to_drugs
+  - action: action_provide_disease_info
+- story: find disease 478
+  steps:
+  - action: utter_disease_info
+  - intent: croup
+  - action: action_provide_disease_info
+- story: find disease 479
+  steps:
+  - action: utter_disease_info
+  - intent: idiopathic_excessive_menstruation
+  - action: action_provide_disease_info
+- story: find disease 480
+  steps:
+  - action: utter_disease_info
+  - intent: amblyopia
+  - action: action_provide_disease_info
+- story: find disease 481
+  steps:
+  - action: utter_disease_info
+  - intent: meckel_diverticulum
+  - action: action_provide_disease_info
+- story: find disease 482
+  steps:
+  - action: utter_disease_info
+  - intent: dislocation_of_the_wrist
+  - action: action_provide_disease_info
+- story: find disease 483
+  steps:
+  - action: utter_disease_info
+  - intent: ear_drum_damage
+  - action: action_provide_disease_info
+- story: find disease 484
+  steps:
+  - action: utter_disease_info
+  - intent: erectile_dysfunction
+  - action: action_provide_disease_info
+- story: find disease 485
+  steps:
+  - action: utter_disease_info
+  - intent: temporary_or_benign_blood_in_urine
+  - action: action_provide_disease_info
+- story: find disease 486
+  steps:
+  - action: utter_disease_info
+  - intent: kidney_disease_due_to_longstanding_hypertension
+  - action: action_provide_disease_info
+- story: find disease 487
+  steps:
+  - action: utter_disease_info
+  - intent: chondromalacia_of_the_patella
+  - action: action_provide_disease_info
+- story: find disease 488
+  steps:
+  - action: utter_disease_info
+  - intent: onychomycosis
+  - action: action_provide_disease_info
+- story: find disease 489
+  steps:
+  - action: utter_disease_info
+  - intent: urethral_disorder
+  - action: action_provide_disease_info
+- story: find disease 490
+  steps:
+  - action: utter_disease_info
+  - intent: lyme_disease
+  - action: action_provide_disease_info
+- story: find disease 491
+  steps:
+  - action: utter_disease_info
+  - intent: iron_deficiency_anemia
+  - action: action_provide_disease_info
+- story: find disease 492
+  steps:
+  - action: utter_disease_info
+  - intent: acute_respiratory_distress_syndrome_ards_
+  - action: action_provide_disease_info
+- story: find disease 493
+  steps:
+  - action: utter_disease_info
+  - intent: toxic_multinodular_goiter
+  - action: action_provide_disease_info
+- story: find disease 494
+  steps:
+  - action: utter_disease_info
+  - intent: open_wound_of_the_finger
+  - action: action_provide_disease_info
+- story: find disease 495
+  steps:
+  - action: utter_disease_info
+  - intent: autonomic_nervous_system_disorder
+  - action: action_provide_disease_info
+- story: find disease 496
+  steps:
+  - action: utter_disease_info
+  - intent: psychosexual_disorder
+  - action: action_provide_disease_info
+- story: find disease 497
+  steps:
+  - action: utter_disease_info
+  - intent: anemia
+  - action: action_provide_disease_info
+- story: find disease 498
+  steps:
+  - action: utter_disease_info
+  - intent: tendinitis
+  - action: action_provide_disease_info
+- story: find disease 499
+  steps:
+  - action: utter_disease_info
+  - intent: common_cold
+  - action: action_provide_disease_info
+- story: find disease 500
+  steps:
+  - action: utter_disease_info
+  - intent: amyotrophic_lateral_sclerosis_als_
+  - action: action_provide_disease_info
+- story: find disease 501
+  steps:
+  - action: utter_disease_info
+  - intent: central_retinal_artery_or_vein_occlusion
+  - action: action_provide_disease_info
+- story: find disease 502
+  steps:
+  - action: utter_disease_info
+  - intent: paroxysmal_supraventricular_tachycardia
+  - action: action_provide_disease_info
+- story: find disease 503
+  steps:
+  - action: utter_disease_info
+  - intent: venous_insufficiency
+  - action: action_provide_disease_info
+- story: find disease 504
+  steps:
+  - action: utter_disease_info
+  - intent: trichomonas_infection
+  - action: action_provide_disease_info
+- story: find disease 505
+  steps:
+  - action: utter_disease_info
+  - intent: acne
+  - action: action_provide_disease_info
+- story: find disease 506
+  steps:
+  - action: utter_disease_info
+  - intent: depression
+  - action: action_provide_disease_info
+- story: find disease 507
+  steps:
+  - action: utter_disease_info
+  - intent: drug_abuse
+  - action: action_provide_disease_info
+- story: find disease 508
+  steps:
+  - action: utter_disease_info
+  - intent: urinary_tract_obstruction
+  - action: action_provide_disease_info
+- story: find disease 509
+  steps:
+  - action: utter_disease_info
+  - intent: diabetes_insipidus
+  - action: action_provide_disease_info
+- story: find disease 510
+  steps:
+  - action: utter_disease_info
+  - intent: iridocyclitis
+  - action: action_provide_disease_info
+- story: find disease 511
+  steps:
+  - action: utter_disease_info
+  - intent: varicocele_of_the_testicles
+  - action: action_provide_disease_info
+- story: find disease 512
+  steps:
+  - action: utter_disease_info
+  - intent: irritable_bowel_syndrome
+  - action: action_provide_disease_info
+- story: find disease 513
+  steps:
+  - action: utter_disease_info
+  - intent: fracture_of_the_foot
+  - action: action_provide_disease_info
+- story: find disease 514
+  steps:
+  - action: utter_disease_info
+  - intent: ovarian_cyst
+  - action: action_provide_disease_info
+- story: find disease 515
+  steps:
+  - action: utter_disease_info
+  - intent: chlamydia
+  - action: action_provide_disease_info
+- story: find disease 516
+  steps:
+  - action: utter_disease_info
+  - intent: parasitic_disease
+  - action: action_provide_disease_info
+- story: find disease 517
+  steps:
+  - action: utter_disease_info
+  - intent: fracture_of_the_jaw
+  - action: action_provide_disease_info
+- story: find disease 518
+  steps:
+  - action: utter_disease_info
+  - intent: lipoma
+  - action: action_provide_disease_info
+- story: find disease 519
+  steps:
+  - action: utter_disease_info
+  - intent: female_genitalia_infection
+  - action: action_provide_disease_info
+- story: find disease 520
+  steps:
+  - action: utter_disease_info
+  - intent: pulmonary_hypertension
+  - action: action_provide_disease_info
+- story: find disease 521
+  steps:
+  - action: utter_disease_info
+  - intent: thyroid_nodule
+  - action: action_provide_disease_info
+- story: find disease 522
+  steps:
+  - action: utter_disease_info
+  - intent: broken_tooth
+  - action: action_provide_disease_info
+- story: find disease 523
+  steps:
+  - action: utter_disease_info
+  - intent: dumping_syndrome
+  - action: action_provide_disease_info
+- story: find disease 524
+  steps:
+  - action: utter_disease_info
+  - intent: lymphadenitis
+  - action: action_provide_disease_info
+- story: find disease 525
+  steps:
+  - action: utter_disease_info
+  - intent: injury_to_the_face
+  - action: action_provide_disease_info
+- story: find disease 526
+  steps:
+  - action: utter_disease_info
+  - intent: aortic_valve_disease
+  - action: action_provide_disease_info
+- story: find disease 527
+  steps:
+  - action: utter_disease_info
+  - intent: rheumatoid_arthritis
+  - action: action_provide_disease_info
+- story: find disease 528
+  steps:
+  - action: utter_disease_info
+  - intent: spermatocele
+  - action: action_provide_disease_info
+- story: find disease 529
+  steps:
+  - action: utter_disease_info
+  - intent: impetigo
+  - action: action_provide_disease_info
+- story: find disease 530
+  steps:
+  - action: utter_disease_info
+  - intent: anal_fistula
+  - action: action_provide_disease_info
+- story: find disease 531
+  steps:
+  - action: utter_disease_info
+  - intent: hypothermia
+  - action: action_provide_disease_info
+- story: find disease 532
+  steps:
+  - action: utter_disease_info
+  - intent: oppositional_disorder
+  - action: action_provide_disease_info
+- story: find disease 533
+  steps:
+  - action: utter_disease_info
+  - intent: migraine
+  - action: action_provide_disease_info
+- story: find disease 534
+  steps:
+  - action: utter_disease_info
+  - intent: diabetic_peripheral_neuropathy
+  - action: action_provide_disease_info
+- story: find disease 535
+  steps:
+  - action: utter_disease_info
+  - intent: testicular_disorder
+  - action: action_provide_disease_info
+- story: find disease 536
+  steps:
+  - action: utter_disease_info
+  - intent: gestational_diabetes
+  - action: action_provide_disease_info
+- story: find disease 537
+  steps:
+  - action: utter_disease_info
+  - intent: hidradenitis_suppurativa
+  - action: action_provide_disease_info
+- story: find disease 538
+  steps:
+  - action: utter_disease_info
+  - intent: valley_fever
+  - action: action_provide_disease_info
+- story: find disease 539
+  steps:
+  - action: utter_disease_info
+  - intent: conjunctivitis_due_to_bacteria
+  - action: action_provide_disease_info
+- story: find disease 540
+  steps:
+  - action: utter_disease_info
+  - intent: lewy_body_dementia
+  - action: action_provide_disease_info
+- story: find disease 541
+  steps:
+  - action: utter_disease_info
+  - intent: multiple_myeloma
+  - action: action_provide_disease_info
+- story: find disease 542
+  steps:
+  - action: utter_disease_info
+  - intent: head_injury
+  - action: action_provide_disease_info
+- story: find disease 543
+  steps:
+  - action: utter_disease_info
+  - intent: ascending_cholangitis
+  - action: action_provide_disease_info
+- story: find disease 544
+  steps:
+  - action: utter_disease_info
+  - intent: idiopathic_irregular_menstrual_cycle
+  - action: action_provide_disease_info
+- story: find disease 545
+  steps:
+  - action: utter_disease_info
+  - intent: interstitial_lung_disease
+  - action: action_provide_disease_info
+- story: find disease 546
+  steps:
+  - action: utter_disease_info
+  - intent: mononeuritis
+  - action: action_provide_disease_info
+- story: find disease 547
+  steps:
+  - action: utter_disease_info
+  - intent: malaria
+  - action: action_provide_disease_info
+- story: find disease 548
+  steps:
+  - action: utter_disease_info
+  - intent: somatization_disorder
+  - action: action_provide_disease_info
+- story: find disease 549
+  steps:
+  - action: utter_disease_info
+  - intent: hypovolemia
+  - action: action_provide_disease_info
+- story: find disease 550
+  steps:
+  - action: utter_disease_info
+  - intent: schizophrenia
+  - action: action_provide_disease_info
+- story: find disease 551
+  steps:
+  - action: utter_disease_info
+  - intent: knee_ligament_or_meniscus_tear
+  - action: action_provide_disease_info
+- story: find disease 552
+  steps:
+  - action: utter_disease_info
+  - intent: endocarditis
+  - action: action_provide_disease_info
+- story: find disease 553
+  steps:
+  - action: utter_disease_info
+  - intent: sepsis
+  - action: action_provide_disease_info
+- story: find disease 554
+  steps:
+  - action: utter_disease_info
+  - intent: heat_stroke
+  - action: action_provide_disease_info
+- story: find disease 555
+  steps:
+  - action: utter_disease_info
+  - intent: cholecystitis
+  - action: action_provide_disease_info
+- story: find disease 556
+  steps:
+  - action: utter_disease_info
+  - intent: cardiac_arrest
+  - action: action_provide_disease_info
+- story: find disease 557
+  steps:
+  - action: utter_disease_info
+  - intent: cardiomyopathy
+  - action: action_provide_disease_info
+- story: find disease 558
+  steps:
+  - action: utter_disease_info
+  - intent: social_phobia
+  - action: action_provide_disease_info
+- story: find disease 559
+  steps:
+  - action: utter_disease_info
+  - intent: meningitis
+  - action: action_provide_disease_info
+- story: find disease 560
+  steps:
+  - action: utter_disease_info
+  - intent: spherocytosis
+  - action: action_provide_disease_info
+- story: find disease 561
+  steps:
+  - action: utter_disease_info
+  - intent: hormone_disorder
+  - action: action_provide_disease_info
+- story: find disease 562
+  steps:
+  - action: utter_disease_info
+  - intent: raynaud_disease
+  - action: action_provide_disease_info
+- story: find disease 563
+  steps:
+  - action: utter_disease_info
+  - intent: reactive_arthritis
+  - action: action_provide_disease_info
+- story: find disease 564
+  steps:
+  - action: utter_disease_info
+  - intent: scabies
+  - action: action_provide_disease_info
+- story: find disease 565
+  steps:
+  - action: utter_disease_info
+  - intent: ear_wax_impaction
+  - action: action_provide_disease_info
+- story: find disease 566
+  steps:
+  - action: utter_disease_info
+  - intent: hypertension_of_pregnancy
+  - action: action_provide_disease_info
+- story: find disease 567
+  steps:
+  - action: utter_disease_info
+  - intent: peripheral_arterial_embolism
+  - action: action_provide_disease_info
+- story: find disease 568
+  steps:
+  - action: utter_disease_info
+  - intent: rosacea
+  - action: action_provide_disease_info
+- story: find disease 569
+  steps:
+  - action: utter_disease_info
+  - intent: fracture_of_the_skull
+  - action: action_provide_disease_info
+- story: find disease 570
+  steps:
+  - action: utter_disease_info
+  - intent: uveitis
+  - action: action_provide_disease_info
+- story: find disease 571
+  steps:
+  - action: utter_disease_info
+  - intent: fracture_of_the_facial_bones
+  - action: action_provide_disease_info
+- story: find disease 572
+  steps:
+  - action: utter_disease_info
+  - intent: tracheitis
+  - action: action_provide_disease_info
+- story: find disease 573
+  steps:
+  - action: utter_disease_info
+  - intent: jaw_disorder
+  - action: action_provide_disease_info
+- story: find disease 574
+  steps:
+  - action: utter_disease_info
+  - intent: perirectal_infection
+  - action: action_provide_disease_info
+- story: find disease 575
+  steps:
+  - action: utter_disease_info
+  - intent: breast_cyst
+  - action: action_provide_disease_info
+- story: find disease 576
+  steps:
+  - action: utter_disease_info
+  - intent: post_traumatic_stress_disorder_ptsd_
+  - action: action_provide_disease_info
+- story: find disease 577
+  steps:
+  - action: utter_disease_info
+  - intent: kidney_cancer
+  - action: action_provide_disease_info
+- story: find disease 578
+  steps:
+  - action: utter_disease_info
+  - intent: vulvar_cancer
+  - action: action_provide_disease_info
+- story: find disease 579
+  steps:
+  - action: utter_disease_info
+  - intent: blepharitis
+  - action: action_provide_disease_info
+- story: find disease 580
+  steps:
+  - action: utter_disease_info
+  - intent: celiac_disease
+  - action: action_provide_disease_info
+- story: find disease 581
+  steps:
+  - action: utter_disease_info
+  - intent: cystitis
+  - action: action_provide_disease_info
+- story: find disease 582
+  steps:
+  - action: utter_disease_info
+  - intent: sickle_cell_anemia
+  - action: action_provide_disease_info
+- story: find disease 583
+  steps:
+  - action: utter_disease_info
+  - intent: subconjunctival_hemorrhage
+  - action: action_provide_disease_info
+- story: find disease 584
+  steps:
+  - action: utter_disease_info
+  - intent: hemorrhoids
+  - action: action_provide_disease_info
+- story: find disease 585
+  steps:
+  - action: utter_disease_info
+  - intent: contact_dermatitis
+  - action: action_provide_disease_info
+- story: find disease 586
+  steps:
+  - action: utter_disease_info
+  - intent: sinus_bradycardia
+  - action: action_provide_disease_info
+- story: find disease 587
+  steps:
+  - action: utter_disease_info
+  - intent: high_blood_pressure
+  - action: action_provide_disease_info
+- story: find disease 588
+  steps:
+  - action: utter_disease_info
+  - intent: pelvic_inflammatory_disease
+  - action: action_provide_disease_info
+- story: find disease 589
+  steps:
+  - action: utter_disease_info
+  - intent: liver_disease
+  - action: action_provide_disease_info
+- story: find disease 590
+  steps:
+  - action: utter_disease_info
+  - intent: chronic_constipation
+  - action: action_provide_disease_info
+- story: find disease 591
+  steps:
+  - action: utter_disease_info
+  - intent: thyroid_cancer
+  - action: action_provide_disease_info
+- story: find disease 592
+  steps:
+  - action: utter_disease_info
+  - intent: influenza
+  - action: action_provide_disease_info
+- story: find disease 593
+  steps:
+  - action: utter_disease_info
+  - intent: friedrich_ataxia
+  - action: action_provide_disease_info
+- story: find disease 594
+  steps:
+  - action: utter_disease_info
+  - intent: tic_movement_disorder
+  - action: action_provide_disease_info
+- story: find disease 595
+  steps:
+  - action: utter_disease_info
+  - intent: skin_polyp
+  - action: action_provide_disease_info
+- story: find disease 596
+  steps:
+  - action: utter_disease_info
+  - intent: brachial_neuritis
+  - action: action_provide_disease_info
+- story: find disease 597
+  steps:
+  - action: utter_disease_info
+  - intent: cervical_cancer
+  - action: action_provide_disease_info
+- story: find disease 598
+  steps:
+  - action: utter_disease_info
+  - intent: adrenal_adenoma
+  - action: action_provide_disease_info
+- story: find disease 599
+  steps:
+  - action: utter_disease_info
+  - intent: esophagitis
+  - action: action_provide_disease_info
+- story: find disease 600
+  steps:
+  - action: utter_disease_info
+  - intent: gas_gangrene
+  - action: action_provide_disease_info
+- story: find disease 601
+  steps:
+  - action: utter_disease_info
+  - intent: yeast_infection
+  - action: action_provide_disease_info
+- story: find disease 602
+  steps:
+  - action: utter_disease_info
+  - intent: spina_bifida
+  - action: action_provide_disease_info
+- story: find disease 603
+  steps:
+  - action: utter_disease_info
+  - intent: drug_poisoning_due_to_medication
+  - action: action_provide_disease_info
+- story: find disease 604
+  steps:
+  - action: utter_disease_info
+  - intent: alcoholic_liver_disease
+  - action: action_provide_disease_info
+- story: find disease 605
+  steps:
+  - action: utter_disease_info
+  - intent: malignant_hypertension
+  - action: action_provide_disease_info
+- story: find disease 606
+  steps:
+  - action: utter_disease_info
+  - intent: diverticulitis
+  - action: action_provide_disease_info
+- story: find disease 607
+  steps:
+  - action: utter_disease_info
+  - intent: moyamoya_disease
+  - action: action_provide_disease_info
+- story: find disease 608
+  steps:
+  - action: utter_disease_info
+  - intent: heat_exhaustion
+  - action: action_provide_disease_info
+- story: find disease 609
+  steps:
+  - action: utter_disease_info
+  - intent: psychotic_disorder
+  - action: action_provide_disease_info
+- story: find disease 610
+  steps:
+  - action: utter_disease_info
+  - intent: frostbite
+  - action: action_provide_disease_info
+- story: find disease 611
+  steps:
+  - action: utter_disease_info
+  - intent: atrophy_of_the_corpus_cavernosum
+  - action: action_provide_disease_info
+- story: find disease 612
+  steps:
+  - action: utter_disease_info
+  - intent: smoking_or_tobacco_addiction
+  - action: action_provide_disease_info
+- story: find disease 613
+  steps:
+  - action: utter_disease_info
+  - intent: sprain_or_strain
+  - action: action_provide_disease_info
+- story: find disease 614
+  steps:
+  - action: utter_disease_info
+  - intent: essential_tremor
+  - action: action_provide_disease_info
+- story: find disease 615
+  steps:
+  - action: utter_disease_info
+  - intent: open_wound_of_the_ear
+  - action: action_provide_disease_info
+- story: find disease 616
+  steps:
+  - action: utter_disease_info
+  - intent: foreign_body_in_the_nose
+  - action: action_provide_disease_info
+- story: find disease 617
+  steps:
+  - action: utter_disease_info
+  - intent: idiopathic_painful_menstruation
+  - action: action_provide_disease_info
+- story: find disease 618
+  steps:
+  - action: utter_disease_info
+  - intent: down_syndrome
+  - action: action_provide_disease_info
+- story: find disease 619
+  steps:
+  - action: utter_disease_info
+  - intent: idiopathic_infrequent_menstruation
+  - action: action_provide_disease_info
+- story: find disease 620
+  steps:
+  - action: utter_disease_info
+  - intent: pneumothorax
+  - action: action_provide_disease_info
+- story: find disease 621
+  steps:
+  - action: utter_disease_info
+  - intent: de_quervain_disease
+  - action: action_provide_disease_info
+- story: find disease 622
+  steps:
+  - action: utter_disease_info
+  - intent: fracture_of_the_vertebra
+  - action: action_provide_disease_info
+- story: find disease 623
+  steps:
+  - action: utter_disease_info
+  - intent: human_immunodeficiency_virus_infection_hiv_
+  - action: action_provide_disease_info
+- story: find disease 624
+  steps:
+  - action: utter_disease_info
+  - intent: mumps
+  - action: action_provide_disease_info
+- story: find disease 625
+  steps:
+  - action: utter_disease_info
+  - intent: subarachnoid_hemorrhage
+  - action: action_provide_disease_info
+- story: find disease 626
+  steps:
+  - action: utter_disease_info
+  - intent: acute_fatty_liver_of_pregnancy_aflp_
+  - action: action_provide_disease_info
+- story: find disease 627
+  steps:
+  - action: utter_disease_info
+  - intent: ectropion
+  - action: action_provide_disease_info
+- story: find disease 628
+  steps:
+  - action: utter_disease_info
+  - intent: scar
+  - action: action_provide_disease_info
+- story: find disease 629
+  steps:
+  - action: utter_disease_info
+  - intent: lactose_intolerance
+  - action: action_provide_disease_info
+- story: find disease 630
+  steps:
+  - action: utter_disease_info
+  - intent: eustachian_tube_dysfunction_ear_disorder_
+  - action: action_provide_disease_info
+- story: find disease 631
+  steps:
+  - action: utter_disease_info
+  - intent: appendicitis
+  - action: action_provide_disease_info
+- story: find disease 632
+  steps:
+  - action: utter_disease_info
+  - intent: graves_disease
+  - action: action_provide_disease_info
+- story: find disease 633
+  steps:
+  - action: utter_disease_info
+  - intent: dissociative_disorder
+  - action: action_provide_disease_info
+- story: find disease 634
+  steps:
+  - action: utter_disease_info
+  - intent: open_wound_of_the_face
+  - action: action_provide_disease_info
+- story: find disease 635
+  steps:
+  - action: utter_disease_info
+  - intent: dislocation_of_the_vertebra
+  - action: action_provide_disease_info
+- story: find disease 636
+  steps:
+  - action: utter_disease_info
+  - intent: phimosis
+  - action: action_provide_disease_info
+- story: find disease 637
+  steps:
+  - action: utter_disease_info
+  - intent: hyperemesis_gravidarum
+  - action: action_provide_disease_info
+- story: find disease 638
+  steps:
+  - action: utter_disease_info
+  - intent: pregnancy
+  - action: action_provide_disease_info
+- story: find disease 639
+  steps:
+  - action: utter_disease_info
+  - intent: thalassemia
+  - action: action_provide_disease_info
+- story: find disease 640
+  steps:
+  - action: utter_disease_info
+  - intent: placenta_previa
+  - action: action_provide_disease_info
+- story: find disease 641
+  steps:
+  - action: utter_disease_info
+  - intent: epidural_hemorrhage
+  - action: action_provide_disease_info
+- story: find disease 642
+  steps:
+  - action: utter_disease_info
+  - intent: septic_arthritis
+  - action: action_provide_disease_info
+- story: find disease 643
+  steps:
+  - action: utter_disease_info
+  - intent: athlete_s_foot
+  - action: action_provide_disease_info
+- story: find disease 644
+  steps:
+  - action: utter_disease_info
+  - intent: pleural_effusion
+  - action: action_provide_disease_info
+- story: find disease 645
+  steps:
+  - action: utter_disease_info
+  - intent: aphakia
+  - action: action_provide_disease_info
+- story: find disease 646
+  steps:
+  - action: utter_disease_info
+  - intent: vulvar_disorder
+  - action: action_provide_disease_info
+- story: find disease 647
+  steps:
+  - action: utter_disease_info
+  - intent: sialoadenitis
+  - action: action_provide_disease_info
+- story: find disease 648
+  steps:
+  - action: utter_disease_info
+  - intent: gynecomastia
+  - action: action_provide_disease_info
+- story: find disease 649
+  steps:
+  - action: utter_disease_info
+  - intent: urinary_tract_infection
+  - action: action_provide_disease_info
+- story: find disease 650
+  steps:
+  - action: utter_disease_info
+  - intent: histoplasmosis
+  - action: action_provide_disease_info
+- story: find disease 651
+  steps:
+  - action: utter_disease_info
+  - intent: erythema_multiforme
+  - action: action_provide_disease_info
+- story: find disease 652
+  steps:
+  - action: utter_disease_info
+  - intent: scoliosis
+  - action: action_provide_disease_info
+- story: find disease 653
+  steps:
+  - action: utter_disease_info
+  - intent: bunion
+  - action: action_provide_disease_info
+- story: find disease 654
+  steps:
+  - action: utter_disease_info
+  - intent: arrhythmia
+  - action: action_provide_disease_info
+- story: find disease 655
+  steps:
+  - action: utter_disease_info
+  - intent: trigeminal_neuralgia
+  - action: action_provide_disease_info
+- story: find disease 656
+  steps:
+  - action: utter_disease_info
+  - intent: ankylosing_spondylitis
+  - action: action_provide_disease_info
+- story: find disease 657
+  steps:
+  - action: utter_disease_info
+  - intent: peripheral_nerve_disorder
+  - action: action_provide_disease_info
+- story: find disease 658
+  steps:
+  - action: utter_disease_info
+  - intent: sebaceous_cyst
+  - action: action_provide_disease_info
+- story: find disease 659
+  steps:
+  - action: utter_disease_info
+  - intent: poisoning_due_to_antipsychotics
+  - action: action_provide_disease_info
+- story: find disease 660
+  steps:
+  - action: utter_disease_info
+  - intent: neurosis
+  - action: action_provide_disease_info
+- story: find disease 661
+  steps:
+  - action: utter_disease_info
+  - intent: prostate_cancer
+  - action: action_provide_disease_info
+- story: find disease 662
+  steps:
+  - action: utter_disease_info
+  - intent: cerebral_edema
+  - action: action_provide_disease_info
+- story: find disease 663
+  steps:
+  - action: utter_disease_info
+  - intent: dislocation_of_the_finger
+  - action: action_provide_disease_info
+- story: find disease 664
+  steps:
+  - action: utter_disease_info
+  - intent: birth_trauma
+  - action: action_provide_disease_info
+- story: find disease 665
+  steps:
+  - action: utter_disease_info
+  - intent: chronic_pancreatitis
+  - action: action_provide_disease_info
+- story: find disease 666
+  steps:
+  - action: utter_disease_info
+  - intent: hematoma
+  - action: action_provide_disease_info
+- story: find disease 667
+  steps:
+  - action: utter_disease_info
+  - intent: carcinoid_syndrome
+  - action: action_provide_disease_info
+- story: find disease 668
+  steps:
+  - action: utter_disease_info
+  - intent: open_wound_of_the_head
+  - action: action_provide_disease_info
+- story: find disease 669
+  steps:
+  - action: utter_disease_info
+  - intent: seborrheic_keratosis
+  - action: action_provide_disease_info
+- story: find disease 670
+  steps:
+  - action: utter_disease_info
+  - intent: burn
+  - action: action_provide_disease_info
+- story: find disease 671
+  steps:
+  - action: utter_disease_info
+  - intent: spontaneous_abortion
+  - action: action_provide_disease_info
+- story: find disease 672
+  steps:
+  - action: utter_disease_info
+  - intent: genital_herpes
+  - action: action_provide_disease_info
+- story: find disease 673
+  steps:
+  - action: utter_disease_info
+  - intent: adjustment_reaction
+  - action: action_provide_disease_info
+- story: find disease 674
+  steps:
+  - action: utter_disease_info
+  - intent: gallstone
+  - action: action_provide_disease_info
+- story: find disease 675
+  steps:
+  - action: utter_disease_info
+  - intent: multiple_sclerosis
+  - action: action_provide_disease_info
+- story: find disease 676
+  steps:
+  - action: utter_disease_info
+  - intent: zenker_diverticulum
+  - action: action_provide_disease_info
+- story: find disease 677
+  steps:
+  - action: utter_disease_info
+  - intent: fracture_of_the_pelvis
+  - action: action_provide_disease_info
+- story: find disease 678
+  steps:
+  - action: utter_disease_info
+  - intent: pneumoconiosis
+  - action: action_provide_disease_info
+- story: find disease 679
+  steps:
+  - action: utter_disease_info
+  - intent: hyperlipidemia
+  - action: action_provide_disease_info
+- story: find disease 680
+  steps:
+  - action: utter_disease_info
+  - intent: ulcerative_colitis
+  - action: action_provide_disease_info
+- story: find disease 681
+  steps:
+  - action: utter_disease_info
+  - intent: male_genitalia_infection
+  - action: action_provide_disease_info
+- story: find disease 682
+  steps:
+  - action: utter_disease_info
+  - intent: hpv
+  - action: action_provide_disease_info
+- story: find disease 683
+  steps:
+  - action: utter_disease_info
+  - intent: angina
+  - action: action_provide_disease_info
+- story: find disease 684
+  steps:
+  - action: utter_disease_info
+  - intent: injury_to_the_spinal_cord
+  - action: action_provide_disease_info
+- story: find disease 685
+  steps:
+  - action: utter_disease_info
+  - intent: nasal_polyp
+  - action: action_provide_disease_info
+- story: find disease 686
+  steps:
+  - action: utter_disease_info
+  - intent: lichen_simplex
+  - action: action_provide_disease_info
+- story: find disease 687
+  steps:
+  - action: utter_disease_info
+  - intent: trichiasis
+  - action: action_provide_disease_info
+- story: find disease 688
+  steps:
+  - action: utter_disease_info
+  - intent: acariasis
+  - action: action_provide_disease_info
+- story: find disease 689
+  steps:
+  - action: utter_disease_info
+  - intent: colorectal_cancer
+  - action: action_provide_disease_info
+- story: find disease 690
+  steps:
+  - action: utter_disease_info
+  - intent: skin_pigmentation_disorder
+  - action: action_provide_disease_info
+- story: find disease 691
+  steps:
+  - action: utter_disease_info
+  - intent: factitious_disorder
+  - action: action_provide_disease_info
+- story: find disease 692
+  steps:
+  - action: utter_disease_info
+  - intent: lymphogranuloma_venereum
+  - action: action_provide_disease_info
+- story: find disease 693
+  steps:
+  - action: utter_disease_info
+  - intent: galactorrhea_of_unknown_cause
+  - action: action_provide_disease_info
+- story: find disease 694
+  steps:
+  - action: utter_disease_info
+  - intent: g6pd_enzyme_deficiency
+  - action: action_provide_disease_info
+- story: find disease 695
+  steps:
+  - action: utter_disease_info
+  - intent: nerve_impingement_near_the_shoulder
+  - action: action_provide_disease_info
+- story: find disease 696
+  steps:
+  - action: utter_disease_info
+  - intent: toxoplasmosis
+  - action: action_provide_disease_info
+- story: find disease 697
+  steps:
+  - action: utter_disease_info
+  - intent: fibroadenoma
+  - action: action_provide_disease_info
+- story: find disease 698
+  steps:
+  - action: utter_disease_info
+  - intent: open_wound_of_the_hand
+  - action: action_provide_disease_info
+- story: find disease 699
+  steps:
+  - action: utter_disease_info
+  - intent: missed_abortion
+  - action: action_provide_disease_info
+- story: find disease 700
+  steps:
+  - action: utter_disease_info
+  - intent: diabetic_ketoacidosis
+  - action: action_provide_disease_info
+- story: find disease 701
+  steps:
+  - action: utter_disease_info
+  - intent: granuloma_inguinale
+  - action: action_provide_disease_info
+- story: find disease 702
+  steps:
+  - action: utter_disease_info
+  - intent: obsessive_compulsive_disorder_ocd_
+  - action: action_provide_disease_info
+- story: find disease 703
+  steps:
+  - action: utter_disease_info
+  - intent: injury_of_the_ankle
+  - action: action_provide_disease_info
+- story: find disease 704
+  steps:
+  - action: utter_disease_info
+  - intent: hyponatremia
+  - action: action_provide_disease_info
+- story: find disease 705
+  steps:
+  - action: utter_disease_info
+  - intent: stricture_of_the_esophagus
+  - action: action_provide_disease_info
+- story: find disease 706
+  steps:
+  - action: utter_disease_info
+  - intent: fracture_of_the_ankle
+  - action: action_provide_disease_info
+- story: find disease 707
+  steps:
+  - action: utter_disease_info
+  - intent: soft_tissue_sarcoma
+  - action: action_provide_disease_info
+- story: find disease 708
+  steps:
+  - action: utter_disease_info
+  - intent: bone_disorder
+  - action: action_provide_disease_info
+- story: find disease 709
+  steps:
+  - action: utter_disease_info
+  - intent: epilepsy
+  - action: action_provide_disease_info
+- story: find disease 710
+  steps:
+  - action: utter_disease_info
+  - intent: personality_disorder
+  - action: action_provide_disease_info
+- story: find disease 711
+  steps:
+  - action: utter_disease_info
+  - intent: shingles_herpes_zoster_
+  - action: action_provide_disease_info
+- story: find disease 712
+  steps:
+  - action: utter_disease_info
+  - intent: tourette_syndrome
+  - action: action_provide_disease_info
+- story: find disease 713
+  steps:
+  - action: utter_disease_info
+  - intent: avascular_necrosis
+  - action: action_provide_disease_info
+- story: find disease 714
+  steps:
+  - action: utter_disease_info
+  - intent: strep_throat
+  - action: action_provide_disease_info
+- story: find disease 715
+  steps:
+  - action: utter_disease_info
+  - intent: spinocerebellar_ataxia
+  - action: action_provide_disease_info
+- story: find disease 716
+  steps:
+  - action: utter_disease_info
+  - intent: osteomyelitis
+  - action: action_provide_disease_info
+- story: find disease 717
+  steps:
+  - action: utter_disease_info
+  - intent: sjogren_syndrome
+  - action: action_provide_disease_info
+- story: find disease 718
+  steps:
+  - action: utter_disease_info
+  - intent: adhesive_capsulitis_of_the_shoulder
+  - action: action_provide_disease_info
+- story: find disease 719
+  steps:
+  - action: utter_disease_info
+  - intent: viral_hepatitis
+  - action: action_provide_disease_info
+- story: find disease 720
+  steps:
+  - action: utter_disease_info
+  - intent: tonsillar_hypertrophy
+  - action: action_provide_disease_info
+- story: find disease 721
+  steps:
+  - action: utter_disease_info
+  - intent: gastritis
+  - action: action_provide_disease_info
+- story: find disease 722
+  steps:
+  - action: utter_disease_info
+  - intent: skin_cancer
+  - action: action_provide_disease_info
+- story: find disease 723
+  steps:
+  - action: utter_disease_info
+  - intent: rheumatic_fever
+  - action: action_provide_disease_info
+- story: find disease 724
+  steps:
+  - action: utter_disease_info
+  - intent: aphthous_ulcer
+  - action: action_provide_disease_info
+- story: find disease 725
+  steps:
+  - action: utter_disease_info
+  - intent: tonsillitis
+  - action: action_provide_disease_info
+- story: find disease 726
+  steps:
+  - action: utter_disease_info
+  - intent: intestinal_cancer
+  - action: action_provide_disease_info
+- story: find disease 727
+  steps:
+  - action: utter_disease_info
+  - intent: rocky_mountain_spotted_fever
+  - action: action_provide_disease_info
+- story: find disease 728
+  steps:
+  - action: utter_disease_info
+  - intent: stomach_cancer
+  - action: action_provide_disease_info
+- story: find disease 729
+  steps:
+  - action: utter_disease_info
+  - intent: developmental_disability
+  - action: action_provide_disease_info
+- story: find disease 730
+  steps:
+  - action: utter_disease_info
+  - intent: acute_stress_reaction
+  - action: action_provide_disease_info
+- story: find disease 731
+  steps:
+  - action: utter_disease_info
+  - intent: delirium
+  - action: action_provide_disease_info
+- story: find disease 732
+  steps:
+  - action: utter_disease_info
+  - intent: callus
+  - action: action_provide_disease_info
+- story: find disease 733
+  steps:
+  - action: utter_disease_info
+  - intent: guillain_barre_syndrome
+  - action: action_provide_disease_info
+- story: find disease 734
+  steps:
+  - action: utter_disease_info
+  - intent: lumbago
+  - action: action_provide_disease_info
+- story: find disease 735
+  steps:
+  - action: utter_disease_info
+  - intent: deviated_nasal_septum
+  - action: action_provide_disease_info
+- story: find disease 736
+  steps:
+  - action: utter_disease_info
+  - intent: hemangioma
+  - action: action_provide_disease_info
+- story: find disease 737
+  steps:
+  - action: utter_disease_info
+  - intent: peripheral_arterial_disease
+  - action: action_provide_disease_info
+- story: find disease 738
+  steps:
+  - action: utter_disease_info
+  - intent: chronic_back_pain
+  - action: action_provide_disease_info
+- story: find disease 739
+  steps:
+  - action: utter_disease_info
+  - intent: heart_failure
+  - action: action_provide_disease_info
+- story: find disease 740
+  steps:
+  - action: utter_disease_info
+  - intent: conjunctivitis
+  - action: action_provide_disease_info
+- story: find disease 741
+  steps:
+  - action: utter_disease_info
+  - intent: herniated_disk
+  - action: action_provide_disease_info
+- story: find disease 742
+  steps:
+  - action: utter_disease_info
+  - intent: rhabdomyolysis
+  - action: action_provide_disease_info
+- story: find disease 743
+  steps:
+  - action: utter_disease_info
+  - intent: breast_infection_mastitis_
+  - action: action_provide_disease_info
+- story: find disease 744
+  steps:
+  - action: utter_disease_info
+  - intent: abdominal_aortic_aneurysm
+  - action: action_provide_disease_info
+- story: find disease 745
+  steps:
+  - action: utter_disease_info
+  - intent: pulmonary_embolism
+  - action: action_provide_disease_info
+- story: find disease 746
+  steps:
+  - action: utter_disease_info
+  - intent: conduct_disorder
+  - action: action_provide_disease_info
+- story: find disease 747
+  steps:
+  - action: utter_disease_info
+  - intent: mastectomy
+  - action: action_provide_disease_info
+- story: find disease 748
+  steps:
+  - action: utter_disease_info
+  - intent: epididymitis
+  - action: action_provide_disease_info
+- story: find disease 749
+  steps:
+  - action: utter_disease_info
+  - intent: premature_rupture_of_amniotic_membrane
+  - action: action_provide_disease_info
+- story: find disease 750
+  steps:
+  - action: utter_disease_info
+  - intent: molluscum_contagiosum
+  - action: action_provide_disease_info
+- story: find disease 751
+  steps:
+  - action: utter_disease_info
+  - intent: necrotizing_fasciitis
+  - action: action_provide_disease_info
+- story: find disease 752
+  steps:
+  - action: utter_disease_info
+  - intent: benign_vaginal_discharge_leukorrhea_
+  - action: action_provide_disease_info
+- story: find disease 753
+  steps:
+  - action: utter_disease_info
+  - intent: bladder_obstruction
+  - action: action_provide_disease_info
+- story: find disease 754
+  steps:
+  - action: utter_disease_info
+  - intent: melanoma
+  - action: action_provide_disease_info
+- story: find disease 755
+  steps:
+  - action: utter_disease_info
+  - intent: cervical_disorder
+  - action: action_provide_disease_info
+- story: find disease 756
+  steps:
+  - action: utter_disease_info
+  - intent: laryngitis
+  - action: action_provide_disease_info
+- story: find disease 757
+  steps:
+  - action: utter_disease_info
+  - intent: dyshidrosis
+  - action: action_provide_disease_info
+- story: find disease 758
+  steps:
+  - action: utter_disease_info
+  - intent: poisoning_due_to_opioids
+  - action: action_provide_disease_info
+- story: find disease 759
+  steps:
+  - action: utter_disease_info
+  - intent: diaper_rash
+  - action: action_provide_disease_info
+- story: find disease 760
+  steps:
+  - action: utter_disease_info
+  - intent: lichen_planus
+  - action: action_provide_disease_info
+- story: find disease 761
+  steps:
+  - action: utter_disease_info
+  - intent: gastroduodenal_ulcer
+  - action: action_provide_disease_info
+- story: find disease 762
+  steps:
+  - action: utter_disease_info
+  - intent: inguinal_hernia
+  - action: action_provide_disease_info
+- story: find disease 763
+  steps:
+  - action: utter_disease_info
+  - intent: eczema
+  - action: action_provide_disease_info
+- story: find disease 764
+  steps:
+  - action: utter_disease_info
+  - intent: asperger_syndrome
+  - action: action_provide_disease_info
+- story: find disease 765
+  steps:
+  - action: utter_disease_info
+  - intent: mucositis
+  - action: action_provide_disease_info
+- story: find disease 766
+  steps:
+  - action: utter_disease_info
+  - intent: paronychia
+  - action: action_provide_disease_info
+- story: find disease 767
+  steps:
+  - action: utter_disease_info
+  - intent: open_wound_of_the_jaw
+  - action: action_provide_disease_info
+- story: find disease 768
+  steps:
+  - action: utter_disease_info
+  - intent: white_blood_cell_disease
+  - action: action_provide_disease_info
+- story: find disease 769
+  steps:
+  - action: utter_disease_info
+  - intent: kaposi_sarcoma
+  - action: action_provide_disease_info
+- story: find disease 770
+  steps:
+  - action: utter_disease_info
+  - intent: spondylolisthesis
+  - action: action_provide_disease_info
+- story: find disease 771
+  steps:
+  - action: utter_disease_info
+  - intent: pseudotumor_cerebri
+  - action: action_provide_disease_info
+- story: find disease 772
+  steps:
+  - action: utter_disease_info
+  - intent: conjunctivitis_due_to_virus
+  - action: action_provide_disease_info
+- story: find disease 773
+  steps:
+  - action: utter_disease_info
+  - intent: open_wound_of_the_nose
+  - action: action_provide_disease_info
