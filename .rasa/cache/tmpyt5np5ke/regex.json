@@ -1,0 +1,6 @@
+[
+  {
+    "name": "symptom",
+    "pattern": "\\b(?:.*)\\b"
+  }
+]

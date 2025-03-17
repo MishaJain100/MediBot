@@ -9,11 +9,12 @@ intents:
   - mood_unhappy
   - bot_challenge
   - panic_disorder
-  - vocal_cord_nodule
   - turner_syndrome
+  - vocal_cord_nodule
   - cryptorchidism
-  - ethylene_glycol_poisoning
+  - Ethylene_glycol_poisoning
   - atrophic_vaginitis
+  - hand_injury
   - cellulitis
   - strabismus
   - post-dural-puncture_headache
@@ -25,6 +26,7 @@ intents:
   - vaginitis
   - sinus_node_dysfunction
   - tinnitus
+  - glaucoma
   - eating_disorder
   - transient_ischemic_attack
   - pyelonephritis
@@ -33,8 +35,8 @@ intents:
   - complications_of_pregnancy
   - liver_cancer
   - atelectasis
-  - hand_injury
   - common_bile_duct_stone
+  - hip_pain
   - cirrhosis
   - thoracic_aortic_aneurysm
   - subdural_hematoma
@@ -43,6 +45,7 @@ intents:
   - intestinal_ischemia
   - fetal_alcohol_spectrum_disorder
   - peritonitis
+  - abdominal_trauma
   - acute_pancreatitis
   - thrombophlebitis
   - asthma
@@ -63,7 +66,7 @@ intents:
   - chalazion
   - ovarian_torsion
   - hypertensive_retinopathy
-  - vaginal_yeast_infection
+  - vaginal_Vaginal_yeast_infection
   - mastoiditis
   - pulmonary_contusion
   - hypertrophic_cardiomyopathy
@@ -98,7 +101,6 @@ intents:
   - atrial_fibrillation
   - pinworm_infection
   - posterior_urethral_valve
-  - penetrating_trauma
   - esophageal_achalasia
   - conductive_hearing_loss
   - hernia
@@ -118,6 +120,7 @@ intents:
   - presbycusis
   - neonatal_jaundice
   - chronic_obstructive_pulmonary_disease
+  - joint_dislocation
   - spondylosis
   - herpangina
   - shoulder_problem
@@ -128,6 +131,7 @@ intents:
   - myoclonus
   - calcaneal_spur
   - von_Willebrand_disease
+  - penetrating_trauma
   - heart_block
   - colorectal_polyp
   - magnesium_deficiency
@@ -171,7 +175,6 @@ intents:
   - myasthenia_gravis
   - hypoglycemia
   - functional_hypothalamic_amenorrhea
-  - joint_dislocation
   - carbon_monoxide_poisoning
   - panic_attack
   - plantar_fasciitis
@@ -181,17 +184,15 @@ intents:
   - peyronie's_disease
   - hiatal_hernia
   - extrapyramidal_symptoms
-  - ménière's_disease
+  - Ménière's_disease
   - anal_fissure
   - allergy
-  - otitis_media
   - broken_finger
   - hirschsprung's_disease
   - polymyalgia_rheumatica
   - lymphedema
   - bladder_cancer
   - bronchospasm
-  - glaucoma
   - patellar_dislocation
   - sciatica
   - hypercalcaemia
@@ -208,6 +209,7 @@ intents:
   - huntington's_disease
   - lymphoma
   - photodermatitis
+  - anemia_of_chronic_disease
   - internal_bleeding
   - scleritis
   - pterygium
@@ -224,6 +226,7 @@ intents:
   - valvular_heart_disease
   - parkinson's_disease
   - gout
+  - otitis_media
   - substance_abuse
   - myelodysplastic_syndrome
   - scapular_fracture
@@ -265,7 +268,6 @@ intents:
   - testicular_cancer
   - hydrocephalus
   - breast_cancer
-  - anemia_of_chronic_disease
   - esophageal_varices
   - endometrial_cancer
   - cystic_fibrosis
@@ -299,7 +301,6 @@ intents:
   - globe_rupture
   - syphilis
   - diabetic_nephropathy
-  - human_nose
   - drug_withdrawal
   - tooth_decay
   - hypercholesterolemia
@@ -311,331 +312,317 @@ intents:
   - hyperosmolar_hyperglycemic_state
   - peritonsillar_abscess
   - gastroparesis
-  - itch
+  - Itch
   - polycythemia_vera
   - thrombocytopenia
   - head_and_neck_cancer
   - pseudohypoparathyroidism
-  - goitre
-  - urinary_incontinence
-  - trisomy_18
-  - wound
+  - Goitre
+  - Urinary_incontinence
+  - Trisomy_18
   - muscular_dystrophy
   - mittelschmerz
   - corneal_abrasion
-  - dysthymia
+  - Dysthymia
   - scarlet_fever
   - hypertensive_heart_disease
-  - barbiturate
-  - polycystic_ovary_syndrome
+  - Barbiturate
+  - Polycystic_ovary_syndrome
   - encephalitis
-  - hidrocystoma
+  - Hidrocystoma
   - balanitis
-  - foreign_body_aspiration
-  - cocaine_dependence
+  - Cocaine_dependence
   - optic_neuritis
-  - alcohol_withdrawal_syndrome
-  - premature_atrial_contraction
-  - hemiparesis
+  - Alcohol_withdrawal_syndrome
+  - Premature_atrial_contraction
+  - Hemiparesis
   - hammer_toe
-  - facial_trauma
+  - Facial_trauma
   - joint_effusion
-  - kneecapping
+  - Knee
   - meningioma
   - brain_cancer
   - placental_abruption
-  - allergic_rhinitis
+  - Allergic_rhinitis
   - lung_cancer
-  - kidney_disease
+  - Kidney_disease
   - uterine_cancer
-  - sjögren's_disease
-  - fibrocystic_breast_changes
-  - tinea_barbae
-  - dental_abscess
-  - envenomation
+  - Sjögren's_disease
+  - Fibrocystic_breast_changes
+  - Tinea_barbae
+  - Dental_abscess
+  - Spider_bite
   - VACTERL_association
   - vertebrobasilar_insufficiency
-  - anorectal_disorder
-  - neurogenic_bladder_dysfunction
-  - benign_paroxysmal_positional_vertigo
+  - Anorectal_disorder
+  - Neurogenic_bladder_dysfunction
+  - Benign_paroxysmal_positional_vertigo
   - blepharospasm
   - sarcoidosis
-  - metastasis
-  - trigger_finger
+  - Metastasis
+  - Trigger_finger
   - stye
-  - iron_overload
+  - Iron_overload
   - osteochondroma
-  - cushing's_syndrome
+  - Cushing's_syndrome
   - typhoid_fever
-  - posterior_vitreous_detachment
-  - poikiloderma_vasculare_atrophicans
+  - Posterior_vitreous_detachment
+  - Poikiloderma_vasculare_atrophicans
   - aspergillosis
   - uterine_atony
   - trichinosis
   - whooping_cough
-  - cheilitis
+  - Cheilitis
   - subacute_thyroiditis
-  - oral_mucosa
+  - Oral_mucosa
   - intracerebral_hemorrhage
-  - alzheimer's_disease
+  - Alzheimer's_disease
   - vaginismus
-  - lupus
-  - primary_ovarian_insufficiency
+  - Lupus
+  - Primary_ovarian_insufficiency
   - thoracic_outlet_syndrome
   - ganglion_cyst
-  - knee_dislocation
-  - crohn's_disease
-  - postoperative_wounds
+  - Knee_dislocation
+  - Crohn's_disease
+  - Postoperative_wounds
   - folate_deficiency
-  - hypervolemia
+  - Hypervolemia
   - atrial_flutter
-  - list_of_skin_conditions
-  - floater
-  - tooth_pathology
-  - myocardial_infarction
-  - abdominal_trauma
-  - femoral_fracture
-  - oral_candidiasis
+  - List_of_skin_conditions
+  - Floater
+  - Tooth_pathology
+  - Myocardial_infarction
+  - Abdominal_trauma
+  - Femoral_fracture
+  - Candidiasis
   - pityriasis_rosea
-  - animal_allergy
+  - Animal_allergy
   - orthostatic_hypotension
-  - obstructive_sleep_apnea
+  - Obstructive_sleep_apnea
   - hypokalemia
   - psoriasis
-  - dislocated_shoulder
+  - Dislocated_shoulder
   - intussusception
   - cervicitis
-  - parapharyngeal_abscess
-  - thrombocythemia
-  - hip_pain
-  - pressure_ulcer
+  - Parapharyngeal_abscess
+  - Thrombocythemia
+  - Hip_pain
+  - Pressure_ulcer
   - hypernatremia
   - sensorineural_hearing_loss
-  - ulcer
+  - Ulcer
   - osteoporosis
   - ileus
-  - sickle_cell_disease
+  - Sickle_cell_disease
   - urethritis
   - prostatitis
-  - otitis_externa
-  - anticonvulsant
+  - Otitis_externa
+  - Anticonvulsant
   - testicular_torsion
-  - tricuspid_valve_disease
+  - Tricuspid_valve
   - urethral_stricture
-  - vitamin_d_deficiency
-  - hydatidiform_mole
-  - pain_disorder_affecting_the_neck
+  - Vitamin_D_deficiency
+  - Molar_pregnancy
+  - Torticollis
   - tuberculosis
-  - pelvic_fistula
-  - acute_bronchiolitis
+  - Urogenital_fistula
+  - Bronchiolitis
   - presbyopia
   - dementia
-  - insect_bite
-  - paroxysmal_ventricular_tachycardia
+  - Arthropod_bites_and_stings
+  - Paroxysmal_tachycardia
   - congenital_heart_defect
-  - connective_tissue_disorder
-  - foreign_body_in_the_eye
-  - poisoning_due_to_gas
-  - pyogenic_skin_infection
+  - Connective_tissue_disease
+  - List_of_highly_toxic_gases
+  - Pyoderma
   - endometrial_hyperplasia
   - acanthosis_nigricans
-  - central_atherosclerosis
-  - viral_exanthem
-  - nongastroenteritis
-  - benign_prostatic_hyperplasia_bph_
+  - Atherosclerosis
+  - Exanthem
+  - Benign_prostatic_hyperplasia
   - menopause
   - primary_immunodeficiency
   - ovarian_cancer
   - cataract
-  - dislocation_of_the_hip
+  - Hip_dislocation
   - spinal_stenosis
-  - intestinal_obstruction
-  - heart_contusion
-  - congenital_malformation_syndrome
+  - Bowel_obstruction
+  - Blunt_cardiac_injury
+  - Birth_defect
   - sporotrichosis
   - lymphangitis
-  - wernicke_korsakoff_syndrome
-  - intestinal_disease
+  - Wernicke–Korsakoff_syndrome
+  - Gastrointestinal_disease
   - acute_bronchitis
-  - persistent_vomiting_of_unknown_cause
-  - open_wound_of_the_foot
+  - Cyclic_vomiting_syndrome
   - myocarditis
-  - preeclampsia
-  - ischemic_heart_disease
+  - Pre-eclampsia
+  - Coronary_artery_disease
   - neurofibromatosis
   - chickenpox
   - pancreatic_cancer
-  - neuropathy_due_to_drugs
   - croup
-  - idiopathic_excessive_menstruation
+  - Puberty_menorrhagia
   - amblyopia
-  - meckel_diverticulum
-  - dislocation_of_the_wrist
-  - ear_drum_damage
+  - Meckel's_diverticulum
+  - Barton's_fracture
+  - Perforated_eardrum
   - erectile_dysfunction
-  - temporary_or_benign_blood_in_urine
-  - kidney_disease_due_to_longstanding_hypertension
-  - chondromalacia_of_the_patella
+  - Benign_nephrosclerosis
+  - Chondromalacia_patellae
   - onychomycosis
-  - urethral_disorder
+  - Urethral_syndrome
   - lyme_disease
-  - iron_deficiency_anemia
-  - acute_respiratory_distress_syndrome_ards_
-  - toxic_multinodular_goiter
-  - open_wound_of_the_finger
-  - autonomic_nervous_system_disorder
+  - Iron-deficiency_anemia
+  - Acute_respiratory_distress_syndrome
+  - toxic_multinodular_Goitre
+  - Dysautonomia
   - psychosexual_disorder
   - anemia
-  - tendinitis
+  - Tendinopathy
   - common_cold
-  - amyotrophic_lateral_sclerosis_als_
-  - central_retinal_artery_or_vein_occlusion
+  - ALS
+  - Central_retinal_artery
   - paroxysmal_supraventricular_tachycardia
   - venous_insufficiency
-  - trichomonas_infection
+  - Trichomonas
   - acne
   - depression
-  - drug_abuse
+  - Substance_abuse
   - urinary_tract_obstruction
   - diabetes_insipidus
-  - iridocyclitis
-  - varicocele_of_the_testicles
+  - Uveitis
+  - Varicocele
   - irritable_bowel_syndrome
-  - fracture_of_the_foot
+  - Jones_fracture
   - ovarian_cyst
   - chlamydia
   - parasitic_disease
-  - fracture_of_the_jaw
   - lipoma
-  - female_genitalia_infection
+  - Vaginal_disease
   - pulmonary_hypertension
   - thyroid_nodule
-  - broken_tooth
+  - Cracked_tooth_syndrome
   - dumping_syndrome
-  - lymphadenitis
-  - injury_to_the_face
-  - aortic_valve_disease
+  - Lymphadenopathy
+  - Aortic_valve
   - rheumatoid_arthritis
   - spermatocele
   - impetigo
   - anal_fistula
   - hypothermia
-  - oppositional_disorder
+  - Oppositional_defiant_disorder
   - migraine
-  - diabetic_peripheral_neuropathy
-  - testicular_disorder
+  - Diabetic_neuropathy
+  - Testicular_dysgenesis_syndrome
   - gestational_diabetes
   - hidradenitis_suppurativa
-  - valley_fever
-  - conjunctivitis_due_to_bacteria
+  - Coccidioidomycosis
   - lewy_body_dementia
   - multiple_myeloma
   - head_injury
   - ascending_cholangitis
-  - idiopathic_irregular_menstrual_cycle
+  - Heavy_menstrual_bleeding
   - interstitial_lung_disease
-  - mononeuritis
+  - Peripheral_neuropathy
   - malaria
-  - somatization_disorder
+  - Somatic_symptom_disorder
   - hypovolemia
   - schizophrenia
-  - knee_ligament_or_meniscus_tear
+  - Meniscus_tear
   - endocarditis
   - sepsis
   - heat_stroke
-  - cholecystitis
+  - choleUrinary_tract_infection
   - cardiac_arrest
   - cardiomyopathy
-  - social_phobia
+  - Social_anxiety_disorder
   - meningitis
   - spherocytosis
-  - hormone_disorder
-  - raynaud_disease
+  - Endocrine_disease
+  - Raynaud_syndrome
   - reactive_arthritis
   - scabies
-  - ear_wax_impaction
-  - hypertension_of_pregnancy
-  - peripheral_arterial_embolism
+  - Earwax
+  - Gestational_hypertension
+  - Arterial_embolism
   - rosacea
-  - fracture_of_the_skull
+  - Skull_fracture
   - uveitis
-  - fracture_of_the_facial_bones
   - tracheitis
-  - jaw_disorder
-  - perirectal_infection
+  - Jaw_abnormality
+  - Anorectal_abscess
   - breast_cyst
-  - post_traumatic_stress_disorder_ptsd_
+  - Post-traumatic_stress_disorder
   - kidney_cancer
   - vulvar_cancer
   - blepharitis
-  - celiac_disease
-  - cystitis
-  - sickle_cell_anemia
-  - subconjunctival_hemorrhage
-  - hemorrhoids
+  - Coeliac_disease
+  - Urinary_tract_infection
+  - Subconjunctival_bleeding
+  - Hemorrhoid
   - contact_dermatitis
   - sinus_bradycardia
-  - high_blood_pressure
+  - Hypertension
   - pelvic_inflammatory_disease
   - liver_disease
-  - chronic_constipation
+  - Constipation
   - thyroid_cancer
-  - influenza
-  - friedrich_ataxia
-  - tic_movement_disorder
-  - skin_polyp
-  - brachial_neuritis
+  - Influenza
+  - Friedreich's_ataxia
+  - Tic_disorder
+  - Polyp_(medicine)
+  - Parsonage–Turner_syndrome
   - cervical_cancer
-  - adrenal_adenoma
+  - Adrenocortical_adenoma
   - esophagitis
   - gas_gangrene
-  - yeast_infection
+  - Vaginal_yeast_infection
   - spina_bifida
-  - drug_poisoning_due_to_medication
+  - Drug_overdose
   - alcoholic_liver_disease
-  - malignant_hypertension
+  - Hypertensive_emergency
   - diverticulitis
   - moyamoya_disease
   - heat_exhaustion
-  - psychotic_disorder
+  - Psychosis
   - frostbite
-  - atrophy_of_the_corpus_cavernosum
-  - smoking_or_tobacco_addiction
-  - sprain_or_strain
+  - Erectile_dysfunction
+  - Nicotine_dependence
+  - Strain_(injury)
   - essential_tremor
-  - open_wound_of_the_ear
-  - foreign_body_in_the_nose
-  - idiopathic_painful_menstruation
+  - Cauliflower_ear
+  - Foreign_body_aspiration
+  - Dysmenorrhea
   - down_syndrome
-  - idiopathic_infrequent_menstruation
+  - Anovulation
   - pneumothorax
-  - de_quervain_disease
-  - fracture_of_the_vertebra
-  - human_immunodeficiency_virus_infection_hiv_
+  - De_Quervain_syndrome
+  - Spinal_fracture
+  - HIV
   - mumps
   - subarachnoid_hemorrhage
-  - acute_fatty_liver_of_pregnancy_aflp_
+  - Acute_fatty_liver_of_pregnancy
   - ectropion
   - scar
   - lactose_intolerance
-  - eustachian_tube_dysfunction_ear_disorder_
+  - Eustachian_tube_dysfunction
   - appendicitis
-  - graves_disease
+  - Graves'_disease
   - dissociative_disorder
-  - open_wound_of_the_face
-  - dislocation_of_the_vertebra
+  - Cervical_dislocation
   - phimosis
   - hyperemesis_gravidarum
   - pregnancy
   - thalassemia
-  - placenta_previa
-  - epidural_hemorrhage
+  - Placenta_praevia
+  - Epidural_hematoma
   - septic_arthritis
-  - athlete_s_foot
+  - Athlete's_foot
   - pleural_effusion
   - aphakia
-  - vulvar_disorder
-  - sialoadenitis
+  - Vulvar_disease
+  - Sialadenitis
   - gynecomastia
   - urinary_tract_infection
   - histoplasmosis
@@ -645,123 +632,121 @@ intents:
   - arrhythmia
   - trigeminal_neuralgia
   - ankylosing_spondylitis
-  - peripheral_nerve_disorder
+  - Peripheral_nervous_system
   - sebaceous_cyst
-  - poisoning_due_to_antipsychotics
+  - Antipsychotic
   - neurosis
   - prostate_cancer
   - cerebral_edema
-  - dislocation_of_the_finger
   - birth_trauma
   - chronic_pancreatitis
   - hematoma
   - carcinoid_syndrome
-  - open_wound_of_the_head
+  - Penetrating_head_injury
   - seborrheic_keratosis
   - burn
-  - spontaneous_abortion
   - genital_herpes
-  - adjustment_reaction
+  - Adjustment_disorder
   - gallstone
   - multiple_sclerosis
-  - zenker_diverticulum
-  - fracture_of_the_pelvis
+  - Zenker's_diverticulum
+  - Pelvic_fracture
   - pneumoconiosis
   - hyperlipidemia
   - ulcerative_colitis
-  - male_genitalia_infection
-  - hpv
+  - Male_genital_disease
+  - Human_papillomavirus_infection
   - angina
-  - injury_to_the_spinal_cord
+  - Spinal_cord_injury
   - nasal_polyp
-  - lichen_simplex
+  - Lichen_simplex_chronicus
   - trichiasis
   - acariasis
   - colorectal_cancer
-  - skin_pigmentation_disorder
+  - Pigmentation_disorder
   - factitious_disorder
   - lymphogranuloma_venereum
-  - galactorrhea_of_unknown_cause
-  - g6pd_enzyme_deficiency
-  - nerve_impingement_near_the_shoulder
+  - Hyperprolactinaemia
+  - Glucose-6-phosphate_dehydrogenase_deficiency
+  - Shoulder_impingement_syndrome
   - toxoplasmosis
   - fibroadenoma
-  - open_wound_of_the_hand
-  - missed_abortion
+  - Wound
+  - Miscarriage
   - diabetic_ketoacidosis
   - granuloma_inguinale
-  - obsessive_compulsive_disorder_ocd_
-  - injury_of_the_ankle
+  - Obsessive–compulsive_disorder
+  - Ankle_problems
   - hyponatremia
-  - stricture_of_the_esophagus
-  - fracture_of_the_ankle
-  - soft_tissue_sarcoma
-  - bone_disorder
+  - Esophageal_stricture
+  - Ankle_fracture
+  - Soft-tissue_sarcoma
+  - Bone_disease
   - epilepsy
   - personality_disorder
-  - shingles_herpes_zoster_
+  - Shingles
   - tourette_syndrome
   - avascular_necrosis
-  - strep_throat
+  - Streptococcal_pharyngitis
   - spinocerebellar_ataxia
   - osteomyelitis
-  - sjogren_syndrome
   - adhesive_capsulitis_of_the_shoulder
   - viral_hepatitis
-  - tonsillar_hypertrophy
+  - Tonsil
   - gastritis
   - skin_cancer
   - rheumatic_fever
-  - aphthous_ulcer
+  - Aphthous_stomatitis
   - tonsillitis
-  - intestinal_cancer
-  - rocky_mountain_spotted_fever
+  - Colorectal_cancer
+  - Rocky_Mountain_spotted_fever
   - stomach_cancer
   - developmental_disability
   - acute_stress_reaction
   - delirium
   - callus
-  - guillain_barre_syndrome
-  - lumbago
-  - deviated_nasal_septum
+  - Guillain–Barré_syndrome
+  - Low_back_pain
+  - Nasal_septum_deviation
   - hemangioma
-  - peripheral_arterial_disease
-  - chronic_back_pain
+  - Peripheral_artery_disease
+  - Back_pain
   - heart_failure
   - conjunctivitis
-  - herniated_disk
+  - Disc_herniation
   - rhabdomyolysis
-  - breast_infection_mastitis_
+  - Mastitis
   - abdominal_aortic_aneurysm
   - pulmonary_embolism
   - conduct_disorder
   - mastectomy
   - epididymitis
-  - premature_rupture_of_amniotic_membrane
+  - Amniotic_sac
   - molluscum_contagiosum
   - necrotizing_fasciitis
-  - benign_vaginal_discharge_leukorrhea_
-  - bladder_obstruction
+  - Vagina
+  - Bladder_outlet_obstruction
   - melanoma
-  - cervical_disorder
+  - Cervical_spine_disorder
   - laryngitis
   - dyshidrosis
-  - poisoning_due_to_opioids
-  - diaper_rash
+  - Opioid_overdose
+  - Irritant_diaper_dermatitis
   - lichen_planus
-  - gastroduodenal_ulcer
+  - Peptic_ulcer_disease
   - inguinal_hernia
-  - eczema
+  - Dermatitis
   - asperger_syndrome
   - mucositis
   - paronychia
-  - open_wound_of_the_jaw
-  - white_blood_cell_disease
-  - kaposi_sarcoma
+  - Mandibular_fracture
+  - White_blood_cell
+  - Kaposi's_sarcoma
   - spondylolisthesis
-  - pseudotumor_cerebri
-  - conjunctivitis_due_to_virus
-  - open_wound_of_the_nose
+  - Idiopathic_intracranial_hypertension
+
+actions:
+  - action_provide_disease_info
 
 responses:
   utter_greet:
@@ -781,13 +766,7 @@ responses:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-  utter_disease_info:
-    - text: "I can provide information about different diseases. Please tell me the disease you're concerned about."
-
-actions:
-  - action_provide_disease_info
+  - text: "I am a medical diagnosis chatbot."
 
 entities:
   - symptom

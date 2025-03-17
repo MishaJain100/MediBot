@@ -1,17 +1,8 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
-#
-# See this guide on how to implement these action:
-# https://rasa.com/docs/rasa/custom-actions
-
-
-# This is a simple example for a custom action which utters "Hello World!"
-
 from typing import Any, Text, Dict, List
-
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import requests
+from bs4 import BeautifulSoup
 
 class ActionProvideDiseaseInfo(Action):
 
@@ -24,13 +15,18 @@ class ActionProvideDiseaseInfo(Action):
 
         last_intent = tracker.latest_message['intent'].get('name')
 
-        url = "https://en.wikipedia.org/w/api.php"
+        entities = tracker.latest_message.get('entities', [])
+        symptoms = [e['value'] for e in entities if e['entity'] == 'symptom']
+        disease = next((e['value'] for e in entities if e['entity'] == 'disease'), None)
 
+        search_term = disease if disease else last_intent
+
+        url = "https://en.wikipedia.org/w/api.php"
         params = {
             "action": "query",
             "prop": "extracts",
             "exintro": True,
-            "titles": last_intent,
+            "titles": search_term,
             "format": "json"
         }
 
@@ -39,11 +35,10 @@ class ActionProvideDiseaseInfo(Action):
         if response.status_code == 200:
             data = response.json()
             page = list(data["query"]["pages"].values())[0]
-            extract = page.get("extract", "No extract available.")
-            message = ""
-            dispatcher.utter_message(extract)
+            extract = page.get("extract", "No information found.")
+            clean_text = BeautifulSoup(extract, "html.parser").get_text()
+            dispatcher.utter_message(clean_text)
         else:
-            print(f"Failed to retrieve data: {response.status_code}")
-            dispatcher.utter_message("Wait, loading")
+            dispatcher.utter_message("Sorry, I couldn't fetch the information.")
 
         return []

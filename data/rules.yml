@@ -11,3 +11,3823 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Respond to panic disorder
+  steps:
+  - intent: panic_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to turner syndrome
+  steps:
+  - intent: turner_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to vocal cord nodule
+  steps:
+  - intent: vocal_cord_nodule
+  - action: action_provide_disease_info
+
+- rule: Respond to cryptorchidism
+  steps:
+  - intent: cryptorchidism
+  - action: action_provide_disease_info
+
+- rule: Respond to ethylene glycol poisoning
+  steps:
+  - intent: Ethylene_glycol_poisoning
+  - action: action_provide_disease_info
+
+- rule: Respond to atrophic vaginitis
+  steps:
+  - intent: atrophic_vaginitis
+  - action: action_provide_disease_info
+
+- rule: Respond to hand injury
+  steps:
+  - intent: hand_injury
+  - action: action_provide_disease_info
+
+- rule: Respond to cellulitis
+  steps:
+  - intent: cellulitis
+  - action: action_provide_disease_info
+
+- rule: Respond to strabismus
+  steps:
+  - intent: strabismus
+  - action: action_provide_disease_info
+
+- rule: Respond to post-dural-puncture headache
+  steps:
+  - intent: post-dural-puncture_headache
+  - action: action_provide_disease_info
+
+- rule: Respond to pyloric stenosis
+  steps:
+  - intent: pyloric_stenosis
+  - action: action_provide_disease_info
+
+- rule: Respond to salivary gland disease
+  steps:
+  - intent: salivary_gland_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to osteochondrosis
+  steps:
+  - intent: osteochondrosis
+  - action: action_provide_disease_info
+
+- rule: Respond to knee pain
+  steps:
+  - intent: knee_pain
+  - action: action_provide_disease_info
+
+- rule: Respond to metabolic disorder
+  steps:
+  - intent: metabolic_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to vaginitis
+  steps:
+  - intent: vaginitis
+  - action: action_provide_disease_info
+
+- rule: Respond to sinus node dysfunction
+  steps:
+  - intent: sinus_node_dysfunction
+  - action: action_provide_disease_info
+
+- rule: Respond to tinnitus
+  steps:
+  - intent: tinnitus
+  - action: action_provide_disease_info
+
+- rule: Respond to glaucoma
+  steps:
+  - intent: glaucoma
+  - action: action_provide_disease_info
+
+- rule: Respond to eating disorder
+  steps:
+  - intent: eating_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to transient ischemic attack
+  steps:
+  - intent: transient_ischemic_attack
+  - action: action_provide_disease_info
+
+- rule: Respond to pyelonephritis
+  steps:
+  - intent: pyelonephritis
+  - action: action_provide_disease_info
+
+- rule: Respond to rotator cuff tear
+  steps:
+  - intent: rotator_cuff_tear
+  - action: action_provide_disease_info
+
+- rule: Respond to chronic pain
+  steps:
+  - intent: chronic_pain
+  - action: action_provide_disease_info
+
+- rule: Respond to complications of pregnancy
+  steps:
+  - intent: complications_of_pregnancy
+  - action: action_provide_disease_info
+
+- rule: Respond to liver cancer
+  steps:
+  - intent: liver_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to atelectasis
+  steps:
+  - intent: atelectasis
+  - action: action_provide_disease_info
+
+- rule: Respond to hand injury
+  steps:
+  - intent: hand_injury
+  - action: action_provide_disease_info
+
+- rule: Respond to common bile duct stone
+  steps:
+  - intent: common_bile_duct_stone
+  - action: action_provide_disease_info
+
+- rule: Respond to hip pain
+  steps:
+  - intent: hip_pain
+  - action: action_provide_disease_info
+
+- rule: Respond to cirrhosis
+  steps:
+  - intent: cirrhosis
+  - action: action_provide_disease_info
+
+- rule: Respond to thoracic aortic aneurysm
+  steps:
+  - intent: thoracic_aortic_aneurysm
+  - action: action_provide_disease_info
+
+- rule: Respond to subdural hematoma
+  steps:
+  - intent: subdural_hematoma
+  - action: action_provide_disease_info
+
+- rule: Respond to diabetic retinopathy
+  steps:
+  - intent: diabetic_retinopathy
+  - action: action_provide_disease_info
+
+- rule: Respond to fibromyalgia
+  steps:
+  - intent: fibromyalgia
+  - action: action_provide_disease_info
+
+- rule: Respond to intestinal ischemia
+  steps:
+  - intent: intestinal_ischemia
+  - action: action_provide_disease_info
+
+- rule: Respond to fetal alcohol spectrum disorder
+  steps:
+  - intent: fetal_alcohol_spectrum_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to peritonitis
+  steps:
+  - intent: peritonitis
+  - action: action_provide_disease_info
+
+- rule: Respond to abdominal trauma
+  steps:
+  - intent: abdominal_trauma
+  - action: action_provide_disease_info
+
+- rule: Respond to acute pancreatitis
+  steps:
+  - intent: acute_pancreatitis
+  - action: action_provide_disease_info
+
+- rule: Respond to thrombophlebitis
+  steps:
+  - intent: thrombophlebitis
+  - action: action_provide_disease_info
+
+- rule: Respond to asthma
+  steps:
+  - intent: asthma
+  - action: action_provide_disease_info
+
+- rule: Respond to vaginal foreign body
+  steps:
+  - intent: vaginal_foreign_body
+  - action: action_provide_disease_info
+
+- rule: Respond to restless legs syndrome
+  steps:
+  - intent: restless_legs_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to emphysema
+  steps:
+  - intent: emphysema
+  - action: action_provide_disease_info
+
+- rule: Respond to cysticercosis
+  steps:
+  - intent: cysticercosis
+  - action: action_provide_disease_info
+
+- rule: Respond to abortion
+  steps:
+  - intent: abortion
+  - action: action_provide_disease_info
+
+- rule: Respond to teething
+  steps:
+  - intent: teething
+  - action: action_provide_disease_info
+
+- rule: Respond to gastroenteritis
+  steps:
+  - intent: gastroenteritis
+  - action: action_provide_disease_info
+
+- rule: Respond to sinusitis
+  steps:
+  - intent: sinusitis
+  - action: action_provide_disease_info
+
+- rule: Respond to substance-related disorder
+  steps:
+  - intent: substance-related_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to postpartum depression
+  steps:
+  - intent: postpartum_depression
+  - action: action_provide_disease_info
+
+- rule: Respond to atherosclerosis
+  steps:
+  - intent: atherosclerosis
+  - action: action_provide_disease_info
+
+- rule: Respond to spondylitis
+  steps:
+  - intent: spondylitis
+  - action: action_provide_disease_info
+
+- rule: Respond to pituitary adenoma
+  steps:
+  - intent: pituitary_adenoma
+  - action: action_provide_disease_info
+
+- rule: Respond to uterine fibroid
+  steps:
+  - intent: uterine_fibroid
+  - action: action_provide_disease_info
+
+- rule: Respond to heavy menstrual bleeding
+  steps:
+  - intent: heavy_menstrual_bleeding
+  - action: action_provide_disease_info
+
+- rule: Respond to chalazion
+  steps:
+  - intent: chalazion
+  - action: action_provide_disease_info
+
+- rule: Respond to ovarian torsion
+  steps:
+  - intent: ovarian_torsion
+  - action: action_provide_disease_info
+
+- rule: Respond to hypertensive retinopathy
+  steps:
+  - intent: hypertensive_retinopathy
+  - action: action_provide_disease_info
+
+- rule: Respond to vaginal vaginal yeast infection
+  steps:
+  - intent: vaginal_Vaginal_yeast_infection
+  - action: action_provide_disease_info
+
+- rule: Respond to mastoiditis
+  steps:
+  - intent: mastoiditis
+  - action: action_provide_disease_info
+
+- rule: Respond to pulmonary contusion
+  steps:
+  - intent: pulmonary_contusion
+  - action: action_provide_disease_info
+
+- rule: Respond to hypertrophic cardiomyopathy
+  steps:
+  - intent: hypertrophic_cardiomyopathy
+  - action: action_provide_disease_info
+
+- rule: Respond to ingrown nail
+  steps:
+  - intent: ingrown_nail
+  - action: action_provide_disease_info
+
+- rule: Respond to tropical pulmonary eosinophilia
+  steps:
+  - intent: tropical_pulmonary_eosinophilia
+  - action: action_provide_disease_info
+
+- rule: Respond to corneal dystrophy
+  steps:
+  - intent: corneal_dystrophy
+  - action: action_provide_disease_info
+
+- rule: Respond to foreign body
+  steps:
+  - intent: foreign_body
+  - action: action_provide_disease_info
+
+- rule: Respond to endophthalmitis
+  steps:
+  - intent: endophthalmitis
+  - action: action_provide_disease_info
+
+- rule: Respond to malabsorption
+  steps:
+  - intent: malabsorption
+  - action: action_provide_disease_info
+
+- rule: Respond to wart
+  steps:
+  - intent: wart
+  - action: action_provide_disease_info
+
+- rule: Respond to hyperhidrosis
+  steps:
+  - intent: hyperhidrosis
+  - action: action_provide_disease_info
+
+- rule: Respond to stroke
+  steps:
+  - intent: stroke
+  - action: action_provide_disease_info
+
+- rule: Respond to pilonidal disease
+  steps:
+  - intent: pilonidal_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to crush injury
+  steps:
+  - intent: crush_injury
+  - action: action_provide_disease_info
+
+- rule: Respond to normal pressure hydrocephalus
+  steps:
+  - intent: normal_pressure_hydrocephalus
+  - action: action_provide_disease_info
+
+- rule: Respond to hair loss
+  steps:
+  - intent: hair_loss
+  - action: action_provide_disease_info
+
+- rule: Respond to hashimoto's thyroiditis
+  steps:
+  - intent: hashimoto's_thyroiditis
+  - action: action_provide_disease_info
+
+- rule: Respond to flat feet
+  steps:
+  - intent: flat_feet
+  - action: action_provide_disease_info
+
+- rule: Respond to metabolic dysfunction–associated steatotic liver disease
+  steps:
+  - intent: metabolic_dysfunction–associated_steatotic_liver_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to hemarthrosis
+  steps:
+  - intent: hemarthrosis
+  - action: action_provide_disease_info
+
+- rule: Respond to pelvic organ prolapse
+  steps:
+  - intent: pelvic_organ_prolapse
+  - action: action_provide_disease_info
+
+- rule: Respond to humerus fracture
+  steps:
+  - intent: humerus_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to coagulopathy
+  steps:
+  - intent: coagulopathy
+  - action: action_provide_disease_info
+
+- rule: Respond to intracranial hemorrhage
+  steps:
+  - intent: intracranial_hemorrhage
+  - action: action_provide_disease_info
+
+- rule: Respond to hyperkalemia
+  steps:
+  - intent: hyperkalemia
+  - action: action_provide_disease_info
+
+- rule: Respond to corneal ulcer
+  steps:
+  - intent: corneal_ulcer
+  - action: action_provide_disease_info
+
+- rule: Respond to lung abscess
+  steps:
+  - intent: lung_abscess
+  - action: action_provide_disease_info
+
+- rule: Respond to dengue fever
+  steps:
+  - intent: dengue_fever
+  - action: action_provide_disease_info
+
+- rule: Respond to sinusitis
+  steps:
+  - intent: sinusitis
+  - action: action_provide_disease_info
+
+- rule: Respond to cholesteatoma
+  steps:
+  - intent: cholesteatoma
+  - action: action_provide_disease_info
+
+- rule: Respond to volvulus
+  steps:
+  - intent: volvulus
+  - action: action_provide_disease_info
+
+- rule: Respond to broken finger
+  steps:
+  - intent: broken_finger
+  - action: action_provide_disease_info
+
+- rule: Respond to paracetamol poisoning
+  steps:
+  - intent: paracetamol_poisoning
+  - action: action_provide_disease_info
+
+- rule: Respond to atrial fibrillation
+  steps:
+  - intent: atrial_fibrillation
+  - action: action_provide_disease_info
+
+- rule: Respond to pinworm infection
+  steps:
+  - intent: pinworm_infection
+  - action: action_provide_disease_info
+
+- rule: Respond to posterior urethral valve
+  steps:
+  - intent: posterior_urethral_valve
+  - action: action_provide_disease_info
+
+- rule: Respond to penetrating trauma
+  steps:
+  - intent: penetrating_trauma
+  - action: action_provide_disease_info
+
+- rule: Respond to esophageal achalasia
+  steps:
+  - intent: esophageal_achalasia
+  - action: action_provide_disease_info
+
+- rule: Respond to conductive hearing loss
+  steps:
+  - intent: conductive_hearing_loss
+  - action: action_provide_disease_info
+
+- rule: Respond to hernia
+  steps:
+  - intent: hernia
+  - action: action_provide_disease_info
+
+- rule: Respond to cerebral palsy
+  steps:
+  - intent: cerebral_palsy
+  - action: action_provide_disease_info
+
+- rule: Respond to cannabis use disorder
+  steps:
+  - intent: cannabis_use_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to cryptococcosis
+  steps:
+  - intent: cryptococcosis
+  - action: action_provide_disease_info
+
+- rule: Respond to obesity
+  steps:
+  - intent: obesity
+  - action: action_provide_disease_info
+
+- rule: Respond to indigestion
+  steps:
+  - intent: indigestion
+  - action: action_provide_disease_info
+
+- rule: Respond to bursitis
+  steps:
+  - intent: bursitis
+  - action: action_provide_disease_info
+
+- rule: Respond to esophageal cancer
+  steps:
+  - intent: esophageal_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to pulmonary edema
+  steps:
+  - intent: pulmonary_edema
+  - action: action_provide_disease_info
+
+- rule: Respond to juvenile idiopathic arthritis
+  steps:
+  - intent: juvenile_idiopathic_arthritis
+  - action: action_provide_disease_info
+
+- rule: Respond to actinic keratosis
+  steps:
+  - intent: actinic_keratosis
+  - action: action_provide_disease_info
+
+- rule: Respond to otitis media
+  steps:
+  - intent: otitis_media
+  - action: action_provide_disease_info
+
+- rule: Respond to astigmatism
+  steps:
+  - intent: astigmatism
+  - action: action_provide_disease_info
+
+- rule: Respond to tuberous sclerosis
+  steps:
+  - intent: tuberous_sclerosis
+  - action: action_provide_disease_info
+
+- rule: Respond to empyema
+  steps:
+  - intent: empyema
+  - action: action_provide_disease_info
+
+- rule: Respond to presbycusis
+  steps:
+  - intent: presbycusis
+  - action: action_provide_disease_info
+
+- rule: Respond to neonatal jaundice
+  steps:
+  - intent: neonatal_jaundice
+  - action: action_provide_disease_info
+
+- rule: Respond to chronic obstructive pulmonary disease
+  steps:
+  - intent: chronic_obstructive_pulmonary_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to joint dislocation
+  steps:
+  - intent: joint_dislocation
+  - action: action_provide_disease_info
+
+- rule: Respond to spondylosis
+  steps:
+  - intent: spondylosis
+  - action: action_provide_disease_info
+
+- rule: Respond to herpangina
+  steps:
+  - intent: herpangina
+  - action: action_provide_disease_info
+
+- rule: Respond to shoulder problem
+  steps:
+  - intent: shoulder_problem
+  - action: action_provide_disease_info
+
+- rule: Respond to tricyclic antidepressant overdose
+  steps:
+  - intent: tricyclic_antidepressant_overdose
+  - action: action_provide_disease_info
+
+- rule: Respond to chronic wound
+  steps:
+  - intent: chronic_wound
+  - action: action_provide_disease_info
+
+- rule: Respond to deep vein thrombosis
+  steps:
+  - intent: deep_vein_thrombosis
+  - action: action_provide_disease_info
+
+- rule: Respond to protein–energy malnutrition
+  steps:
+  - intent: protein–energy_malnutrition
+  - action: action_provide_disease_info
+
+- rule: Respond to myoclonus
+  steps:
+  - intent: myoclonus
+  - action: action_provide_disease_info
+
+- rule: Respond to calcaneal spur
+  steps:
+  - intent: calcaneal_spur
+  - action: action_provide_disease_info
+
+- rule: Respond to von willebrand disease
+  steps:
+  - intent: von_Willebrand_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to penetrating trauma
+  steps:
+  - intent: penetrating_trauma
+  - action: action_provide_disease_info
+
+- rule: Respond to heart block
+  steps:
+  - intent: heart_block
+  - action: action_provide_disease_info
+
+- rule: Respond to colorectal polyp
+  steps:
+  - intent: colorectal_polyp
+  - action: action_provide_disease_info
+
+- rule: Respond to magnesium deficiency
+  steps:
+  - intent: magnesium_deficiency
+  - action: action_provide_disease_info
+
+- rule: Respond to unexplained infertility
+  steps:
+  - intent: unexplained_infertility
+  - action: action_provide_disease_info
+
+- rule: Respond to pericarditis
+  steps:
+  - intent: pericarditis
+  - action: action_provide_disease_info
+
+- rule: Respond to attention deficit hyperactivity disorder
+  steps:
+  - intent: attention_deficit_hyperactivity_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to pulmonary valve stenosis
+  steps:
+  - intent: pulmonary_valve_stenosis
+  - action: action_provide_disease_info
+
+- rule: Respond to tietze syndrome
+  steps:
+  - intent: tietze_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to cranial nerve disease
+  steps:
+  - intent: cranial_nerve_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to humerus fracture
+  steps:
+  - intent: humerus_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to conversion disorder
+  steps:
+  - intent: conversion_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to complex regional pain syndrome
+  steps:
+  - intent: complex_regional_pain_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to otosclerosis
+  steps:
+  - intent: otosclerosis
+  - action: action_provide_disease_info
+
+- rule: Respond to chest injury
+  steps:
+  - intent: chest_injury
+  - action: action_provide_disease_info
+
+- rule: Respond to hypothyroidism
+  steps:
+  - intent: hypothyroidism
+  - action: action_provide_disease_info
+
+- rule: Respond to insomnia
+  steps:
+  - intent: insomnia
+  - action: action_provide_disease_info
+
+- rule: Respond to louse
+  steps:
+  - intent: louse
+  - action: action_provide_disease_info
+
+- rule: Respond to vitamin b12 deficiency
+  steps:
+  - intent: vitamin_B12_deficiency
+  - action: action_provide_disease_info
+
+- rule: Respond to diabetes
+  steps:
+  - intent: diabetes
+  - action: action_provide_disease_info
+
+- rule: Respond to vulvodynia
+  steps:
+  - intent: vulvodynia
+  - action: action_provide_disease_info
+
+- rule: Respond to endometriosis
+  steps:
+  - intent: endometriosis
+  - action: action_provide_disease_info
+
+- rule: Respond to vasculitis
+  steps:
+  - intent: vasculitis
+  - action: action_provide_disease_info
+
+- rule: Respond to concussion
+  steps:
+  - intent: concussion
+  - action: action_provide_disease_info
+
+- rule: Respond to leukoplakia
+  steps:
+  - intent: leukoplakia
+  - action: action_provide_disease_info
+
+- rule: Respond to chronic kidney disease
+  steps:
+  - intent: chronic_kidney_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to urinary bladder disease
+  steps:
+  - intent: urinary_bladder_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to chorioretinitis
+  steps:
+  - intent: chorioretinitis
+  - action: action_provide_disease_info
+
+- rule: Respond to priapism
+  steps:
+  - intent: priapism
+  - action: action_provide_disease_info
+
+- rule: Respond to myositis
+  steps:
+  - intent: myositis
+  - action: action_provide_disease_info
+
+- rule: Respond to infectious mononucleosis
+  steps:
+  - intent: infectious_mononucleosis
+  - action: action_provide_disease_info
+
+- rule: Respond to neuralgia
+  steps:
+  - intent: neuralgia
+  - action: action_provide_disease_info
+
+- rule: Respond to polycystic kidney disease
+  steps:
+  - intent: polycystic_kidney_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to bipolar disorder
+  steps:
+  - intent: bipolar_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to amyloidosis
+  steps:
+  - intent: amyloidosis
+  - action: action_provide_disease_info
+
+- rule: Respond to chronic inflammatory demyelinating polyneuropathy
+  steps:
+  - intent: chronic_inflammatory_demyelinating_polyneuropathy
+  - action: action_provide_disease_info
+
+- rule: Respond to gastroesophageal reflux disease
+  steps:
+  - intent: gastroesophageal_reflux_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to vitreous hemorrhage
+  steps:
+  - intent: vitreous_hemorrhage
+  - action: action_provide_disease_info
+
+- rule: Respond to antimicrobial
+  steps:
+  - intent: antimicrobial
+  - action: action_provide_disease_info
+
+- rule: Respond to mouth infection
+  steps:
+  - intent: mouth_infection
+  - action: action_provide_disease_info
+
+- rule: Respond to scleroderma
+  steps:
+  - intent: scleroderma
+  - action: action_provide_disease_info
+
+- rule: Respond to myasthenia gravis
+  steps:
+  - intent: myasthenia_gravis
+  - action: action_provide_disease_info
+
+- rule: Respond to hypoglycemia
+  steps:
+  - intent: hypoglycemia
+  - action: action_provide_disease_info
+
+- rule: Respond to functional hypothalamic amenorrhea
+  steps:
+  - intent: functional_hypothalamic_amenorrhea
+  - action: action_provide_disease_info
+
+- rule: Respond to carbon monoxide poisoning
+  steps:
+  - intent: carbon_monoxide_poisoning
+  - action: action_provide_disease_info
+
+- rule: Respond to panic attack
+  steps:
+  - intent: panic_attack
+  - action: action_provide_disease_info
+
+- rule: Respond to plantar fasciitis
+  steps:
+  - intent: plantar_fasciitis
+  - action: action_provide_disease_info
+
+- rule: Respond to farsightedness
+  steps:
+  - intent: farsightedness
+  - action: action_provide_disease_info
+
+- rule: Respond to sedative
+  steps:
+  - intent: sedative
+  - action: action_provide_disease_info
+
+- rule: Respond to pemphigus
+  steps:
+  - intent: pemphigus
+  - action: action_provide_disease_info
+
+- rule: Respond to peyronie's disease
+  steps:
+  - intent: peyronie's_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to hiatal hernia
+  steps:
+  - intent: hiatal_hernia
+  - action: action_provide_disease_info
+
+- rule: Respond to extrapyramidal symptoms
+  steps:
+  - intent: extrapyramidal_symptoms
+  - action: action_provide_disease_info
+
+- rule: Respond to ménière's disease
+  steps:
+  - intent: Ménière's_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to anal fissure
+  steps:
+  - intent: anal_fissure
+  - action: action_provide_disease_info
+
+- rule: Respond to allergy
+  steps:
+  - intent: allergy
+  - action: action_provide_disease_info
+
+- rule: Respond to otitis media
+  steps:
+  - intent: otitis_media
+  - action: action_provide_disease_info
+
+- rule: Respond to broken finger
+  steps:
+  - intent: broken_finger
+  - action: action_provide_disease_info
+
+- rule: Respond to hirschsprung's disease
+  steps:
+  - intent: hirschsprung's_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to polymyalgia rheumatica
+  steps:
+  - intent: polymyalgia_rheumatica
+  - action: action_provide_disease_info
+
+- rule: Respond to lymphedema
+  steps:
+  - intent: lymphedema
+  - action: action_provide_disease_info
+
+- rule: Respond to bladder cancer
+  steps:
+  - intent: bladder_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to bronchospasm
+  steps:
+  - intent: bronchospasm
+  - action: action_provide_disease_info
+
+- rule: Respond to glaucoma
+  steps:
+  - intent: glaucoma
+  - action: action_provide_disease_info
+
+- rule: Respond to chest injury
+  steps:
+  - intent: chest_injury
+  - action: action_provide_disease_info
+
+- rule: Respond to patellar dislocation
+  steps:
+  - intent: patellar_dislocation
+  - action: action_provide_disease_info
+
+- rule: Respond to sciatica
+  steps:
+  - intent: sciatica
+  - action: action_provide_disease_info
+
+- rule: Respond to hypercalcaemia
+  steps:
+  - intent: hypercalcaemia
+  - action: action_provide_disease_info
+
+- rule: Respond to stress incontinence
+  steps:
+  - intent: stress_incontinence
+  - action: action_provide_disease_info
+
+- rule: Respond to varicose veins
+  steps:
+  - intent: varicose_veins
+  - action: action_provide_disease_info
+
+- rule: Respond to renal cyst
+  steps:
+  - intent: renal_cyst
+  - action: action_provide_disease_info
+
+- rule: Respond to hydrocele testis
+  steps:
+  - intent: hydrocele_testis
+  - action: action_provide_disease_info
+
+- rule: Respond to degenerative disc disease
+  steps:
+  - intent: degenerative_disc_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to hirsutism
+  steps:
+  - intent: hirsutism
+  - action: action_provide_disease_info
+
+- rule: Respond to chopart's fracture–dislocation
+  steps:
+  - intent: chopart's_fracture–dislocation
+  - action: action_provide_disease_info
+
+- rule: Respond to hydronephrosis
+  steps:
+  - intent: hydronephrosis
+  - action: action_provide_disease_info
+
+- rule: Respond to diverticulosis
+  steps:
+  - intent: diverticulosis
+  - action: action_provide_disease_info
+
+- rule: Respond to surgery
+  steps:
+  - intent: surgery
+  - action: action_provide_disease_info
+
+- rule: Respond to huntington's disease
+  steps:
+  - intent: huntington's_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to lymphoma
+  steps:
+  - intent: lymphoma
+  - action: action_provide_disease_info
+
+- rule: Respond to photodermatitis
+  steps:
+  - intent: photodermatitis
+  - action: action_provide_disease_info
+
+- rule: Respond to anemia of chronic disease
+  steps:
+  - intent: anemia_of_chronic_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to internal bleeding
+  steps:
+  - intent: internal_bleeding
+  - action: action_provide_disease_info
+
+- rule: Respond to scleritis
+  steps:
+  - intent: scleritis
+  - action: action_provide_disease_info
+
+- rule: Respond to pterygium
+  steps:
+  - intent: pterygium
+  - action: action_provide_disease_info
+
+- rule: Respond to fungal infection
+  steps:
+  - intent: fungal_infection
+  - action: action_provide_disease_info
+
+- rule: Respond to hyperinsulinemic hypoglycemia
+  steps:
+  - intent: hyperinsulinemic_hypoglycemia
+  - action: action_provide_disease_info
+
+- rule: Respond to syndrome of inappropriate antidiuretic hormone secretion
+  steps:
+  - intent: syndrome_of_inappropriate_antidiuretic_hormone_secretion
+  - action: action_provide_disease_info
+
+- rule: Respond to premenstrual syndrome
+  steps:
+  - intent: premenstrual_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to orbital cellulitis
+  steps:
+  - intent: orbital_cellulitis
+  - action: action_provide_disease_info
+
+- rule: Respond to soft tissue injury
+  steps:
+  - intent: soft_tissue_injury
+  - action: action_provide_disease_info
+
+- rule: Respond to hepatic encephalopathy
+  steps:
+  - intent: hepatic_encephalopathy
+  - action: action_provide_disease_info
+
+- rule: Respond to bone tumor
+  steps:
+  - intent: bone_tumor
+  - action: action_provide_disease_info
+
+- rule: Respond to syringomyelia
+  steps:
+  - intent: syringomyelia
+  - action: action_provide_disease_info
+
+- rule: Respond to pulmonary fibrosis
+  steps:
+  - intent: pulmonary_fibrosis
+  - action: action_provide_disease_info
+
+- rule: Respond to valvular heart disease
+  steps:
+  - intent: valvular_heart_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to parkinson's disease
+  steps:
+  - intent: parkinson's_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to gout
+  steps:
+  - intent: gout
+  - action: action_provide_disease_info
+
+- rule: Respond to otitis media
+  steps:
+  - intent: otitis_media
+  - action: action_provide_disease_info
+
+- rule: Respond to substance abuse
+  steps:
+  - intent: substance_abuse
+  - action: action_provide_disease_info
+
+- rule: Respond to myelodysplastic syndrome
+  steps:
+  - intent: myelodysplastic_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to scapular fracture
+  steps:
+  - intent: scapular_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to acute kidney injury
+  steps:
+  - intent: acute_kidney_injury
+  - action: action_provide_disease_info
+
+- rule: Respond to early pregnancy bleeding
+  steps:
+  - intent: early_pregnancy_bleeding
+  - action: action_provide_disease_info
+
+- rule: Respond to brain abscess
+  steps:
+  - intent: brain_abscess
+  - action: action_provide_disease_info
+
+- rule: Respond to periodontal disease
+  steps:
+  - intent: periodontal_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to wound dehiscence
+  steps:
+  - intent: wound_dehiscence
+  - action: action_provide_disease_info
+
+- rule: Respond to gastrointestinal bleeding
+  steps:
+  - intent: gastrointestinal_bleeding
+  - action: action_provide_disease_info
+
+- rule: Respond to seborrhoeic dermatitis
+  steps:
+  - intent: seborrhoeic_dermatitis
+  - action: action_provide_disease_info
+
+- rule: Respond to methamphetamine
+  steps:
+  - intent: methamphetamine
+  - action: action_provide_disease_info
+
+- rule: Respond to torticollis
+  steps:
+  - intent: torticollis
+  - action: action_provide_disease_info
+
+- rule: Respond to calcium channel blocker
+  steps:
+  - intent: calcium_channel_blocker
+  - action: action_provide_disease_info
+
+- rule: Respond to tension headache
+  steps:
+  - intent: tension_headache
+  - action: action_provide_disease_info
+
+- rule: Respond to alcohol intoxication
+  steps:
+  - intent: alcohol_intoxication
+  - action: action_provide_disease_info
+
+- rule: Respond to scurvy
+  steps:
+  - intent: scurvy
+  - action: action_provide_disease_info
+
+- rule: Respond to narcolepsy
+  steps:
+  - intent: narcolepsy
+  - action: action_provide_disease_info
+
+- rule: Respond to food allergy
+  steps:
+  - intent: food_allergy
+  - action: action_provide_disease_info
+
+- rule: Respond to labyrinthitis
+  steps:
+  - intent: labyrinthitis
+  - action: action_provide_disease_info
+
+- rule: Respond to anxiety
+  steps:
+  - intent: anxiety
+  - action: action_provide_disease_info
+
+- rule: Respond to impulse-control disorder
+  steps:
+  - intent: impulse-control_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to nasolacrimal duct obstruction
+  steps:
+  - intent: nasolacrimal_duct_obstruction
+  - action: action_provide_disease_info
+
+- rule: Respond to nasal septal abscess
+  steps:
+  - intent: nasal_septal_abscess
+  - action: action_provide_disease_info
+
+- rule: Respond to omphalitis of newborn
+  steps:
+  - intent: omphalitis_of_newborn
+  - action: action_provide_disease_info
+
+- rule: Respond to leukemia
+  steps:
+  - intent: leukemia
+  - action: action_provide_disease_info
+
+- rule: Respond to bell's palsy
+  steps:
+  - intent: bell's_palsy
+  - action: action_provide_disease_info
+
+- rule: Respond to allergic conjunctivitis
+  steps:
+  - intent: allergic_conjunctivitis
+  - action: action_provide_disease_info
+
+- rule: Respond to adverse drug reaction
+  steps:
+  - intent: adverse_drug_reaction
+  - action: action_provide_disease_info
+
+- rule: Respond to adrenal tumor
+  steps:
+  - intent: adrenal_tumor
+  - action: action_provide_disease_info
+
+- rule: Respond to myopia
+  steps:
+  - intent: myopia
+  - action: action_provide_disease_info
+
+- rule: Respond to osteoarthritis
+  steps:
+  - intent: osteoarthritis
+  - action: action_provide_disease_info
+
+- rule: Respond to thyroid disease
+  steps:
+  - intent: thyroid_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to pharyngitis
+  steps:
+  - intent: pharyngitis
+  - action: action_provide_disease_info
+
+- rule: Respond to rheumatic fever
+  steps:
+  - intent: rheumatic_fever
+  - action: action_provide_disease_info
+
+- rule: Respond to hypocalcemia
+  steps:
+  - intent: hypocalcemia
+  - action: action_provide_disease_info
+
+- rule: Respond to macular degeneration
+  steps:
+  - intent: macular_degeneration
+  - action: action_provide_disease_info
+
+- rule: Respond to pneumonia
+  steps:
+  - intent: pneumonia
+  - action: action_provide_disease_info
+
+- rule: Respond to cold sore
+  steps:
+  - intent: cold_sore
+  - action: action_provide_disease_info
+
+- rule: Respond to premature ventricular contraction
+  steps:
+  - intent: premature_ventricular_contraction
+  - action: action_provide_disease_info
+
+- rule: Respond to testicular cancer
+  steps:
+  - intent: testicular_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to hydrocephalus
+  steps:
+  - intent: hydrocephalus
+  - action: action_provide_disease_info
+
+- rule: Respond to breast cancer
+  steps:
+  - intent: breast_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to anemia of chronic disease
+  steps:
+  - intent: anemia_of_chronic_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to esophageal varices
+  steps:
+  - intent: esophageal_varices
+  - action: action_provide_disease_info
+
+- rule: Respond to endometrial cancer
+  steps:
+  - intent: endometrial_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to cystic fibrosis
+  steps:
+  - intent: cystic_fibrosis
+  - action: action_provide_disease_info
+
+- rule: Respond to intertrigo
+  steps:
+  - intent: intertrigo
+  - action: action_provide_disease_info
+
+- rule: Respond to parathyroid adenoma
+  steps:
+  - intent: parathyroid_adenoma
+  - action: action_provide_disease_info
+
+- rule: Respond to glucocorticoid deficiency
+  steps:
+  - intent: glucocorticoid_deficiency
+  - action: action_provide_disease_info
+
+- rule: Respond to temporomandibular joint dysfunction
+  steps:
+  - intent: temporomandibular_joint_dysfunction
+  - action: action_provide_disease_info
+
+- rule: Respond to wilson's disease
+  steps:
+  - intent: wilson's_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to vesicoureteral reflux
+  steps:
+  - intent: vesicoureteral_reflux
+  - action: action_provide_disease_info
+
+- rule: Respond to vitamin a deficiency
+  steps:
+  - intent: vitamin_A_deficiency
+  - action: action_provide_disease_info
+
+- rule: Respond to gonorrhea
+  steps:
+  - intent: gonorrhea
+  - action: action_provide_disease_info
+
+- rule: Respond to rib fracture
+  steps:
+  - intent: rib_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to ependymoma
+  steps:
+  - intent: ependymoma
+  - action: action_provide_disease_info
+
+- rule: Respond to hepatitis
+  steps:
+  - intent: hepatitis
+  - action: action_provide_disease_info
+
+- rule: Respond to vaginal cysts
+  steps:
+  - intent: vaginal_cysts
+  - action: action_provide_disease_info
+
+- rule: Respond to slap tear
+  steps:
+  - intent: SLAP_tear
+  - action: action_provide_disease_info
+
+- rule: Respond to ectopic pregnancy
+  steps:
+  - intent: ectopic_pregnancy
+  - action: action_provide_disease_info
+
+- rule: Respond to knee pain
+  steps:
+  - intent: knee_pain
+  - action: action_provide_disease_info
+
+- rule: Respond to pinguecula
+  steps:
+  - intent: pinguecula
+  - action: action_provide_disease_info
+
+- rule: Respond to hypergammaglobulinemia
+  steps:
+  - intent: hypergammaglobulinemia
+  - action: action_provide_disease_info
+
+- rule: Respond to alcohol abuse
+  steps:
+  - intent: alcohol_abuse
+  - action: action_provide_disease_info
+
+- rule: Respond to carpal tunnel syndrome
+  steps:
+  - intent: carpal_tunnel_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to pituitary disease
+  steps:
+  - intent: pituitary_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to kidney stone disease
+  steps:
+  - intent: kidney_stone_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to autism
+  steps:
+  - intent: autism
+  - action: action_provide_disease_info
+
+- rule: Respond to cat-scratch disease
+  steps:
+  - intent: cat-scratch_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to glaucoma
+  steps:
+  - intent: glaucoma
+  - action: action_provide_disease_info
+
+- rule: Respond to retinal detachment
+  steps:
+  - intent: retinal_detachment
+  - action: action_provide_disease_info
+
+- rule: Respond to aplastic anemia
+  steps:
+  - intent: aplastic_anemia
+  - action: action_provide_disease_info
+
+- rule: Respond to overflow incontinence
+  steps:
+  - intent: overflow_incontinence
+  - action: action_provide_disease_info
+
+- rule: Respond to hemolytic anemia
+  steps:
+  - intent: hemolytic_anemia
+  - action: action_provide_disease_info
+
+- rule: Respond to tennis elbow
+  steps:
+  - intent: tennis_elbow
+  - action: action_provide_disease_info
+
+- rule: Respond to globe rupture
+  steps:
+  - intent: globe_rupture
+  - action: action_provide_disease_info
+
+- rule: Respond to syphilis
+  steps:
+  - intent: syphilis
+  - action: action_provide_disease_info
+
+- rule: Respond to diabetic nephropathy
+  steps:
+  - intent: diabetic_nephropathy
+  - action: action_provide_disease_info
+
+- rule: Respond to drug withdrawal
+  steps:
+  - intent: drug_withdrawal
+  - action: action_provide_disease_info
+
+- rule: Respond to tooth decay
+  steps:
+  - intent: tooth_decay
+  - action: action_provide_disease_info
+
+- rule: Respond to hypercholesterolemia
+  steps:
+  - intent: hypercholesterolemia
+  - action: action_provide_disease_info
+
+- rule: Respond to patella fracture
+  steps:
+  - intent: patella_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to kidney failure
+  steps:
+  - intent: kidney_failure
+  - action: action_provide_disease_info
+
+- rule: Respond to cervical fracture
+  steps:
+  - intent: cervical_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to spasm
+  steps:
+  - intent: spasm
+  - action: action_provide_disease_info
+
+- rule: Respond to haemophilia
+  steps:
+  - intent: haemophilia
+  - action: action_provide_disease_info
+
+- rule: Respond to hyperosmolar hyperglycemic state
+  steps:
+  - intent: hyperosmolar_hyperglycemic_state
+  - action: action_provide_disease_info
+
+- rule: Respond to peritonsillar abscess
+  steps:
+  - intent: peritonsillar_abscess
+  - action: action_provide_disease_info
+
+- rule: Respond to gastroparesis
+  steps:
+  - intent: gastroparesis
+  - action: action_provide_disease_info
+
+- rule: Respond to itch
+  steps:
+  - intent: Itch
+  - action: action_provide_disease_info
+
+- rule: Respond to polycythemia vera
+  steps:
+  - intent: polycythemia_vera
+  - action: action_provide_disease_info
+
+- rule: Respond to thrombocytopenia
+  steps:
+  - intent: thrombocytopenia
+  - action: action_provide_disease_info
+
+- rule: Respond to head and neck cancer
+  steps:
+  - intent: head_and_neck_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to pseudohypoparathyroidism
+  steps:
+  - intent: pseudohypoparathyroidism
+  - action: action_provide_disease_info
+
+- rule: Respond to goitre
+  steps:
+  - intent: Goitre
+  - action: action_provide_disease_info
+
+- rule: Respond to urinary incontinence
+  steps:
+  - intent: Urinary_incontinence
+  - action: action_provide_disease_info
+
+- rule: Respond to trisomy 18
+  steps:
+  - intent: Trisomy_18
+  - action: action_provide_disease_info
+
+- rule: Respond to wound
+  steps:
+  - intent: Wound
+  - action: action_provide_disease_info
+
+- rule: Respond to muscular dystrophy
+  steps:
+  - intent: muscular_dystrophy
+  - action: action_provide_disease_info
+
+- rule: Respond to mittelschmerz
+  steps:
+  - intent: mittelschmerz
+  - action: action_provide_disease_info
+
+- rule: Respond to corneal abrasion
+  steps:
+  - intent: corneal_abrasion
+  - action: action_provide_disease_info
+
+- rule: Respond to anemia of chronic disease
+  steps:
+  - intent: anemia_of_chronic_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to dysthymia
+  steps:
+  - intent: Dysthymia
+  - action: action_provide_disease_info
+
+- rule: Respond to scarlet fever
+  steps:
+  - intent: scarlet_fever
+  - action: action_provide_disease_info
+
+- rule: Respond to hypertensive heart disease
+  steps:
+  - intent: hypertensive_heart_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to barbiturate
+  steps:
+  - intent: Barbiturate
+  - action: action_provide_disease_info
+
+- rule: Respond to polycystic ovary syndrome
+  steps:
+  - intent: Polycystic_ovary_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to encephalitis
+  steps:
+  - intent: encephalitis
+  - action: action_provide_disease_info
+
+- rule: Respond to hidrocystoma
+  steps:
+  - intent: Hidrocystoma
+  - action: action_provide_disease_info
+
+- rule: Respond to balanitis
+  steps:
+  - intent: balanitis
+  - action: action_provide_disease_info
+
+- rule: Respond to foreign body aspiration
+  steps:
+  - intent: Foreign_body_aspiration
+  - action: action_provide_disease_info
+
+- rule: Respond to cocaine dependence
+  steps:
+  - intent: Cocaine_dependence
+  - action: action_provide_disease_info
+
+- rule: Respond to optic neuritis
+  steps:
+  - intent: optic_neuritis
+  - action: action_provide_disease_info
+
+- rule: Respond to alcohol withdrawal syndrome
+  steps:
+  - intent: Alcohol_withdrawal_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to premature atrial contraction
+  steps:
+  - intent: Premature_atrial_contraction
+  - action: action_provide_disease_info
+
+- rule: Respond to hemiparesis
+  steps:
+  - intent: Hemiparesis
+  - action: action_provide_disease_info
+
+- rule: Respond to hammer toe
+  steps:
+  - intent: hammer_toe
+  - action: action_provide_disease_info
+
+- rule: Respond to facial trauma
+  steps:
+  - intent: Facial_trauma
+  - action: action_provide_disease_info
+
+- rule: Respond to joint effusion
+  steps:
+  - intent: joint_effusion
+  - action: action_provide_disease_info
+
+- rule: Respond to knee
+  steps:
+  - intent: Knee
+  - action: action_provide_disease_info
+
+- rule: Respond to meningioma
+  steps:
+  - intent: meningioma
+  - action: action_provide_disease_info
+
+- rule: Respond to brain cancer
+  steps:
+  - intent: brain_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to placental abruption
+  steps:
+  - intent: placental_abruption
+  - action: action_provide_disease_info
+
+- rule: Respond to allergic rhinitis
+  steps:
+  - intent: Allergic_rhinitis
+  - action: action_provide_disease_info
+
+- rule: Respond to lung cancer
+  steps:
+  - intent: lung_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to kidney disease
+  steps:
+  - intent: Kidney_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to uterine cancer
+  steps:
+  - intent: uterine_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to sjögren's disease
+  steps:
+  - intent: Sjögren's_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to fibrocystic breast changes
+  steps:
+  - intent: Fibrocystic_breast_changes
+  - action: action_provide_disease_info
+
+- rule: Respond to tinea barbae
+  steps:
+  - intent: Tinea_barbae
+  - action: action_provide_disease_info
+
+- rule: Respond to dental abscess
+  steps:
+  - intent: Dental_abscess
+  - action: action_provide_disease_info
+
+- rule: Respond to spider bite
+  steps:
+  - intent: Spider_bite
+  - action: action_provide_disease_info
+
+- rule: Respond to vacterl association
+  steps:
+  - intent: VACTERL_association
+  - action: action_provide_disease_info
+
+- rule: Respond to vertebrobasilar insufficiency
+  steps:
+  - intent: vertebrobasilar_insufficiency
+  - action: action_provide_disease_info
+
+- rule: Respond to anorectal disorder
+  steps:
+  - intent: Anorectal_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to neurogenic bladder dysfunction
+  steps:
+  - intent: Neurogenic_bladder_dysfunction
+  - action: action_provide_disease_info
+
+- rule: Respond to benign paroxysmal positional vertigo
+  steps:
+  - intent: Benign_paroxysmal_positional_vertigo
+  - action: action_provide_disease_info
+
+- rule: Respond to blepharospasm
+  steps:
+  - intent: blepharospasm
+  - action: action_provide_disease_info
+
+- rule: Respond to sarcoidosis
+  steps:
+  - intent: sarcoidosis
+  - action: action_provide_disease_info
+
+- rule: Respond to metastasis
+  steps:
+  - intent: Metastasis
+  - action: action_provide_disease_info
+
+- rule: Respond to trigger finger
+  steps:
+  - intent: Trigger_finger
+  - action: action_provide_disease_info
+
+- rule: Respond to stye
+  steps:
+  - intent: stye
+  - action: action_provide_disease_info
+
+- rule: Respond to iron overload
+  steps:
+  - intent: Iron_overload
+  - action: action_provide_disease_info
+
+- rule: Respond to osteochondroma
+  steps:
+  - intent: osteochondroma
+  - action: action_provide_disease_info
+
+- rule: Respond to cushing's syndrome
+  steps:
+  - intent: Cushing's_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to typhoid fever
+  steps:
+  - intent: typhoid_fever
+  - action: action_provide_disease_info
+
+- rule: Respond to posterior vitreous detachment
+  steps:
+  - intent: Posterior_vitreous_detachment
+  - action: action_provide_disease_info
+
+- rule: Respond to poikiloderma vasculare atrophicans
+  steps:
+  - intent: Poikiloderma_vasculare_atrophicans
+  - action: action_provide_disease_info
+
+- rule: Respond to aspergillosis
+  steps:
+  - intent: aspergillosis
+  - action: action_provide_disease_info
+
+- rule: Respond to uterine atony
+  steps:
+  - intent: uterine_atony
+  - action: action_provide_disease_info
+
+- rule: Respond to trichinosis
+  steps:
+  - intent: trichinosis
+  - action: action_provide_disease_info
+
+- rule: Respond to whooping cough
+  steps:
+  - intent: whooping_cough
+  - action: action_provide_disease_info
+
+- rule: Respond to cheilitis
+  steps:
+  - intent: Cheilitis
+  - action: action_provide_disease_info
+
+- rule: Respond to subacute thyroiditis
+  steps:
+  - intent: subacute_thyroiditis
+  - action: action_provide_disease_info
+
+- rule: Respond to oral mucosa
+  steps:
+  - intent: Oral_mucosa
+  - action: action_provide_disease_info
+
+- rule: Respond to intracerebral hemorrhage
+  steps:
+  - intent: intracerebral_hemorrhage
+  - action: action_provide_disease_info
+
+- rule: Respond to alzheimer's disease
+  steps:
+  - intent: Alzheimer's_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to vaginismus
+  steps:
+  - intent: vaginismus
+  - action: action_provide_disease_info
+
+- rule: Respond to lupus
+  steps:
+  - intent: Lupus
+  - action: action_provide_disease_info
+
+- rule: Respond to primary ovarian insufficiency
+  steps:
+  - intent: Primary_ovarian_insufficiency
+  - action: action_provide_disease_info
+
+- rule: Respond to thoracic outlet syndrome
+  steps:
+  - intent: thoracic_outlet_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to ganglion cyst
+  steps:
+  - intent: ganglion_cyst
+  - action: action_provide_disease_info
+
+- rule: Respond to knee dislocation
+  steps:
+  - intent: Knee_dislocation
+  - action: action_provide_disease_info
+
+- rule: Respond to crohn's disease
+  steps:
+  - intent: Crohn's_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to postoperative wounds
+  steps:
+  - intent: Postoperative_wounds
+  - action: action_provide_disease_info
+
+- rule: Respond to folate deficiency
+  steps:
+  - intent: folate_deficiency
+  - action: action_provide_disease_info
+
+- rule: Respond to hypervolemia
+  steps:
+  - intent: Hypervolemia
+  - action: action_provide_disease_info
+
+- rule: Respond to atrial flutter
+  steps:
+  - intent: atrial_flutter
+  - action: action_provide_disease_info
+
+- rule: Respond to list of skin conditions
+  steps:
+  - intent: List_of_skin_conditions
+  - action: action_provide_disease_info
+
+- rule: Respond to floater
+  steps:
+  - intent: Floater
+  - action: action_provide_disease_info
+
+- rule: Respond to tooth pathology
+  steps:
+  - intent: Tooth_pathology
+  - action: action_provide_disease_info
+
+- rule: Respond to myocardial infarction
+  steps:
+  - intent: Myocardial_infarction
+  - action: action_provide_disease_info
+
+- rule: Respond to abdominal trauma
+  steps:
+  - intent: Abdominal_trauma
+  - action: action_provide_disease_info
+
+- rule: Respond to femoral fracture
+  steps:
+  - intent: Femoral_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to candidiasis
+  steps:
+  - intent: Candidiasis
+  - action: action_provide_disease_info
+
+- rule: Respond to pityriasis rosea
+  steps:
+  - intent: pityriasis_rosea
+  - action: action_provide_disease_info
+
+- rule: Respond to animal allergy
+  steps:
+  - intent: Animal_allergy
+  - action: action_provide_disease_info
+
+- rule: Respond to orthostatic hypotension
+  steps:
+  - intent: orthostatic_hypotension
+  - action: action_provide_disease_info
+
+- rule: Respond to obstructive sleep apnea
+  steps:
+  - intent: Obstructive_sleep_apnea
+  - action: action_provide_disease_info
+
+- rule: Respond to hypokalemia
+  steps:
+  - intent: hypokalemia
+  - action: action_provide_disease_info
+
+- rule: Respond to psoriasis
+  steps:
+  - intent: psoriasis
+  - action: action_provide_disease_info
+
+- rule: Respond to dislocated shoulder
+  steps:
+  - intent: Dislocated_shoulder
+  - action: action_provide_disease_info
+
+- rule: Respond to intussusception
+  steps:
+  - intent: intussusception
+  - action: action_provide_disease_info
+
+- rule: Respond to cervicitis
+  steps:
+  - intent: cervicitis
+  - action: action_provide_disease_info
+
+- rule: Respond to parapharyngeal abscess
+  steps:
+  - intent: Parapharyngeal_abscess
+  - action: action_provide_disease_info
+
+- rule: Respond to thrombocythemia
+  steps:
+  - intent: Thrombocythemia
+  - action: action_provide_disease_info
+
+- rule: Respond to hip pain
+  steps:
+  - intent: Hip_pain
+  - action: action_provide_disease_info
+
+- rule: Respond to pressure ulcer
+  steps:
+  - intent: Pressure_ulcer
+  - action: action_provide_disease_info
+
+- rule: Respond to hypernatremia
+  steps:
+  - intent: hypernatremia
+  - action: action_provide_disease_info
+
+- rule: Respond to sensorineural hearing loss
+  steps:
+  - intent: sensorineural_hearing_loss
+  - action: action_provide_disease_info
+
+- rule: Respond to ulcer
+  steps:
+  - intent: Ulcer
+  - action: action_provide_disease_info
+
+- rule: Respond to osteoporosis
+  steps:
+  - intent: osteoporosis
+  - action: action_provide_disease_info
+
+- rule: Respond to ileus
+  steps:
+  - intent: ileus
+  - action: action_provide_disease_info
+
+- rule: Respond to sickle cell disease
+  steps:
+  - intent: Sickle_cell_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to urethritis
+  steps:
+  - intent: urethritis
+  - action: action_provide_disease_info
+
+- rule: Respond to prostatitis
+  steps:
+  - intent: prostatitis
+  - action: action_provide_disease_info
+
+- rule: Respond to otitis externa
+  steps:
+  - intent: Otitis_externa
+  - action: action_provide_disease_info
+
+- rule: Respond to anticonvulsant
+  steps:
+  - intent: Anticonvulsant
+  - action: action_provide_disease_info
+
+- rule: Respond to testicular torsion
+  steps:
+  - intent: testicular_torsion
+  - action: action_provide_disease_info
+
+- rule: Respond to tricuspid valve
+  steps:
+  - intent: Tricuspid_valve
+  - action: action_provide_disease_info
+
+- rule: Respond to urethral stricture
+  steps:
+  - intent: urethral_stricture
+  - action: action_provide_disease_info
+
+- rule: Respond to vitamin d deficiency
+  steps:
+  - intent: Vitamin_D_deficiency
+  - action: action_provide_disease_info
+
+- rule: Respond to molar pregnancy
+  steps:
+  - intent: Molar_pregnancy
+  - action: action_provide_disease_info
+
+- rule: Respond to torticollis
+  steps:
+  - intent: Torticollis
+  - action: action_provide_disease_info
+
+- rule: Respond to tuberculosis
+  steps:
+  - intent: tuberculosis
+  - action: action_provide_disease_info
+
+- rule: Respond to urogenital fistula
+  steps:
+  - intent: Urogenital_fistula
+  - action: action_provide_disease_info
+
+- rule: Respond to bronchiolitis
+  steps:
+  - intent: Bronchiolitis
+  - action: action_provide_disease_info
+
+- rule: Respond to presbyopia
+  steps:
+  - intent: presbyopia
+  - action: action_provide_disease_info
+
+- rule: Respond to dementia
+  steps:
+  - intent: dementia
+  - action: action_provide_disease_info
+
+- rule: Respond to arthropod bites and stings
+  steps:
+  - intent: Arthropod_bites_and_stings
+  - action: action_provide_disease_info
+
+- rule: Respond to paroxysmal tachycardia
+  steps:
+  - intent: Paroxysmal_tachycardia
+  - action: action_provide_disease_info
+
+- rule: Respond to congenital heart defect
+  steps:
+  - intent: congenital_heart_defect
+  - action: action_provide_disease_info
+
+- rule: Respond to connective tissue disease
+  steps:
+  - intent: Connective_tissue_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to list of highly toxic gases
+  steps:
+  - intent: List_of_highly_toxic_gases
+  - action: action_provide_disease_info
+
+- rule: Respond to pyoderma
+  steps:
+  - intent: Pyoderma
+  - action: action_provide_disease_info
+
+- rule: Respond to endometrial hyperplasia
+  steps:
+  - intent: endometrial_hyperplasia
+  - action: action_provide_disease_info
+
+- rule: Respond to acanthosis nigricans
+  steps:
+  - intent: acanthosis_nigricans
+  - action: action_provide_disease_info
+
+- rule: Respond to atherosclerosis
+  steps:
+  - intent: Atherosclerosis
+  - action: action_provide_disease_info
+
+- rule: Respond to exanthem
+  steps:
+  - intent: Exanthem
+  - action: action_provide_disease_info
+
+- rule: Respond to gastroenteritis
+  steps:
+  - intent: gastroenteritis
+  - action: action_provide_disease_info
+
+- rule: Respond to benign prostatic hyperplasia
+  steps:
+  - intent: Benign_prostatic_hyperplasia
+  - action: action_provide_disease_info
+
+- rule: Respond to menopause
+  steps:
+  - intent: menopause
+  - action: action_provide_disease_info
+
+- rule: Respond to primary immunodeficiency
+  steps:
+  - intent: primary_immunodeficiency
+  - action: action_provide_disease_info
+
+- rule: Respond to ovarian cancer
+  steps:
+  - intent: ovarian_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to cataract
+  steps:
+  - intent: cataract
+  - action: action_provide_disease_info
+
+- rule: Respond to hip dislocation
+  steps:
+  - intent: Hip_dislocation
+  - action: action_provide_disease_info
+
+- rule: Respond to spinal stenosis
+  steps:
+  - intent: spinal_stenosis
+  - action: action_provide_disease_info
+
+- rule: Respond to bowel obstruction
+  steps:
+  - intent: Bowel_obstruction
+  - action: action_provide_disease_info
+
+- rule: Respond to blunt cardiac injury
+  steps:
+  - intent: Blunt_cardiac_injury
+  - action: action_provide_disease_info
+
+- rule: Respond to birth defect
+  steps:
+  - intent: Birth_defect
+  - action: action_provide_disease_info
+
+- rule: Respond to sporotrichosis
+  steps:
+  - intent: sporotrichosis
+  - action: action_provide_disease_info
+
+- rule: Respond to lymphangitis
+  steps:
+  - intent: lymphangitis
+  - action: action_provide_disease_info
+
+- rule: Respond to wernicke–korsakoff syndrome
+  steps:
+  - intent: Wernicke–Korsakoff_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to gastrointestinal disease
+  steps:
+  - intent: Gastrointestinal_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to acute bronchitis
+  steps:
+  - intent: acute_bronchitis
+  - action: action_provide_disease_info
+
+- rule: Respond to cyclic vomiting syndrome
+  steps:
+  - intent: Cyclic_vomiting_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to wound
+  steps:
+  - intent: Wound
+  - action: action_provide_disease_info
+
+- rule: Respond to myocarditis
+  steps:
+  - intent: myocarditis
+  - action: action_provide_disease_info
+
+- rule: Respond to pre-eclampsia
+  steps:
+  - intent: Pre-eclampsia
+  - action: action_provide_disease_info
+
+- rule: Respond to coronary artery disease
+  steps:
+  - intent: Coronary_artery_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to neurofibromatosis
+  steps:
+  - intent: neurofibromatosis
+  - action: action_provide_disease_info
+
+- rule: Respond to chickenpox
+  steps:
+  - intent: chickenpox
+  - action: action_provide_disease_info
+
+- rule: Respond to pancreatic cancer
+  steps:
+  - intent: pancreatic_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to peripheral neuropathy
+  steps:
+  - intent: Peripheral_neuropathy
+  - action: action_provide_disease_info
+
+- rule: Respond to croup
+  steps:
+  - intent: croup
+  - action: action_provide_disease_info
+
+- rule: Respond to puberty menorrhagia
+  steps:
+  - intent: Puberty_menorrhagia
+  - action: action_provide_disease_info
+
+- rule: Respond to amblyopia
+  steps:
+  - intent: amblyopia
+  - action: action_provide_disease_info
+
+- rule: Respond to meckel's diverticulum
+  steps:
+  - intent: Meckel's_diverticulum
+  - action: action_provide_disease_info
+
+- rule: Respond to barton's fracture
+  steps:
+  - intent: Barton's_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to perforated eardrum
+  steps:
+  - intent: Perforated_eardrum
+  - action: action_provide_disease_info
+
+- rule: Respond to erectile dysfunction
+  steps:
+  - intent: erectile_dysfunction
+  - action: action_provide_disease_info
+
+- rule: Respond to benign prostatic hyperplasia
+  steps:
+  - intent: Benign_prostatic_hyperplasia
+  - action: action_provide_disease_info
+
+- rule: Respond to benign nephrosclerosis
+  steps:
+  - intent: Benign_nephrosclerosis
+  - action: action_provide_disease_info
+
+- rule: Respond to chondromalacia patellae
+  steps:
+  - intent: Chondromalacia_patellae
+  - action: action_provide_disease_info
+
+- rule: Respond to onychomycosis
+  steps:
+  - intent: onychomycosis
+  - action: action_provide_disease_info
+
+- rule: Respond to urethral syndrome
+  steps:
+  - intent: Urethral_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to lyme disease
+  steps:
+  - intent: lyme_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to iron-deficiency anemia
+  steps:
+  - intent: Iron-deficiency_anemia
+  - action: action_provide_disease_info
+
+- rule: Respond to acute respiratory distress syndrome
+  steps:
+  - intent: Acute_respiratory_distress_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to toxic multinodular goitre
+  steps:
+  - intent: toxic_multinodular_Goitre
+  - action: action_provide_disease_info
+
+- rule: Respond to wound
+  steps:
+  - intent: Wound
+  - action: action_provide_disease_info
+
+- rule: Respond to dysautonomia
+  steps:
+  - intent: Dysautonomia
+  - action: action_provide_disease_info
+
+- rule: Respond to psychosexual disorder
+  steps:
+  - intent: psychosexual_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to anemia
+  steps:
+  - intent: anemia
+  - action: action_provide_disease_info
+
+- rule: Respond to tendinopathy
+  steps:
+  - intent: Tendinopathy
+  - action: action_provide_disease_info
+
+- rule: Respond to common cold
+  steps:
+  - intent: common_cold
+  - action: action_provide_disease_info
+
+- rule: Respond to als
+  steps:
+  - intent: ALS
+  - action: action_provide_disease_info
+
+- rule: Respond to central retinal artery
+  steps:
+  - intent: Central_retinal_artery
+  - action: action_provide_disease_info
+
+- rule: Respond to paroxysmal supraventricular tachycardia
+  steps:
+  - intent: paroxysmal_supraventricular_tachycardia
+  - action: action_provide_disease_info
+
+- rule: Respond to venous insufficiency
+  steps:
+  - intent: venous_insufficiency
+  - action: action_provide_disease_info
+
+- rule: Respond to trichomonas
+  steps:
+  - intent: Trichomonas
+  - action: action_provide_disease_info
+
+- rule: Respond to acne
+  steps:
+  - intent: acne
+  - action: action_provide_disease_info
+
+- rule: Respond to depression
+  steps:
+  - intent: depression
+  - action: action_provide_disease_info
+
+- rule: Respond to substance abuse
+  steps:
+  - intent: Substance_abuse
+  - action: action_provide_disease_info
+
+- rule: Respond to urinary tract obstruction
+  steps:
+  - intent: urinary_tract_obstruction
+  - action: action_provide_disease_info
+
+- rule: Respond to diabetes insipidus
+  steps:
+  - intent: diabetes_insipidus
+  - action: action_provide_disease_info
+
+- rule: Respond to uveitis
+  steps:
+  - intent: Uveitis
+  - action: action_provide_disease_info
+
+- rule: Respond to varicocele
+  steps:
+  - intent: Varicocele
+  - action: action_provide_disease_info
+
+- rule: Respond to irritable bowel syndrome
+  steps:
+  - intent: irritable_bowel_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to jones fracture
+  steps:
+  - intent: Jones_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to ovarian cyst
+  steps:
+  - intent: ovarian_cyst
+  - action: action_provide_disease_info
+
+- rule: Respond to chlamydia
+  steps:
+  - intent: chlamydia
+  - action: action_provide_disease_info
+
+- rule: Respond to parasitic disease
+  steps:
+  - intent: parasitic_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to mandibular fracture
+  steps:
+  - intent: Mandibular_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to lipoma
+  steps:
+  - intent: lipoma
+  - action: action_provide_disease_info
+
+- rule: Respond to vaginal disease
+  steps:
+  - intent: Vaginal_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to pulmonary hypertension
+  steps:
+  - intent: pulmonary_hypertension
+  - action: action_provide_disease_info
+
+- rule: Respond to thyroid nodule
+  steps:
+  - intent: thyroid_nodule
+  - action: action_provide_disease_info
+
+- rule: Respond to cracked tooth syndrome
+  steps:
+  - intent: Cracked_tooth_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to dumping syndrome
+  steps:
+  - intent: dumping_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to lymphadenopathy
+  steps:
+  - intent: Lymphadenopathy
+  - action: action_provide_disease_info
+
+- rule: Respond to facial trauma
+  steps:
+  - intent: Facial_trauma
+  - action: action_provide_disease_info
+
+- rule: Respond to aortic valve
+  steps:
+  - intent: Aortic_valve
+  - action: action_provide_disease_info
+
+- rule: Respond to rheumatoid arthritis
+  steps:
+  - intent: rheumatoid_arthritis
+  - action: action_provide_disease_info
+
+- rule: Respond to spermatocele
+  steps:
+  - intent: spermatocele
+  - action: action_provide_disease_info
+
+- rule: Respond to impetigo
+  steps:
+  - intent: impetigo
+  - action: action_provide_disease_info
+
+- rule: Respond to anal fistula
+  steps:
+  - intent: anal_fistula
+  - action: action_provide_disease_info
+
+- rule: Respond to hypothermia
+  steps:
+  - intent: hypothermia
+  - action: action_provide_disease_info
+
+- rule: Respond to oppositional defiant disorder
+  steps:
+  - intent: Oppositional_defiant_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to migraine
+  steps:
+  - intent: migraine
+  - action: action_provide_disease_info
+
+- rule: Respond to diabetic neuropathy
+  steps:
+  - intent: Diabetic_neuropathy
+  - action: action_provide_disease_info
+
+- rule: Respond to testicular dysgenesis syndrome
+  steps:
+  - intent: Testicular_dysgenesis_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to gestational diabetes
+  steps:
+  - intent: gestational_diabetes
+  - action: action_provide_disease_info
+
+- rule: Respond to hidradenitis suppurativa
+  steps:
+  - intent: hidradenitis_suppurativa
+  - action: action_provide_disease_info
+
+- rule: Respond to coccidioidomycosis
+  steps:
+  - intent: Coccidioidomycosis
+  - action: action_provide_disease_info
+
+- rule: Respond to lewy body dementia
+  steps:
+  - intent: lewy_body_dementia
+  - action: action_provide_disease_info
+
+- rule: Respond to multiple myeloma
+  steps:
+  - intent: multiple_myeloma
+  - action: action_provide_disease_info
+
+- rule: Respond to head injury
+  steps:
+  - intent: head_injury
+  - action: action_provide_disease_info
+
+- rule: Respond to ascending cholangitis
+  steps:
+  - intent: ascending_cholangitis
+  - action: action_provide_disease_info
+
+- rule: Respond to heavy menstrual bleeding
+  steps:
+  - intent: Heavy_menstrual_bleeding
+  - action: action_provide_disease_info
+
+- rule: Respond to interstitial lung disease
+  steps:
+  - intent: interstitial_lung_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to peripheral neuropathy
+  steps:
+  - intent: Peripheral_neuropathy
+  - action: action_provide_disease_info
+
+- rule: Respond to malaria
+  steps:
+  - intent: malaria
+  - action: action_provide_disease_info
+
+- rule: Respond to somatic symptom disorder
+  steps:
+  - intent: Somatic_symptom_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to hypovolemia
+  steps:
+  - intent: hypovolemia
+  - action: action_provide_disease_info
+
+- rule: Respond to schizophrenia
+  steps:
+  - intent: schizophrenia
+  - action: action_provide_disease_info
+
+- rule: Respond to meniscus tear
+  steps:
+  - intent: Meniscus_tear
+  - action: action_provide_disease_info
+
+- rule: Respond to endocarditis
+  steps:
+  - intent: endocarditis
+  - action: action_provide_disease_info
+
+- rule: Respond to sepsis
+  steps:
+  - intent: sepsis
+  - action: action_provide_disease_info
+
+- rule: Respond to heat stroke
+  steps:
+  - intent: heat_stroke
+  - action: action_provide_disease_info
+
+- rule: Respond to choleurinary tract infection
+  steps:
+  - intent: choleUrinary_tract_infection
+  - action: action_provide_disease_info
+
+- rule: Respond to cardiac arrest
+  steps:
+  - intent: cardiac_arrest
+  - action: action_provide_disease_info
+
+- rule: Respond to cardiomyopathy
+  steps:
+  - intent: cardiomyopathy
+  - action: action_provide_disease_info
+
+- rule: Respond to social anxiety disorder
+  steps:
+  - intent: Social_anxiety_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to meningitis
+  steps:
+  - intent: meningitis
+  - action: action_provide_disease_info
+
+- rule: Respond to spherocytosis
+  steps:
+  - intent: spherocytosis
+  - action: action_provide_disease_info
+
+- rule: Respond to endocrine disease
+  steps:
+  - intent: Endocrine_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to raynaud syndrome
+  steps:
+  - intent: Raynaud_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to reactive arthritis
+  steps:
+  - intent: reactive_arthritis
+  - action: action_provide_disease_info
+
+- rule: Respond to scabies
+  steps:
+  - intent: scabies
+  - action: action_provide_disease_info
+
+- rule: Respond to earwax
+  steps:
+  - intent: Earwax
+  - action: action_provide_disease_info
+
+- rule: Respond to gestational hypertension
+  steps:
+  - intent: Gestational_hypertension
+  - action: action_provide_disease_info
+
+- rule: Respond to arterial embolism
+  steps:
+  - intent: Arterial_embolism
+  - action: action_provide_disease_info
+
+- rule: Respond to rosacea
+  steps:
+  - intent: rosacea
+  - action: action_provide_disease_info
+
+- rule: Respond to skull fracture
+  steps:
+  - intent: Skull_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to uveitis
+  steps:
+  - intent: uveitis
+  - action: action_provide_disease_info
+
+- rule: Respond to facial trauma
+  steps:
+  - intent: Facial_trauma
+  - action: action_provide_disease_info
+
+- rule: Respond to tracheitis
+  steps:
+  - intent: tracheitis
+  - action: action_provide_disease_info
+
+- rule: Respond to jaw abnormality
+  steps:
+  - intent: Jaw_abnormality
+  - action: action_provide_disease_info
+
+- rule: Respond to anorectal abscess
+  steps:
+  - intent: Anorectal_abscess
+  - action: action_provide_disease_info
+
+- rule: Respond to breast cyst
+  steps:
+  - intent: breast_cyst
+  - action: action_provide_disease_info
+
+- rule: Respond to post-traumatic stress disorder
+  steps:
+  - intent: Post-traumatic_stress_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to kidney cancer
+  steps:
+  - intent: kidney_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to vulvar cancer
+  steps:
+  - intent: vulvar_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to blepharitis
+  steps:
+  - intent: blepharitis
+  - action: action_provide_disease_info
+
+- rule: Respond to coeliac disease
+  steps:
+  - intent: Coeliac_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to urinary tract infection
+  steps:
+  - intent: Urinary_tract_infection
+  - action: action_provide_disease_info
+
+- rule: Respond to sickle cell disease
+  steps:
+  - intent: Sickle_cell_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to subconjunctival bleeding
+  steps:
+  - intent: Subconjunctival_bleeding
+  - action: action_provide_disease_info
+
+- rule: Respond to hemorrhoid
+  steps:
+  - intent: Hemorrhoid
+  - action: action_provide_disease_info
+
+- rule: Respond to contact dermatitis
+  steps:
+  - intent: contact_dermatitis
+  - action: action_provide_disease_info
+
+- rule: Respond to sinus bradycardia
+  steps:
+  - intent: sinus_bradycardia
+  - action: action_provide_disease_info
+
+- rule: Respond to hypertension
+  steps:
+  - intent: Hypertension
+  - action: action_provide_disease_info
+
+- rule: Respond to pelvic inflammatory disease
+  steps:
+  - intent: pelvic_inflammatory_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to liver disease
+  steps:
+  - intent: liver_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to constipation
+  steps:
+  - intent: Constipation
+  - action: action_provide_disease_info
+
+- rule: Respond to thyroid cancer
+  steps:
+  - intent: thyroid_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to influenza
+  steps:
+  - intent: Influenza
+  - action: action_provide_disease_info
+
+- rule: Respond to friedreich's ataxia
+  steps:
+  - intent: Friedreich's_ataxia
+  - action: action_provide_disease_info
+
+- rule: Respond to tic disorder
+  steps:
+  - intent: Tic_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to polyp (medicine)
+  steps:
+  - intent: Polyp_(medicine)
+  - action: action_provide_disease_info
+
+- rule: Respond to parsonage–turner syndrome
+  steps:
+  - intent: Parsonage–Turner_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to cervical cancer
+  steps:
+  - intent: cervical_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to adrenocortical adenoma
+  steps:
+  - intent: Adrenocortical_adenoma
+  - action: action_provide_disease_info
+
+- rule: Respond to esophagitis
+  steps:
+  - intent: esophagitis
+  - action: action_provide_disease_info
+
+- rule: Respond to gas gangrene
+  steps:
+  - intent: gas_gangrene
+  - action: action_provide_disease_info
+
+- rule: Respond to vaginal yeast infection
+  steps:
+  - intent: Vaginal_yeast_infection
+  - action: action_provide_disease_info
+
+- rule: Respond to spina bifida
+  steps:
+  - intent: spina_bifida
+  - action: action_provide_disease_info
+
+- rule: Respond to drug overdose
+  steps:
+  - intent: Drug_overdose
+  - action: action_provide_disease_info
+
+- rule: Respond to alcoholic liver disease
+  steps:
+  - intent: alcoholic_liver_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to hypertensive emergency
+  steps:
+  - intent: Hypertensive_emergency
+  - action: action_provide_disease_info
+
+- rule: Respond to diverticulitis
+  steps:
+  - intent: diverticulitis
+  - action: action_provide_disease_info
+
+- rule: Respond to moyamoya disease
+  steps:
+  - intent: moyamoya_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to heat exhaustion
+  steps:
+  - intent: heat_exhaustion
+  - action: action_provide_disease_info
+
+- rule: Respond to psychosis
+  steps:
+  - intent: Psychosis
+  - action: action_provide_disease_info
+
+- rule: Respond to frostbite
+  steps:
+  - intent: frostbite
+  - action: action_provide_disease_info
+
+- rule: Respond to erectile dysfunction
+  steps:
+  - intent: Erectile_dysfunction
+  - action: action_provide_disease_info
+
+- rule: Respond to nicotine dependence
+  steps:
+  - intent: Nicotine_dependence
+  - action: action_provide_disease_info
+
+- rule: Respond to strain (injury)
+  steps:
+  - intent: Strain_(injury)
+  - action: action_provide_disease_info
+
+- rule: Respond to essential tremor
+  steps:
+  - intent: essential_tremor
+  - action: action_provide_disease_info
+
+- rule: Respond to cauliflower ear
+  steps:
+  - intent: Cauliflower_ear
+  - action: action_provide_disease_info
+
+- rule: Respond to foreign body aspiration
+  steps:
+  - intent: Foreign_body_aspiration
+  - action: action_provide_disease_info
+
+- rule: Respond to dysmenorrhea
+  steps:
+  - intent: Dysmenorrhea
+  - action: action_provide_disease_info
+
+- rule: Respond to down syndrome
+  steps:
+  - intent: down_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to anovulation
+  steps:
+  - intent: Anovulation
+  - action: action_provide_disease_info
+
+- rule: Respond to pneumothorax
+  steps:
+  - intent: pneumothorax
+  - action: action_provide_disease_info
+
+- rule: Respond to de quervain syndrome
+  steps:
+  - intent: De_Quervain_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to spinal fracture
+  steps:
+  - intent: Spinal_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to hiv
+  steps:
+  - intent: HIV
+  - action: action_provide_disease_info
+
+- rule: Respond to mumps
+  steps:
+  - intent: mumps
+  - action: action_provide_disease_info
+
+- rule: Respond to subarachnoid hemorrhage
+  steps:
+  - intent: subarachnoid_hemorrhage
+  - action: action_provide_disease_info
+
+- rule: Respond to acute fatty liver of pregnancy
+  steps:
+  - intent: Acute_fatty_liver_of_pregnancy
+  - action: action_provide_disease_info
+
+- rule: Respond to ectropion
+  steps:
+  - intent: ectropion
+  - action: action_provide_disease_info
+
+- rule: Respond to scar
+  steps:
+  - intent: scar
+  - action: action_provide_disease_info
+
+- rule: Respond to lactose intolerance
+  steps:
+  - intent: lactose_intolerance
+  - action: action_provide_disease_info
+
+- rule: Respond to eustachian tube dysfunction
+  steps:
+  - intent: Eustachian_tube_dysfunction
+  - action: action_provide_disease_info
+
+- rule: Respond to appendicitis
+  steps:
+  - intent: appendicitis
+  - action: action_provide_disease_info
+
+- rule: Respond to graves' disease
+  steps:
+  - intent: Graves'_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to dissociative disorder
+  steps:
+  - intent: dissociative_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to facial trauma
+  steps:
+  - intent: Facial_trauma
+  - action: action_provide_disease_info
+
+- rule: Respond to cervical dislocation
+  steps:
+  - intent: Cervical_dislocation
+  - action: action_provide_disease_info
+
+- rule: Respond to phimosis
+  steps:
+  - intent: phimosis
+  - action: action_provide_disease_info
+
+- rule: Respond to hyperemesis gravidarum
+  steps:
+  - intent: hyperemesis_gravidarum
+  - action: action_provide_disease_info
+
+- rule: Respond to pregnancy
+  steps:
+  - intent: pregnancy
+  - action: action_provide_disease_info
+
+- rule: Respond to thalassemia
+  steps:
+  - intent: thalassemia
+  - action: action_provide_disease_info
+
+- rule: Respond to placenta praevia
+  steps:
+  - intent: Placenta_praevia
+  - action: action_provide_disease_info
+
+- rule: Respond to epidural hematoma
+  steps:
+  - intent: Epidural_hematoma
+  - action: action_provide_disease_info
+
+- rule: Respond to septic arthritis
+  steps:
+  - intent: septic_arthritis
+  - action: action_provide_disease_info
+
+- rule: Respond to athlete's foot
+  steps:
+  - intent: Athlete's_foot
+  - action: action_provide_disease_info
+
+- rule: Respond to pleural effusion
+  steps:
+  - intent: pleural_effusion
+  - action: action_provide_disease_info
+
+- rule: Respond to aphakia
+  steps:
+  - intent: aphakia
+  - action: action_provide_disease_info
+
+- rule: Respond to vulvar disease
+  steps:
+  - intent: Vulvar_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to sialadenitis
+  steps:
+  - intent: Sialadenitis
+  - action: action_provide_disease_info
+
+- rule: Respond to gynecomastia
+  steps:
+  - intent: gynecomastia
+  - action: action_provide_disease_info
+
+- rule: Respond to urinary tract infection
+  steps:
+  - intent: urinary_tract_infection
+  - action: action_provide_disease_info
+
+- rule: Respond to histoplasmosis
+  steps:
+  - intent: histoplasmosis
+  - action: action_provide_disease_info
+
+- rule: Respond to erythema multiforme
+  steps:
+  - intent: erythema_multiforme
+  - action: action_provide_disease_info
+
+- rule: Respond to scoliosis
+  steps:
+  - intent: scoliosis
+  - action: action_provide_disease_info
+
+- rule: Respond to bunion
+  steps:
+  - intent: bunion
+  - action: action_provide_disease_info
+
+- rule: Respond to arrhythmia
+  steps:
+  - intent: arrhythmia
+  - action: action_provide_disease_info
+
+- rule: Respond to trigeminal neuralgia
+  steps:
+  - intent: trigeminal_neuralgia
+  - action: action_provide_disease_info
+
+- rule: Respond to ankylosing spondylitis
+  steps:
+  - intent: ankylosing_spondylitis
+  - action: action_provide_disease_info
+
+- rule: Respond to peripheral nervous system
+  steps:
+  - intent: Peripheral_nervous_system
+  - action: action_provide_disease_info
+
+- rule: Respond to sebaceous cyst
+  steps:
+  - intent: sebaceous_cyst
+  - action: action_provide_disease_info
+
+- rule: Respond to antipsychotic
+  steps:
+  - intent: Antipsychotic
+  - action: action_provide_disease_info
+
+- rule: Respond to neurosis
+  steps:
+  - intent: neurosis
+  - action: action_provide_disease_info
+
+- rule: Respond to prostate cancer
+  steps:
+  - intent: prostate_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to cerebral edema
+  steps:
+  - intent: cerebral_edema
+  - action: action_provide_disease_info
+
+- rule: Respond to birth trauma
+  steps:
+  - intent: birth_trauma
+  - action: action_provide_disease_info
+
+- rule: Respond to chronic pancreatitis
+  steps:
+  - intent: chronic_pancreatitis
+  - action: action_provide_disease_info
+
+- rule: Respond to hematoma
+  steps:
+  - intent: hematoma
+  - action: action_provide_disease_info
+
+- rule: Respond to carcinoid syndrome
+  steps:
+  - intent: carcinoid_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to penetrating head injury
+  steps:
+  - intent: Penetrating_head_injury
+  - action: action_provide_disease_info
+
+- rule: Respond to seborrheic keratosis
+  steps:
+  - intent: seborrheic_keratosis
+  - action: action_provide_disease_info
+
+- rule: Respond to burn
+  steps:
+  - intent: burn
+  - action: action_provide_disease_info
+
+- rule: Respond to miscarriage
+  steps:
+  - intent: Miscarriage
+  - action: action_provide_disease_info
+
+- rule: Respond to genital herpes
+  steps:
+  - intent: genital_herpes
+  - action: action_provide_disease_info
+
+- rule: Respond to adjustment disorder
+  steps:
+  - intent: Adjustment_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to gallstone
+  steps:
+  - intent: gallstone
+  - action: action_provide_disease_info
+
+- rule: Respond to multiple sclerosis
+  steps:
+  - intent: multiple_sclerosis
+  - action: action_provide_disease_info
+
+- rule: Respond to zenker's diverticulum
+  steps:
+  - intent: Zenker's_diverticulum
+  - action: action_provide_disease_info
+
+- rule: Respond to pelvic fracture
+  steps:
+  - intent: Pelvic_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to pneumoconiosis
+  steps:
+  - intent: pneumoconiosis
+  - action: action_provide_disease_info
+
+- rule: Respond to hyperlipidemia
+  steps:
+  - intent: hyperlipidemia
+  - action: action_provide_disease_info
+
+- rule: Respond to ulcerative colitis
+  steps:
+  - intent: ulcerative_colitis
+  - action: action_provide_disease_info
+
+- rule: Respond to male genital disease
+  steps:
+  - intent: Male_genital_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to human papillomavirus infection
+  steps:
+  - intent: Human_papillomavirus_infection
+  - action: action_provide_disease_info
+
+- rule: Respond to angina
+  steps:
+  - intent: angina
+  - action: action_provide_disease_info
+
+- rule: Respond to spinal cord injury
+  steps:
+  - intent: Spinal_cord_injury
+  - action: action_provide_disease_info
+
+- rule: Respond to nasal polyp
+  steps:
+  - intent: nasal_polyp
+  - action: action_provide_disease_info
+
+- rule: Respond to lichen simplex chronicus
+  steps:
+  - intent: Lichen_simplex_chronicus
+  - action: action_provide_disease_info
+
+- rule: Respond to trichiasis
+  steps:
+  - intent: trichiasis
+  - action: action_provide_disease_info
+
+- rule: Respond to acariasis
+  steps:
+  - intent: acariasis
+  - action: action_provide_disease_info
+
+- rule: Respond to colorectal cancer
+  steps:
+  - intent: colorectal_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to pigmentation disorder
+  steps:
+  - intent: Pigmentation_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to factitious disorder
+  steps:
+  - intent: factitious_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to lymphogranuloma venereum
+  steps:
+  - intent: lymphogranuloma_venereum
+  - action: action_provide_disease_info
+
+- rule: Respond to hyperprolactinaemia
+  steps:
+  - intent: Hyperprolactinaemia
+  - action: action_provide_disease_info
+
+- rule: Respond to glucose-6-phosphate dehydrogenase deficiency
+  steps:
+  - intent: Glucose-6-phosphate_dehydrogenase_deficiency
+  - action: action_provide_disease_info
+
+- rule: Respond to shoulder impingement syndrome
+  steps:
+  - intent: Shoulder_impingement_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to toxoplasmosis
+  steps:
+  - intent: toxoplasmosis
+  - action: action_provide_disease_info
+
+- rule: Respond to fibroadenoma
+  steps:
+  - intent: fibroadenoma
+  - action: action_provide_disease_info
+
+- rule: Respond to wound
+  steps:
+  - intent: Wound
+  - action: action_provide_disease_info
+
+- rule: Respond to miscarriage
+  steps:
+  - intent: Miscarriage
+  - action: action_provide_disease_info
+
+- rule: Respond to diabetic ketoacidosis
+  steps:
+  - intent: diabetic_ketoacidosis
+  - action: action_provide_disease_info
+
+- rule: Respond to granuloma inguinale
+  steps:
+  - intent: granuloma_inguinale
+  - action: action_provide_disease_info
+
+- rule: Respond to obsessive–compulsive disorder
+  steps:
+  - intent: Obsessive–compulsive_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to ankle problems
+  steps:
+  - intent: Ankle_problems
+  - action: action_provide_disease_info
+
+- rule: Respond to hyponatremia
+  steps:
+  - intent: hyponatremia
+  - action: action_provide_disease_info
+
+- rule: Respond to esophageal stricture
+  steps:
+  - intent: Esophageal_stricture
+  - action: action_provide_disease_info
+
+- rule: Respond to ankle fracture
+  steps:
+  - intent: Ankle_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to soft-tissue sarcoma
+  steps:
+  - intent: Soft-tissue_sarcoma
+  - action: action_provide_disease_info
+
+- rule: Respond to bone disease
+  steps:
+  - intent: Bone_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to epilepsy
+  steps:
+  - intent: epilepsy
+  - action: action_provide_disease_info
+
+- rule: Respond to personality disorder
+  steps:
+  - intent: personality_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to shingles
+  steps:
+  - intent: Shingles
+  - action: action_provide_disease_info
+
+- rule: Respond to tourette syndrome
+  steps:
+  - intent: tourette_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to avascular necrosis
+  steps:
+  - intent: avascular_necrosis
+  - action: action_provide_disease_info
+
+- rule: Respond to streptococcal pharyngitis
+  steps:
+  - intent: Streptococcal_pharyngitis
+  - action: action_provide_disease_info
+
+- rule: Respond to spinocerebellar ataxia
+  steps:
+  - intent: spinocerebellar_ataxia
+  - action: action_provide_disease_info
+
+- rule: Respond to osteomyelitis
+  steps:
+  - intent: osteomyelitis
+  - action: action_provide_disease_info
+
+- rule: Respond to sjögren's disease
+  steps:
+  - intent: Sjögren's_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to adhesive capsulitis of the shoulder
+  steps:
+  - intent: adhesive_capsulitis_of_the_shoulder
+  - action: action_provide_disease_info
+
+- rule: Respond to viral hepatitis
+  steps:
+  - intent: viral_hepatitis
+  - action: action_provide_disease_info
+
+- rule: Respond to tonsil
+  steps:
+  - intent: Tonsil
+  - action: action_provide_disease_info
+
+- rule: Respond to gastritis
+  steps:
+  - intent: gastritis
+  - action: action_provide_disease_info
+
+- rule: Respond to skin cancer
+  steps:
+  - intent: skin_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to rheumatic fever
+  steps:
+  - intent: rheumatic_fever
+  - action: action_provide_disease_info
+
+- rule: Respond to aphthous stomatitis
+  steps:
+  - intent: Aphthous_stomatitis
+  - action: action_provide_disease_info
+
+- rule: Respond to tonsillitis
+  steps:
+  - intent: tonsillitis
+  - action: action_provide_disease_info
+
+- rule: Respond to colorectal cancer
+  steps:
+  - intent: Colorectal_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to rocky mountain spotted fever
+  steps:
+  - intent: Rocky_Mountain_spotted_fever
+  - action: action_provide_disease_info
+
+- rule: Respond to stomach cancer
+  steps:
+  - intent: stomach_cancer
+  - action: action_provide_disease_info
+
+- rule: Respond to developmental disability
+  steps:
+  - intent: developmental_disability
+  - action: action_provide_disease_info
+
+- rule: Respond to acute stress reaction
+  steps:
+  - intent: acute_stress_reaction
+  - action: action_provide_disease_info
+
+- rule: Respond to delirium
+  steps:
+  - intent: delirium
+  - action: action_provide_disease_info
+
+- rule: Respond to callus
+  steps:
+  - intent: callus
+  - action: action_provide_disease_info
+
+- rule: Respond to guillain–barré syndrome
+  steps:
+  - intent: Guillain–Barré_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to low back pain
+  steps:
+  - intent: Low_back_pain
+  - action: action_provide_disease_info
+
+- rule: Respond to nasal septum deviation
+  steps:
+  - intent: Nasal_septum_deviation
+  - action: action_provide_disease_info
+
+- rule: Respond to hemangioma
+  steps:
+  - intent: hemangioma
+  - action: action_provide_disease_info
+
+- rule: Respond to peripheral artery disease
+  steps:
+  - intent: Peripheral_artery_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to back pain
+  steps:
+  - intent: Back_pain
+  - action: action_provide_disease_info
+
+- rule: Respond to heart failure
+  steps:
+  - intent: heart_failure
+  - action: action_provide_disease_info
+
+- rule: Respond to conjunctivitis
+  steps:
+  - intent: conjunctivitis
+  - action: action_provide_disease_info
+
+- rule: Respond to disc herniation
+  steps:
+  - intent: Disc_herniation
+  - action: action_provide_disease_info
+
+- rule: Respond to rhabdomyolysis
+  steps:
+  - intent: rhabdomyolysis
+  - action: action_provide_disease_info
+
+- rule: Respond to mastitis
+  steps:
+  - intent: Mastitis
+  - action: action_provide_disease_info
+
+- rule: Respond to abdominal aortic aneurysm
+  steps:
+  - intent: abdominal_aortic_aneurysm
+  - action: action_provide_disease_info
+
+- rule: Respond to pulmonary embolism
+  steps:
+  - intent: pulmonary_embolism
+  - action: action_provide_disease_info
+
+- rule: Respond to conduct disorder
+  steps:
+  - intent: conduct_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to mastectomy
+  steps:
+  - intent: mastectomy
+  - action: action_provide_disease_info
+
+- rule: Respond to epididymitis
+  steps:
+  - intent: epididymitis
+  - action: action_provide_disease_info
+
+- rule: Respond to amniotic sac
+  steps:
+  - intent: Amniotic_sac
+  - action: action_provide_disease_info
+
+- rule: Respond to molluscum contagiosum
+  steps:
+  - intent: molluscum_contagiosum
+  - action: action_provide_disease_info
+
+- rule: Respond to necrotizing fasciitis
+  steps:
+  - intent: necrotizing_fasciitis
+  - action: action_provide_disease_info
+
+- rule: Respond to vagina
+  steps:
+  - intent: Vagina
+  - action: action_provide_disease_info
+
+- rule: Respond to bladder outlet obstruction
+  steps:
+  - intent: Bladder_outlet_obstruction
+  - action: action_provide_disease_info
+
+- rule: Respond to melanoma
+  steps:
+  - intent: melanoma
+  - action: action_provide_disease_info
+
+- rule: Respond to cervical spine disorder
+  steps:
+  - intent: Cervical_spine_disorder
+  - action: action_provide_disease_info
+
+- rule: Respond to laryngitis
+  steps:
+  - intent: laryngitis
+  - action: action_provide_disease_info
+
+- rule: Respond to dyshidrosis
+  steps:
+  - intent: dyshidrosis
+  - action: action_provide_disease_info
+
+- rule: Respond to opioid overdose
+  steps:
+  - intent: Opioid_overdose
+  - action: action_provide_disease_info
+
+- rule: Respond to irritant diaper dermatitis
+  steps:
+  - intent: Irritant_diaper_dermatitis
+  - action: action_provide_disease_info
+
+- rule: Respond to lichen planus
+  steps:
+  - intent: lichen_planus
+  - action: action_provide_disease_info
+
+- rule: Respond to peptic ulcer disease
+  steps:
+  - intent: Peptic_ulcer_disease
+  - action: action_provide_disease_info
+
+- rule: Respond to inguinal hernia
+  steps:
+  - intent: inguinal_hernia
+  - action: action_provide_disease_info
+
+- rule: Respond to dermatitis
+  steps:
+  - intent: Dermatitis
+  - action: action_provide_disease_info
+
+- rule: Respond to asperger syndrome
+  steps:
+  - intent: asperger_syndrome
+  - action: action_provide_disease_info
+
+- rule: Respond to mucositis
+  steps:
+  - intent: mucositis
+  - action: action_provide_disease_info
+
+- rule: Respond to paronychia
+  steps:
+  - intent: paronychia
+  - action: action_provide_disease_info
+
+- rule: Respond to mandibular fracture
+  steps:
+  - intent: Mandibular_fracture
+  - action: action_provide_disease_info
+
+- rule: Respond to white blood cell
+  steps:
+  - intent: White_blood_cell
+  - action: action_provide_disease_info
+
+- rule: Respond to kaposi's sarcoma
+  steps:
+  - intent: Kaposi's_sarcoma
+  - action: action_provide_disease_info
+
+- rule: Respond to spondylolisthesis
+  steps:
+  - intent: spondylolisthesis
+  - action: action_provide_disease_info
+
+- rule: Respond to idiopathic intracranial hypertension
+  steps:
+  - intent: Idiopathic_intracranial_hypertension
+  - action: action_provide_disease_info

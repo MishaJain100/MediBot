@@ -1,0 +1,10 @@
+[
+  {
+    "name": "symptom",
+    "pattern": "(\\banxiety\\ and\\ nervousness\\b|\\bchest\\ tightness\\b|\\bdepression\\b|\\bdepressive\\ or\\ psychotic\\ symptoms\\b|\\bdifficulty\\ breathing\\b|\\bemotional\\ symptoms\\b|\\bfast\\ heartbeat\\b|\\bfeeling\\ anxious\\ or\\ worried\\b|\\bfeeling\\ depressed\\b|\\bfeeling\\ like\\ i'm\\ breathing\\ too\\ fast\\b|\\bhaving\\ trouble\\ staying\\ asleep\\b|\\bhearing\\ voices\\b|\\bheart\\ feels\\ like\\ it's\\ beating\\ erratically\\b|\\binsomnia\\b|\\birregular\\ heartbeat\\b|\\blow\\ mood\\b|\\bpalpitations\\b|\\bpersistent\\ sadness\\b|\\bsadness\\b|\\bshortness\\ of\\ breath\\b)"
+  },
+  {
+    "name": "disease",
+    "pattern": "(\\bpanic\\ disorder\\b|\\bturner\\ syndrome\\b)"
+  }
+]
