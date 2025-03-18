@@ -18105,6 +18105,7 @@ nlu:
 - intent: schizophrenia
   examples: |
     - Since last week, I've had temper problems along with Difficulty controlling temper
+    - I have amnesia, delusions, hallucinations, fatigue, paranoia, anxiety
     - I've been feeling , low self-esteem, persistent sadness, depressive or psychotic symptoms, excessive anger, delusions or hallucinations lately
     - I'm experiencing Aggressive behavior together with low self-esteem and wonder what it means
     - I've started noticing feeling empty, low self-esteem, hysterical behavior and excessive anger
@@ -23599,6 +23600,7 @@ nlu:
     - Since several months ago, I've had Sharp or dull headache as well as Pain in the wrist
     - I've had Headache with sensitivity to light or sound as well as Wrist tenderness for on and off for weeks
     - Since since yesterday ago, I've had Aching or stiffness in the wrist and headache
+    - I have rashes or red spots in my skin, pain in my abdomen and muscles, I have fever. And sometimes I get nausea. Eye redness. Headaches
 
 - intent: stomach_cancer
   examples: |
